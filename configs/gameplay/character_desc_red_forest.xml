@@ -926,7 +926,7 @@
 
     <rank>0</rank>
     <reputation>0</reputation>
-	<money min="50000" max="7500000" infinitive="1"/>
+	<money min="7500000" max="7500000" infinitive="1"/>
     <visual>actors\stalker_ecologist\stalker_ecolog_guard</visual>
     <supplies>
       [spawn] \n
@@ -960,7 +960,7 @@
 
     <rank>0</rank>
     <reputation>0</reputation>
-	<money min="500" max="7500000" infinitive="1"/>
+	<money min="7500000" max="7500000" infinitive="1"/>
     <visual>actors\stalker_ecologist\stalker_ecolog_guard</visual>
     <supplies>
       [spawn] \n
@@ -991,7 +991,7 @@
 
     <rank>0</rank>
     <reputation>0</reputation>
-	<money min="50000" max="7500000" infinitive="1"/>
+	<money min="7500000" max="7500000" infinitive="1"/>
     <visual>actors\stalker_ecologist\stalker_ecolog_guard</visual>
     <supplies>
       [spawn] \n
@@ -1022,7 +1022,7 @@
 
     <rank>0</rank>
     <reputation>0</reputation>
-	<money min="50000" max="7500000" infinitive="1"/>
+	<money min="7500000" max="7500000" infinitive="1"/>
     <visual>actors\stalker_ecolog\stalker_neutral_zarya_zo1_ecolog</visual>
     <supplies>
       [spawn] \n
