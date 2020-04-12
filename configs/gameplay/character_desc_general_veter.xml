@@ -1,0 +1,299 @@
+<specific_character id="sim_default_veter_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_veter_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_veter_0</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+    <rank>3000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_veter\stalker_veter_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u_1p29 \n
+        ammo_5.45x39_fmj = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_veter_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_veter_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_veter_0</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+    <rank>3000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_veter\recovery_assault_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u_1p29 \n
+        ammo_5.45x39_fmj = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_veter_0_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_veter_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_veter_0</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+    <rank>3000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_veter\recovery_assault_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u_1p29 \n
+        ammo_5.45x39_fmj = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_veter_0_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_veter_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_veter_0</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+    <rank>3000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_veter\recovery_burbuzin</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u_1p29 \n
+        ammo_5.45x39_fmj = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_veter_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_veter_2_face_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_veter_1</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+    <rank>5000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_veter\stalker_veter_2_face_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_veter_1_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_veter_2_face_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_veter_1</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+    <rank>5000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_veter\recovery_moh01_gp5</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_veter_1_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_veter_2_face_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_veter_1</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+    <rank>5000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_veter\recovery_moh02_resp</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_veter_1_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_veter_2_face_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_veter_1</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+    <rank>5000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_veter\recovery_moh03_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_veter_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_veter_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_veter_2</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+    <rank>7000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_veter\stalker_veter_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300_acog \n
+        ammo_5.56x45_ss190 = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_veter_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_veter_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_veter_3</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_veter\stalker_veter_3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ss190 = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_veter_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_veter_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_veter_3</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_veter\stalker_veter_nauchniy</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ss190 = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_veter_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_veter_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_veter_4</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+    <rank>11000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_veter\stalker_veter_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_pkm = 1 \n
+        ammo_pkm_100 = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>

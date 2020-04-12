@@ -1,0 +1,1793 @@
+<specific_character id="sim_default_voenstal_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_19</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_19_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_2" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_20</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_3" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_20_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_4" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_21</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_5" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_21_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_6" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_22</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_7" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_22_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_8" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_23</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_9" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_23_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_10" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_25_face</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_11" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_25_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_12" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_58</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_13" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\stalker_soldier_mask_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_14" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\stalker_soldier_mask_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_15" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\soldier_balaklava</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_0_default_16" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_0</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\voennyu</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_1</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>5000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\stalker_soldier_mask_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aek971_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_hpsa \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_1_default_1" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_1</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>5000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\soldier_mask_green</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aek971_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_hpsa \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_1_default_2" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_1</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>5000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\my\light_voen</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aek971_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_hpsa \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_1_default_3" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_1</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>5000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\my\spec_voen</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aek971_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_hpsa \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_1_default_4" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_1</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>5000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\stalker_soldier_mask_3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aek971_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_hpsa \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_1_default_5" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_1</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>5000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_2_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aek971_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_hpsa \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_1_default_6" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_1</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>5000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\stalker_soldier_mask_build</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aek971_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_hpsa \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_neutral_nauchniy_nohood</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_2</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_army_nauchniy</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak12_acog \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_ots33 \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_2_default_1" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_2</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\stalker_soldier_medic</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak12_acog \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_ots33 \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_2_default_2" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_2</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_7_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak12_acog \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_ots33 \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_2_default_3" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_2</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_proto_exo</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak12_acog \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_ots33 \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_2_default_4" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_neutral_nauchniy_nohood</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_2</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_60</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak12_acog \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_ots33 \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_2_default_5" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_neutral_nauchniy_nohood</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_2</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_7</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak12_acog \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_ots33 \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_2_default_6" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_neutral_nauchniy_nohood</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_2</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\stalker_neutral_2_face_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak12_acog \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_ots33 \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_2_default_7" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_neutral_nauchniy_nohood</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_2</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\stalker_neutral_2_face_7</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak12_acog \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_ots33 \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_2_default_8" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_neutral_nauchniy_nohood</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_2</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\maskhalati\stalker_ghillie</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svd \n
+        ammo_7.62x54_7h1 = 1 \n
+        wpn_ots33 \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_military_old</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_1p29 \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_5</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_1p29 \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_2" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_9_proto</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_1p29 \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_3" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_10</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_1p29 \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_4" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_15</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_1p29 \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_5" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_49</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_1p29 \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_6" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_neutral_nauchniy_nohood</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_izol_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_1p29 \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_7" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_proto</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_1p29 \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_8" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_voenstal_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_1p29 \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_9" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_voenstal_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_1p29 \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_10" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_4_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_11" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_4_beret</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_12" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_4_helm_battle</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_13" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_4_helm_battle_nogas</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_14" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_4_helm_tactic</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_15" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_4_helm_tactic_nogas</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_16" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_4_skat</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_17" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier4a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_18" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier5a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_19" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_8</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_20" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_proto_9m</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_21" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_skat9m</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_22" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_4_v1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_23" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_4_v2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_24" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_4_v3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_25" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_skat_9_v1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_26" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\soldier\stalker_soldier_berill_protoexo_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_27" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_hero\stalker_hero_military</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_3_default_28" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_3</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2191</reputation>
+    <visual>actors\stalker_hero\stalker_hero_military_h</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1_pso \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_4</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>11000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_neutral_reinforced</visual>
+    <supplies>
+        [spawn] \n
+        wpn_rpk74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_4_default_1" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_4</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>11000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_16</visual>
+    <supplies>
+        [spawn] \n
+        wpn_rpk74_1p29 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_4_default_2" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_4</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>11000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_24</visual>
+    <supplies>
+        [spawn] \n
+        wpn_pkm_ekp \n
+        ammo_pkm_100 = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_4_default_3" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_4</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>11000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_hard</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_pso \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_4_default_4" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_4</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>11000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\stalker_var_exo</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_pso \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_4_default_5" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_4</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>15000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_military_exo</visual>
+    <supplies>
+        [spawn] \n
+        wpn_pkm_ekp \n
+        ammo_pkm_100 = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_4_default_6" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_4</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>15000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\stalker_soldier_normalradseva</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_pso \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_4_default_7" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_4</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>15000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\soldier\stalker_neutral_voshod</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_pso \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_voenstal_4_default_8" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_voenstal_4</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+    <rank>15000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_special\stalker_molfar</visual>
+    <supplies>
+        [spawn] \n
+        wpn_pkm_ekp \n
+        ammo_pkm_100 = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>

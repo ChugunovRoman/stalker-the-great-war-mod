@@ -1,0 +1,3916 @@
+    <!-- 														 -->
+    <!-- 						Freedom 				  		 -->
+    <!-- 														 -->
+    <!--  freedom novice  -->
+    <specific_character id="sim_default_freedom_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_nov</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2213</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_0</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_hpsa \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>-2030</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom1a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_0_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>1037</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_0_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>-642</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom1a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_wincheaster1300 \n
+        ammo_12x70_buck = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_4" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>1689</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_novice</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_5" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>1689</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_hero\stalker_hero_freedom_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_6" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>1689</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_hero\stalker_hero_freedom_1_h</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_7" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>1689</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_freedom\lukash</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_8" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>1689</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_9" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>1689</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_10" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>1689</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_5</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_11" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>1689</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_glass</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_12" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>1689</reputation>
+    <money min="500" max="1000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_0</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_13" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_nohood_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_5</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_14" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_5_hood_91</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_15" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_medic_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_16" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_neon</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_17" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_backpack_helm_battle</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_18" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_backpack_helm_battle_nogas</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_19" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_backpack_helm_m40</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_20" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_backpack_helm_respirator</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_21" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_backpack_helm_tactic</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_22" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_backpack_helm_tactic_nogas</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_23" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_backpack_hood</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_24" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_backpack_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_25" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_balloon</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_26" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_balloon_helm_battle</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_27" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_balloon_helm_tactic</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_28" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_balloon_on_helm_battle</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_29" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_balloon_on_helm_tactic</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_30" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_balloon_on_hood</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_31" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_helm_battle</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_32" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_helm_battle_nogas</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_33" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_helm_m40</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_34" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_helm_respirator</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_35" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_helm_tactic</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_36" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_helm_tactic_nogas</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_37" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_hood</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_38" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_hood_balloon</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_39" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_0_default_40" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Kostoprav</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_kostoprav</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_41" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_main2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_42" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_svoboda_b</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_43" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom1a_mas2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_44" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom1a_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_0_default_45" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_0</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>3000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom1a_nohood</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <!--  freedom expirienced  -->
+    <specific_character id="sim_default_freedom_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>786</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>-1526</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2a_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>2491</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>-864</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_4" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>-930</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_5" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>2474</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_6" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>2334</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_old</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_7" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>-303</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2a_old</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_8" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>875</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b_old</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_9" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>50</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_mas2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_10" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>2204</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_mas3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_11" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>-1030</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2a_mas2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_12" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>-549</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2a_mas3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_13" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>1030</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b_mas2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso = 1 \n
+        ammo_5.45x39_fmj = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_14" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>-1655</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b_mas3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso = 1 \n
+        ammo_5.45x39_fmj = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_15" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>957</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2a_mas4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso = 1 \n
+        ammo_5.45x39_fmj = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_16" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>429</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b_mas4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso = 1 \n
+        ammo_5.45x39_fmj = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_1_default_17" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>2000</reputation>
+    <money min="1000" max="2000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_mas4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso = 1 \n
+        ammo_5.45x39_fmj = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_1_default_18" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_1</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_semi_pro</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso = 1 \n
+        ammo_5.45x39_fmj = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_1_default_19" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_5</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\mp_team_green_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso = 1 \n
+        ammo_5.45x39_fmj = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_1_default_20" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_5</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\mp_team_green_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso = 1 \n
+        ammo_5.45x39_fmj = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_1_default_21" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_5</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\mp_team_green_3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso = 1 \n
+        ammo_5.45x39_fmj = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_1_default_22" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_5</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>5000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\mp_team_green_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74_pso = 1 \n
+        ammo_5.45x39_fmj = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <!--  freedom expirienced 2  -->
+    <specific_character id="sim_default_freedom_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>1898</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>1305</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>1561</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2a_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1729</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_4" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>1325</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_5" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>426</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_free_0</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_6" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0g</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1705</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_free0a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_7" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>899</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_old</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_8" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>548</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2a_old</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_9" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>2098</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b_old</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_10" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>1747</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_mas3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36c_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_11" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>567</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2a_mas3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36c_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_12" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>676</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b_mas3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36c_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_13" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1171</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_mas4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36c_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_14" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>291</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2a_mas4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36c_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_2_default_15" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b_mas4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36c_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_16" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_backpack_helm_battle</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36c_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_17" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_backpack_helm_battle_nogas</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36c_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_18" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_backpack_helm_respirator</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36c_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_19" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_backpack_helm_respirator</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_20" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_backpack_helm_tactic</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_21" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_backpack_helm_tactic_nogas</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_22" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_backpack_hood</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_23" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_backpack_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_24" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_balloon</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_25" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_balloon_helm_battle</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_26" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_balloon_helm_tactic</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_27" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_balloon_on_helm_battle</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_28" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_balloon_on_helm_tactic</visual>
+    <supplies>
+        [spawn] \n
+        wpn_hk416_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_29" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_balloon_on_hood</visual>
+    <supplies>
+        [spawn] \n
+        wpn_hk416_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_30" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_helm_battle</visual>
+    <supplies>
+        [spawn] \n
+        wpn_hk416_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_31" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_helm_battle_nogas</visual>
+    <supplies>
+        [spawn] \n
+        wpn_hk416_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_32" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_helm_m40</visual>
+    <supplies>
+        [spawn] \n
+        wpn_hk416_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_33" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_helm_respirator</visual>
+    <supplies>
+        [spawn] \n
+        wpn_hk416_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_34" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_helm_tactic</visual>
+    <supplies>
+        [spawn] \n
+        wpn_hk416_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_35" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_helm_tactic_nogas</visual>
+    <supplies>
+        [spawn] \n
+        wpn_hk416_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_36" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_hood</visual>
+    <supplies>
+        [spawn] \n
+        wpn_hk416_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_37" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_hood_balloon</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m16_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_38" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m16_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_39" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\my\dark_free</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m16_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_40" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_merc</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m16_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_41" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_bala</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_specnaz</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m16_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_42" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Dyadka_Yar</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_face_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m16_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_43" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_4_proto</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m16_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_2_default_44" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m16_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_2_default_45" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_5</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m16_acog = 1 \n
+        ammo_5.56x45_ss190 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_2_default_46" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2_6</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svu = 1 \n
+        ammo_7.62x54_7h1 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_2_default_47" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_2a_gp5</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svu = 1 \n
+        ammo_7.62x54_7h1 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_2_default_48" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_5_gasmask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svu = 1 \n
+        ammo_7.62x54_7h1 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_2_default_49" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_nohood_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_5_rukzak_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svu = 1 \n
+        ammo_7.62x54_7h1 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_2_default_50" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_nohood_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_6</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svu = 1 \n
+        ammo_7.62x54_7h1 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_2_default_51" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_2_nohood_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>20</reputation>
+    <money min="1500" max="2500" infinitive="0"/>
+    <visual>actors\stalker_freedom\maks</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svd = 1 \n
+        ammo_7.62x54_7h1 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_52" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Dyadka_Yar</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_yar</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svd = 1 \n
+        ammo_7.62x54_7h1 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_2_default_53" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Vano</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_2</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>7000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_vano</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svd = 1 \n
+        ammo_7.62x54_7h1 = 5 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <!--  freedom veteran  -->
+    <specific_character id="sim_default_freedom_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_5_alt</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2168</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom5a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog = 1 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_sig220 \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>1296</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog = 1 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_sig220 \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_3_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>1566</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom3a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog = 1 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_sig220 \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_3_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>1166</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_free_0</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog = 1 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_sig220 \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_3_default_4" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_5_alt</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>1340</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom5b</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog = 1 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_sig220 \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_3_default_5" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0g</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_free0a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_6" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0g</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_3_helm_battle</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_7" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0g</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_3_helm_battle_nogas</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_8" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0g</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_3_helm_tactic</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_9" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0g</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_3_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_10" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0g</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\my\light_free</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_11" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0g</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\my\spec_free</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_12" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0g</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_seva</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_13" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Loki</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_3_face_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_14" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_hard</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_15" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_hero\stalker_hero_freedom_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_16" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_hero\stalker_hero_freedom_2_h</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_3_default_17" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_7</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_3_default_18" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_mikluha</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_freedom_3_default_19" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Vano</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\bodyguard_freedom</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_3_default_20" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0g</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1242</reputation>
+    <money min="5000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_free0a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_3_default_21" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>1011</reputation>
+    <money min="5000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_free_0</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_22" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_4</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>-153</reputation>
+    <money min="5000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_military</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4bm_acog = 1 \n
+        ammo_6.8x43_fmj = 9 \n
+        wpn_walther \n
+        ammo_9x19_pbp = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_23" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>-153</reputation>
+    <money min="5000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_skat</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4bm_acog = 1 \n
+        ammo_6.8x43_fmj = 9 \n
+        wpn_walther \n
+        ammo_9x19_pbp = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_24" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>421</reputation>
+    <money min="2500" max="5000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_batlsold</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4bm_acog = 1 \n
+        ammo_6.8x43_fmj = 9 \n
+        wpn_sig220 = 1, silencer \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_2.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_3.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_25" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>1011</reputation>
+    <money min="5000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_free0a_nohood</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_3_default_26" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_freedom_0</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_3</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+    <rank>9000</rank>
+    <reputation>1011</reputation>
+    <money min="5000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_free_0_nohood</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_desert_eagle = 1 \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <!--  freedom master  -->
+    <specific_character id="sim_default_freedom_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_4</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>15000</rank>
+    <reputation>-1485</reputation>
+    <money min="5000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_colt1911 \n
+        ammo_11.43x23_fmj = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_4_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_4_alt</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_4</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>11000</rank>
+    <reputation>385</reputation>
+    <money min="5000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom4a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_sig220 = 1, silencer \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_4_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_4_alt</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_4</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>11000</rank>
+    <reputation>-1877</reputation>
+    <money min="5000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom4b</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_sig220 = 1, silencer \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_freedom_4_default_4" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_4_alt</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_4</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>11000</rank>
+    <reputation>385</reputation>
+    <money min="5000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom4a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1_50_acog \n
+        ammo_50_beowulf_jfp = 9 \n
+        wpn_sig220 = 1, silencer \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_freedom_4_default_5" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_4_alt</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_freedom_4</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+    <rank>11000</rank>
+    <reputation>-1877</reputation>
+    <money min="5000" max="10000" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom4b</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1_50_acog \n
+        ammo_50_beowulf_jfp = 9 \n
+        wpn_sig220 = 1, silencer \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_3.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>

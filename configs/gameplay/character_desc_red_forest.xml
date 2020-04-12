@@ -1,0 +1,3689 @@
+<?xml version='1.0' encoding="windows-1251"?>
+
+<xml>
+	
+        <!-------------------------- FORESTER ------------------------>
+        <specific_character id="red_forester_tech" team_default="1">
+        <name>red_forester_name</name>
+        <icon>ui_inGame2_forester</icon>
+        <bio>red_forester_name</bio>
+        <class>red_forester</class>
+        <community>trader</community>
+        <map_icon x="1" y="0"/>
+        <terrain_sect>stalker_terrain</terrain_sect>
+        <rank>14451</rank>
+        <reputation>2425</reputation>
+        <money min="5000" max="20000" infinitive="0"/>
+        <visual>actors\stalker_lesnik\stalker_lesnik_1</visual>
+        <supplies>
+        [spawn] \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+    <mechanic_mode>1</mechanic_mode>
+    <start_dialog>red_forester_hello_dialog</start_dialog>
+    <actor_dialog>red_forester_who_are_you</actor_dialog>
+    <actor_dialog>red_forester_about_zone</actor_dialog>
+    <actor_dialog>red_forester_about_forest</actor_dialog>
+    <actor_dialog>dm_tech_repair</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+  
+   
+			<!-- Duty Trader -->
+			
+	<specific_character id="sim_default_dolg_trader" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_dutygas_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_dolg_trader</class>
+    <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\dolg\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_dolg\stalker_dolggas2a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!-- Duty Mechanic	-->
+		
+	<specific_character id="sim_default_dolg_mechanic" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_dutygas_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_dolg_mechanic</class>
+    <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\dolg\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="150000" infinitive="1"/>
+    <visual>actors\stalker_dolg\stalker_dolggas2a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+				<!-- Duty Barmen -->
+			
+	<specific_character id="sim_default_dolg_barmen" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_dutygas_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_dolg_barmen</class>
+    <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\dolg\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_dolg\stalker_dolggas2a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+					<!-- Duty Medik -->
+			
+	<specific_character id="sim_default_dolg_medik" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_dutygas_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_dolg_medik</class>
+    <community>dolg</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\dolg\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_dolg\stalker_dolggas2a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
+				<!-- Freedom Trader -->
+			
+	<specific_character id="sim_default_freedom_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_freedom_trader</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b_old</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!-- Freedom Mechanic	-->
+  	<specific_character id="sim_default_freedom_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_freedom_mechanic</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_03\freedom\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="150000" infinitive="1"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+					<!-- Freedom Barmen -->	
+	<specific_character id="sim_default_freedom_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_freedom_barmen</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b_old</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+					<!-- Freedom Medik -->
+			
+	<specific_character id="sim_default_freedom_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Freedom_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_freedom_medik</class>
+    <community>freedom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\freedom\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_freedom\stalker_freedom2b_old</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+				<!-- Bandit Trader -->
+			
+	<specific_character id="sim_default_bandit_trader" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_bandit_trader</class>
+    <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\bandit\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit6d</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!-- Bandit Mechanic	-->
+		
+  	<specific_character id="sim_default_bandit_mechanic" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_2a_gp5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_bandit_mechanic</class>
+    <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\bandit\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="150000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2a_gp5</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+					<!-- Bandit Barmen -->
+			
+	<specific_character id="sim_default_bandit_barmen" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_bandit_barmen</class>
+    <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\bandit\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit6d</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	
+						<!-- Bandit Medik -->
+			
+	<specific_character id="sim_default_bandit_medik" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_bandit_medik</class>
+    <community>bandit</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\bandit\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit6d</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
+ 				<!-- Merc Trader -->
+			
+	<specific_character id="sim_default_killer_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_merc_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_killer_trader</class>
+    <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\killer\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_merc\stalker_merc_4</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!-- Merc Mechanic	-->
+  	<specific_character id="sim_default_killer_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_merc_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_killer_mechanic</class>
+    <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_merc\stalker_merc4a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>	
+	
+	 				<!-- Merc Barmen -->
+			
+	<specific_character id="sim_default_killer_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_merc_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_killer_barmen</class>
+    <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\killer\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_merc\stalker_merc_4</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+							<!-- Merc Medik -->
+			
+	<specific_character id="sim_default_killer_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_merc_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_killer_medik</class>
+    <community>killer</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\killer\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_merc\stalker_merc_4</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+  				<!-- Loner Trader -->
+			
+	<specific_character id="sim_default_stalker_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_stalker_trader</class>
+    <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_neutral\stalker_neutral2b</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!-- Loner Mechanic	-->
+		
+  	<specific_character id="sim_default_stalker_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_stalker_mechanic</class>
+    <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_03\stalker\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_neutral\stalker_neutral_2_mas3</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	  				<!-- Loner Barmen -->
+			
+	<specific_character id="sim_default_stalker_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_stalker_barmen</class>
+    <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_neutral\stalker_neutral2b</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+				 <!-- Loner Medik -->
+			
+	<specific_character id="sim_default_stalker_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_stalker_medik</class>
+    <community>stalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_neutral\stalker_neutral2b</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+
+    				<!-- Army Trader -->
+			
+	<specific_character id="sim_default_army_trader" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_army_trader</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_soldier\stalker_soldier_2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!-- Army Mechanic	-->
+		
+  	<specific_character id="sim_default_army_mechanic" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_Soldier_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_army_mechanic</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_soldier\stalker_soldier_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	    				<!-- Army Barmen -->
+			
+	<specific_character id="sim_default_army_barmen" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_army_barmen</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_soldier\esc_army_barmen</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+					 <!-- Army Medik -->
+			
+	<specific_character id="sim_default_army_medik" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_army_medik</class>
+    <community>army</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\soldier\soldier_medic</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
+     				<!-- Monolith Trader -->
+			
+	<specific_character id="sim_default_monolith_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_mono_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_monolith_trader</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_monolith\stalker_monolith_2_old</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!-- Monolith Mechanic	-->
+		
+  	<specific_character id="sim_default_monolith_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_monolith2_gp5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_monolith_mechanic</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_02\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_monolith\stalker_monolith2_gp5</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	     				<!-- Monolith Barmen -->
+			
+	<specific_character id="sim_default_monolith_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_mono_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_monolith_barmen</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_monolith\stalker_monolith_2_old</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+						 <!-- Monolith Medik -->
+			
+	<specific_character id="sim_default_monolith_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_mono_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_monolith_medik</class>
+    <community>monolith</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_monolith\stalker_monolith_medic</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+          		<!-- Ecologist Trader -->
+			
+	<specific_character id="sim_default_ecolog_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_ecolog_trader</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\ecolog\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_ecologist\stalker_ecolog_guard</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!-- Ecologist Mechanic	-->
+		
+  	<specific_character id="sim_default_ecolog_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_ecolog_mechanic</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_03\ecolog\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_ecologist\stalker_ecolog_guard</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	          		<!-- Ecologist Barmen -->
+			
+	<specific_character id="sim_default_ecolog_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_ecolog_barmen</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\ecolog\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_ecologist\stalker_ecolog_guard</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+					<!-- Ecologist Medik -->
+			
+	<specific_character id="sim_default_ecolog_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_ecolog_medik</class>
+    <community>ecolog</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\ecolog\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_ecolog\stalker_neutral_zarya_zo1_ecolog</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+        				<!-- Clear Sky Trader -->
+			
+	<specific_character id="sim_default_csky_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_csky_trader</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_nebo\stalker_nebo_s_mas3</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!-- Clear Sky Mechanic	-->
+		
+  	<specific_character id="sim_default_csky_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_csky_mechanic</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_nebo\stalker_nebo3b</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	        		<!-- Clear Sky Barmen -->
+			
+	<specific_character id="sim_default_csky_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_csky_barmen</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_nebo\stalker_nebo_s_mas3</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+						<!-- Clear Sky Medik -->
+			
+	<specific_character id="sim_default_csky_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_csky_medik</class>
+    <community>csky</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_nebo\stalker_nebo_medic_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- ISG Trader -->
+			
+	<specific_character id="sim_default_isg_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_isg_trader</class>
+    <community>isg</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_replica\stalker_replica_balon_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_lr300 \n
+      ammo_5.56x45_ss190 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!-- ISG Mechanic	-->
+		
+  	<specific_character id="sim_default_isg_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_isg_mechanic</class>
+    <community>isg</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_replica\stalker_replica_balon_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_lr300 \n
+      ammo_5.56x45_ss190 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	        		<!-- ISG Barmen -->
+			
+	<specific_character id="sim_default_isg_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_isg_barmen</class>
+    <community>isg</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_replica\stalker_replica_balon_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_lr300 \n
+      ammo_5.56x45_ss190 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+						<!-- ISG Medik -->
+			
+	<specific_character id="sim_default_isg_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_isg_medik</class>
+    <community>isg</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\stalker\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_replica\stalker_replica_balon_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_lr300 \n
+      ammo_5.56x45_ss190 \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- darkstalker Trader -->
+			
+	<specific_character id="sim_default_darkstalker_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_darkstalker_trader</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_darkstalker\krovosos_in_black_plash</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!-- darkstalker Mechanic	-->
+		
+  	<specific_character id="sim_default_darkstalker_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_darkstalker_mechanic</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_02\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_darkstalker\krovosos_in_black_plash</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	        		<!-- darkstalker Barmen -->
+			
+	<specific_character id="sim_default_darkstalker_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_darkstalker_barmen</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_darkstalker\krovosos_in_black_plash</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+						<!-- darkstalker Medik -->
+			
+	<specific_character id="sim_default_darkstalker_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_darkstalker_medik</class>
+    <community>darkstalker</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_darkstalker\krovosos_in_black_plash</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- renegate Trader -->
+			
+	<specific_character id="sim_default_renegate_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_renegate_trader</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_renegade\stalker_bandit_3_face_2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--renegate Mechanic	-->
+		
+  	<specific_character id="sim_default_renegate_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_renegate_mechanic</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_renegade\stalker_bandit_8</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	        		<!-- renegate Barmen -->
+			
+	<specific_character id="sim_default_renegate_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_renegate_barmen</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_renegade\stalker_renegade_5_2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+						<!-- renegate Medik -->
+			
+	<specific_character id="sim_default_renegate_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_renegate_medik</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_renegade\stalker_bandit_1_3_build_face</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- mstitel Trader -->
+			
+	<specific_character id="sim_default_mstitel_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_mstitel_trader</class>
+    <community>mstitel</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\mstitel\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit4a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--mstitel Mechanic	-->
+		
+  	<specific_character id="sim_default_mstitel_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_mstitel_mechanic</class>
+    <community>mstitel</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_02\mstitel\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit4a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	        		<!-- mstitel Barmen -->
+			
+	<specific_character id="sim_default_mstitel_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_mstitel_barmen</class>
+    <community>mstitel</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\mstitel\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit4a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+						<!-- mstitel Medik -->
+			
+	<specific_character id="sim_default_mstitel_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_mstitel_medik</class>
+    <community>mstitel</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\mstitel\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit4a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- slizni Trader -->
+			
+	<specific_character id="sim_default_slizni_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_slizni_trader</class>
+    <community>slizni</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\slizni\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--slizni Mechanic	-->
+		
+  	<specific_character id="sim_default_slizni_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_slizni_mechanic</class>
+    <community>slizni</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_02\slizni\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	        		<!-- slizni Barmen -->
+			
+	<specific_character id="sim_default_slizni_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_slizni_barmen</class>
+    <community>slizni</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\bandit\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+						<!-- slizni Medik -->
+			
+	<specific_character id="sim_default_slizni_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_slizni_medik</class>
+    <community>slizni</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\bandit\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- velhan Trader -->
+			
+	<specific_character id="sim_default_velhan_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_velhan_trader</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\bandit\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit_radiationsuit</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_abakan \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--velhan Mechanic	-->
+		
+  	<specific_character id="sim_default_velhan_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_velhan_mechanic</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_02\bandit\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit_radiationsuit</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_abakan \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	        		<!-- velhan Barmen -->
+			
+	<specific_character id="sim_default_velhan_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_velhan_barmen</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\bandit\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit_radiationsuit</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_abakan \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+						<!-- velhan Medik -->
+			
+	<specific_character id="sim_default_velhan_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_velhan_medik</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\bandit\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_renegade\stalker_merc_renegade</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_abakan \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- fantom Trader -->
+			
+	<specific_character id="sim_default_fantom_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_fantom_trader</class>
+    <community>fantom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\fantom\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_4</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_val \n
+      ammo_9x39_ap \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+	<!--fantom Mechanic	-->
+		
+  	<specific_character id="sim_default_fantom_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_fantom_mechanic</class>
+    <community>fantom</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\fantom\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_4</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_val \n
+      ammo_9x39_ap \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- fantom Barmen -->
+			
+	<specific_character id="sim_default_fantom_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_fantom_barmen</class>
+    <community>fantom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\fantom\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_4</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_val \n
+      ammo_9x39_ap \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- fantom Medik -->
+			
+	<specific_character id="sim_default_fantom_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_fantom_medik</class>
+    <community>fantom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\fantom\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_4</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_val \n
+      ammo_9x39_ap \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- veter Trader -->
+			
+	<specific_character id="sim_default_veter_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_veter_trader</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_veter\stalker_veter_2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--veter Mechanic	-->
+		
+  	<specific_character id="sim_default_veter_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_veter_mechanic</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_veter\stalker_veter_2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- veter Barmen -->
+			
+	<specific_character id="sim_default_veter_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_veter_barmen</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_veter\stalker_veter_2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- veter Medik -->
+			
+	<specific_character id="sim_default_veter_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_veter_medik</class>
+    <community>veter</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\veter\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_veter\stalker_veter_2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- osoznanie Trader -->
+			
+	<specific_character id="sim_default_osoznanie_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_osoznanie_trader</class>
+    <community>osoznanie</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\osoznanie\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_gauss67 \n
+      ammo_gauss = 3 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--osoznanie Mechanic	-->
+		
+  	<specific_character id="sim_default_osoznanie_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_osoznanie_mechanic</class>
+    <community>osoznanie</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\osoznanie\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_gauss67 \n
+      ammo_gauss = 3 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- osoznanie Barmen -->
+			
+	<specific_character id="sim_default_osoznanie_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_osoznanie_barmen</class>
+    <community>osoznanie</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\osoznanie\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_gauss67 \n
+      ammo_gauss = 3 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- osoznanie Medik -->
+			
+	<specific_character id="sim_default_osoznanie_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_osoznanie_medik</class>
+    <community>osoznanie</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\osoznanie\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_gauss67 \n
+      ammo_gauss = 3 \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- alfa Trader -->
+			
+	<specific_character id="sim_default_alfa_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_alfa_trader</class>
+    <community>alfa</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military1\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_alfa\stalker_soldier_47</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_abakan \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--alfa Mechanic	-->
+		
+  	<specific_character id="sim_default_alfa_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_alfa_mechanic</class>
+    <community>alfa</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_02\military1\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_alfa\stalker_soldier_47</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_abakan \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- alfa Barmen -->
+			
+	<specific_character id="sim_default_alfa_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_alfa_barmen</class>
+    <community>alfa</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military1\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_alfa\stalker_soldier_47</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_abakan \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- alfa Medik -->
+			
+	<specific_character id="sim_default_alfa_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_alfa_medik</class>
+    <community>alfa</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military1\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_alfa\stalker_soldier_47</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_abakan \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- ansf Trader -->
+			
+	<specific_character id="sim_default_ansf_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_ansf_trader</class>
+    <community>ansf</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ans-f11\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_asf\stalker_asf_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_gauss_asf \n
+      ammo_gauss = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--ansf Mechanic	-->
+		
+  	<specific_character id="sim_default_ansf_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_ansf_mechanic</class>
+    <community>ansf</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\ans-f11\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_asf\stalker_asf_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_gauss_asf \n
+      ammo_gauss = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- ansf Barmen -->
+			
+	<specific_character id="sim_default_ansf_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_ansf_barmen</class>
+    <community>ansf</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ans-f11\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_asf\stalker_asf_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_gauss_asf \n
+      ammo_gauss = 5 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- ansf Medik -->
+			
+	<specific_character id="sim_default_ansf_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_ansf_medik</class>
+    <community>ansf</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ans-f11\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_asf\stalker_asf_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_gauss_asf \n
+      ammo_gauss = 5 \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- adinkvizicia Trader -->
+			
+	<specific_character id="sim_default_adinkvizicia_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_adinkvizicia_trader</class>
+    <community>adinkvizicia</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_monolith\stalker_monolith2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_l85 \n
+      ammo_5.56x45_ss190 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--adinkvizicia Mechanic	-->
+		
+  	<specific_character id="sim_default_adinkvizicia_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_adinkvizicia_mechanic</class>
+    <community>adinkvizicia</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_02\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_special\stalker_leon</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_l85 \n
+      ammo_5.56x45_ss190 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- adinkvizicia Barmen -->
+			
+	<specific_character id="sim_default_adinkvizicia_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_adinkvizicia_barmen</class>
+    <community>adinkvizicia</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_monolith\stalker_monolith2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_l85 \n
+      ammo_5.56x45_ss190 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- adinkvizicia Medik -->
+			
+	<specific_character id="sim_default_adinkvizicia_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_adinkvizicia_medik</class>
+    <community>adinkvizicia</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\monolith\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_monolith\stalker_monolith2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_l85 \n
+      ammo_5.56x45_ss190 \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- zakat Trader -->
+			
+	<specific_character id="sim_default_zakat_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_zakat_trader</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\ZAKAT\bodyguard_monolith</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--zakat Mechanic	-->
+		
+  	<specific_character id="sim_default_zakat_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_zakat_mechanic</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\ZAKAT\bodyguard_monolith</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- zakat Barmen -->
+			
+	<specific_character id="sim_default_zakat_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_zakat_barmen</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\ZAKAT\bodyguard_monolith</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- zakat Medik -->
+			
+	<specific_character id="sim_default_zakat_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_zakat_medik</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\ZAKAT\bodyguard_monolith</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- voenstal Trader -->
+			
+	<specific_character id="sim_default_voenstal_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_voenstal_trader</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\soldier\stalker_neutral_2_face_7</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--voenstal Mechanic	-->
+		
+  	<specific_character id="sim_default_voenstal_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_voenstal_mechanic</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\soldier\stalker_fantom_2</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- voenstal Barmen -->
+			
+	<specific_character id="sim_default_voenstal_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_voenstal_barmen</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\voenstal\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\soldier\stalker_neutral_voshod</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- voenstal Medik -->
+			
+	<specific_character id="sim_default_voenstal_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_voenstal_medik</class>
+    <community>voenstal</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\voenstal\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\soldier\stalker_soldier_medic_specnaz</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- mirotvorec Trader -->
+			
+	<specific_character id="sim_default_mirotvorec_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_mirotvorec_trader</class>
+    <community>mirotvorec</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\mirotvorec\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\mirotvorec\stalker_soldier_2a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_l85 \n
+      ammo_5.56x45_ss190 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--mirotvorec Mechanic	-->
+		
+  	<specific_character id="sim_default_mirotvorec_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_mirotvorec_mechanic</class>
+    <community>mirotvorec</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\mirotvorec\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\mirotvorec\stalker_soldier_2a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_l85 \n
+      ammo_5.56x45_ss190 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- mirotvorec Barmen -->
+			
+	<specific_character id="sim_default_mirotvorec_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_mirotvorec_barmen</class>
+    <community>mirotvorec</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\mirotvorec\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\mirotvorec\stalker_soldier_2a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_l85 \n
+      ammo_5.56x45_ss190 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- mirotvorec Medik -->
+			
+	<specific_character id="sim_default_mirotvorec_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_mirotvorec_medik</class>
+    <community>mirotvorec</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\mirotvorec\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\mirotvorec\stalker_soldier_2a</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_l85 \n
+      ammo_5.56x45_ss190 \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- ryskuspecnaz Trader -->
+			
+	<specific_character id="sim_default_ryskuspecnaz_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_ryskuspecnaz_trader</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_soldier\stalker_soldier_36</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--ryskuspecnaz Mechanic	-->
+		
+  	<specific_character id="sim_default_ryskuspecnaz_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_ryskuspecnaz_mechanic</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_soldier\stalker_soldier_36</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- ryskuspecnaz Barmen -->
+			
+	<specific_character id="sim_default_ryskuspecnaz_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_ryskuspecnaz_barmen</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_soldier\stalker_soldier_antigas_blue</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- ryskuspecnaz Medik -->
+			
+	<specific_character id="sim_default_ryskuspecnaz_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_ryskuspecnaz_medik</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_soldier\stalker_soldier_36</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- sby Trader -->
+			
+	<specific_character id="sim_default_sby_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_sby_trader</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_sbu\stalker_sbu_respirator_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_abakan \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--sby Mechanic	-->
+		
+  	<specific_character id="sim_default_sby_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_sby_mechanic</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_sbu\stalker_sbu_respirator_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_abakan \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- sby Barmen -->
+			
+	<specific_character id="sim_default_sby_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_sby_barmen</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_sbu\stalker_sbu_respirator_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_abakan \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- sby Medik -->
+			
+	<specific_character id="sim_default_sby_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_sby_medik</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_sbu\stalker_sbu_respirator_1</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_abakan \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- terrorust Trader -->
+			
+	<specific_character id="sim_default_terrorust_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_terrorust_trader</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit_14</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--terrorust Mechanic	-->
+		
+  	<specific_character id="sim_default_terrorust_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_terrorust_mechanic</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit_14</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- terrorust Barmen -->
+			
+	<specific_character id="sim_default_terrorust_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_terrorust_barmen</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit_14</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- terrorust Medik -->
+			
+	<specific_character id="sim_default_terrorust_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_terrorust_medik</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_bandit\stalker_bandit_14</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- posleduden Trader -->
+			
+	<specific_character id="sim_default_posleduden_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_posleduden_trader</class>
+    <community>posleduden</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_posleduden\stalker_rassvet_trader</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--posleduden Mechanic	-->
+		
+  	<specific_character id="sim_default_posleduden_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_npc_u_nebo_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_posleduden_mechanic</class>
+    <community>posleduden</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_posleduden\stalker_rassvet_trader</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- posleduden Barmen -->
+			
+	<specific_character id="sim_default_posleduden_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_posleduden_barmen</class>
+    <community>posleduden</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_posleduden\stalker_rassvet_trader</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- posleduden Medik -->
+			
+	<specific_character id="sim_default_posleduden_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_posleduden_medik</class>
+    <community>posleduden</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_posleduden\stalker_rassvet_trader</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak74 \n
+      ammo_5.45x39_fmj \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	
+	<!-- greh Trader -->
+			
+	<specific_character id="sim_default_greh_trader" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_bandit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_greh_trader</class>
+    <community>greh</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\greh\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_greh\stalker_greh_exo_proto</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak101 = 1 \n
+      ammo_5.56x45_ss190 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+    <actor_dialog>dm_broker_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	<actor_dialog>ggggkkh</actor_dialog>
+	</specific_character>
+	
+		<!--greh Mechanic	-->
+		
+  	<specific_character id="sim_default_greh_mechanic" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_bandit_4abc</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_greh_mechanic</class>
+    <community>greh</community> <terrain_sect>stalker_terrain</terrain_sect>
+	<mechanic_mode>1</mechanic_mode>
+    <snd_config>characters_voice\human_03\greh\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="500" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_greh\stalker_greh_assault</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak102 = 1 \n
+      ammo_5.56x45_ss190 = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>dm_tech_repair</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- greh Barmen -->
+			
+	<specific_character id="sim_default_greh_barmen" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_bandit_4abc</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_greh_barmen</class>
+    <community>greh</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\greh\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_greh\greh5</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak103 = 1 \n
+      ammo_7.62x39_fmj = 1 \n = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+	<actor_dialog>dm_sim_ordered_task_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_completed_dialog</actor_dialog>
+	<actor_dialog>dm_sim_ordered_task_cancel_dialog</actor_dialog>
+	<actor_dialog>actor_break_dialog</actor_dialog>
+	</specific_character>
+	
+	<!-- greh Medik -->
+			
+	<specific_character id="sim_default_greh_medik" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_bandit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна¤ информаци¤ отсутствует.</bio>
+
+    <class>sim_default_greh_medik</class>
+    <community>greh</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\greh\</snd_config>
+
+    <rank>0</rank>
+    <reputation>0</reputation>
+	<money min="50000" max="7500000" infinitive="1"/>
+    <visual>actors\stalker_greh\greh6</visual>
+    <supplies>
+      [spawn] \n
+	  wpn_ak104 \n
+      ammo_7.62x39_fmj = 1 \n
+      #include "gameplay\character_items.xml"
+      #include "gameplay\character_food.xml"
+      #include "gameplay\character_drugs.xml"
+    </supplies>
+      #include "gameplay\character_criticals_4.xml"
+    <start_dialog>mar_smart_terrain_base_doctor_start</start_dialog>
+    <actor_dialog>mar_smart_terrain_base_doctor_need_health_care</actor_dialog>
+    <actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+	 
+  
+ 
+</xml>

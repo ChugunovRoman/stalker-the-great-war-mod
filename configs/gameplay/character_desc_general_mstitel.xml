@@ -1,0 +1,174 @@
+<specific_character id="sim_default_zver" team_default = "1">
+    <name>Зверь</name>
+    <icon>ui_inGame2_neutral_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zver</class>
+    <community>mstitel</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\mstitel\</snd_config>
+    <rank>15000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_neutral\stalker_neutral_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_mstitel_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_mstitel_0</class>
+    <community>mstitel</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\mstitel\</snd_config>
+    <rank>3000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit4a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_mstitel_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_mstitel_1</class>
+    <community>mstitel</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\mstitel\</snd_config>
+    <rank>5000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit4b</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_mstitel_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_mstitel_2</class>
+    <community>mstitel</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\mstitel\</snd_config>
+    <rank>7000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit4c</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza \n
+        ammo_9x39_ap = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_mstitel_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_mstitel_3</class>
+    <community>mstitel</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\mstitel\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit5a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_9a91 \n
+        ammo_9x39_ap = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_mstitel_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_mstitel_3</class>
+    <community>mstitel</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\mstitel\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_5</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svd \n
+        ammo_7.62x54_7h1 = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_mstitel_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_mstitel_4</class>
+    <community>mstitel</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\mstitel\</snd_config>
+    <rank>11000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit5b</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>

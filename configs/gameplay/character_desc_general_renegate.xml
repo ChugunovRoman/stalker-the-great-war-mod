@@ -1,0 +1,597 @@
+<specific_character id="sim_default_flint" team_default = "1">
+    <name>Флинт</name>
+    <icon>ui_inGame2_Flint</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_flint</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>5000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_face_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85 \n
+        ammo_5.56x45_ss190 = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_kastet" team_default = "1">
+    <name>Кастет</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_kastet</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>5000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_kocherga" team_default = "1">
+    <name>Кочерга</name>
+    <icon>ui_inGame2_bandit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_kocherga</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>5000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_renegate_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_0</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>1000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit1a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_bm16 \n
+        ammo_12x70_buck = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_renegate_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_0</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>1000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegate\stalker_renegate_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_bm16 \n
+        ammo_12x70_buck = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_renegate_0_default_2" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_1a_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_0</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>1000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\stalker_bandit_1_1_build_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_bm16 \n
+        ammo_12x70_buck = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_renegate_0_default_3" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_0</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>1000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\stalker_bandit_1_2_build</visual>
+    <supplies>
+        [spawn] \n
+        wpn_bm16 \n
+        ammo_12x70_buck = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_renegate_0_default_4" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_0</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>1000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\stalker_bandit_1_3_build_face</visual>
+    <supplies>
+        [spawn] \n
+        wpn_bm16 \n
+        ammo_12x70_buck = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_renegate_0_default_5" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_0</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>1000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\stalker_bandit_1_face</visual>
+    <supplies>
+        [spawn] \n
+        wpn_bm16 \n
+        ammo_12x70_buck = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_1</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>3000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit1a_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_renegate_1_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_1</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>3000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\stalker_renegade_1_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_2</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>5000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_2_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_2</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>5000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\stalker_bandit_3_face_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_2_default_2" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_2</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>5000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\stalker_bandit_8</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_2_default_3" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_2</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>5000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\Ренегат Заря</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_2_default_4" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_2</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>5000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\stalker_renegade_5_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_2_default_5" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_Flint</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_2</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>5000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_freedom\stalker_freedom_1_face_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_3</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>7000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_akm \n
+        ammo_7.62x39_fmj = 5 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_3</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>7000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\stalker_merc_renegade</visual>
+    <supplies>
+        [spawn] \n
+        wpn_akm \n
+        ammo_7.62x39_fmj = 5 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_3_default_2" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_3</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>7000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\stalker_merc_renegade_3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_akm \n
+        ammo_7.62x39_fmj = 5 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_3_default_3" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_3</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>7000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\stalker_merc_renegade_3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_akm \n
+        ammo_7.62x39_fmj = 5 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_3_default_4" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_neutral_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_3</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>7000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\РЕНЕГАТ СЕВА</visual>
+    <supplies>
+        [spawn] \n
+        wpn_akm \n
+        ammo_7.62x39_fmj = 5 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_renegate_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_renegate_4</class>
+    <community>renegate</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\renegate\</snd_config>
+    <rank>9000</rank>
+    <reputation>-681</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_renegade\stalker_renegade_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+        ammo_5.56x45_ss190 = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>

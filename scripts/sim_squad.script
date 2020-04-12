@@ -1,0 +1,517 @@
+-- UMPERATOR
+
+hide_sim = false
+
+function squad_on_update(squad)
+  local faction = squad:get_squad_community()
+
+  if sim_tables.ignore[squad:section_name()] then
+    return
+  end
+
+  if not (squad.registered_in_simultaion) then
+    if (squad.checked_register) then
+      return
+    end
+
+    squad.checked_register = true
+
+    if (squad:clsid() ~= clsid.online_offline_group_s) then
+      return
+    end
+
+    if (sim_tables.registered_squads[faction] and sim_tables.registered_squads[faction][squad.id]) then
+      squad.registered_in_simultaion = true
+    end
+  end
+
+  sim_offline_control.squad_on_update(squad)
+  squad_control(squad)
+  squad_update(squad)
+end
+
+function squad_control(squad)
+  squad.__lock = true
+  squad.scripted_target = ""
+
+  if not (sim_offline_control.ocs_power_table[squad.id]) then
+    sim_offline_control.calculate_squad_power(squad)
+  end
+
+  if squad.current_target_id and not squad.assigned_target_id then
+    squad.assigned_target_id = squad.current_target_id
+  end
+
+  local power = sim_offline_control.ocs_power_table[squad.id]
+
+  if squad.protect == true and squad.current_action == 1 then
+    squad.protect = nil
+  end
+
+  if squad.current_action and squad.current_action == 0 then
+    squad.rush_to_target = true
+  else
+    squad.rush_to_target = false
+  end
+
+  if (squad.sim_combat_manager) then
+    if (squad.online) then
+      squad.sim_combat_manager:disband()
+    end
+  end
+
+  if (power <= 0) or (squad:npc_count() <= 0) then
+    if not (squad.sim_combat_manager) then
+      printf("### EOC: -- squad_control -- " .. squad:name() .. " ###")
+      remove_squad(squad)
+    end
+  end
+end
+
+function create_squad(smart, faction, target, type, number, param)
+  local squad
+
+  if type then
+    squad = alun_utils.create_squad(type, smart:name())
+    local faction = squad:get_squad_community()
+
+    if faction == "monster" then
+      local lvl = game_graph():vertex(squad.m_game_vertex_id):level_id()
+
+      if not sim_offline_control.squads_by_level[lvl] then
+        sim_offline_control.squads_by_level[lvl] = {}
+      end
+
+      sim_offline_control.squads_by_level[lvl][squad.id] = true
+
+      if math.random(100) > 70 then
+        sim_offline_to_online.mutant_spawn_news(squad, smart)
+      end
+    end
+  else
+    local random = math.random(30) + sim_factions.faction_information[faction].resource_count
+    local section = "rybech"
+
+    if random >= 0 and random <= 1 then
+      section = "rybech"
+    elseif random >= 1 and random <= 3 then
+      section = "novice"
+    elseif random >= 3 and random <= 5 then
+      section = "novnachun"
+    elseif random >= 5 and random <= 7 then
+      section = "nachunaushu"
+    elseif random >= 7 and random <= 10 then
+      section = "novadvan"
+    elseif random >= 10 and random <= 13 then
+      section = "advanced"
+    elseif random >= 13 and random <= 15 then
+      section = "advanvet"
+    elseif random >= 15 and random <= 17 then
+      section = "veteran"
+    elseif random >= 17 and random <= 20 then
+      section = "vetmas"
+    elseif random > 20 then
+      section = "master"
+    end
+
+    if (not (number) or number < 3) then
+      squad = alun_utils.create_squad(faction .. "_sim_squad_" .. section, smart:name())
+    else
+      squad = alun_utils.create_squad(faction .. "_sim_squad_" .. section .. "_" .. number, smart:name())
+    end
+  end
+
+  if (squad) and param == 2 then
+    squad.protect = true
+  end
+
+  if squad then
+    if target then
+      set_target(squad, target.id)
+
+      if math.random(100) > 80 then
+        sim_offline_to_online.target_news(squad, smart, target)
+      end
+      printf(
+        "### EOC: -- create_squad 1 -- " ..
+          squad:name() .. " - " .. smart:name() .. " - " .. target:name() .. " ###"
+      )
+    else
+      printf("### EOC: -- create_squad 2 -- " .. squad:name() .. " - " .. smart:name() .. " ###")
+      set_target(squad, smart.id)
+    end
+  end
+end
+
+function remove_squad(squad)
+  if not (squad) then
+    return
+  end
+
+  local f = squad:get_squad_community()
+
+  sim_tables.registered_squads[f][squad.id] = nil
+  sim_offline_control.ocs_power_table[squad.id] = nil
+  squad.registered_in_simultaion = false
+  squad:hide()
+
+  if (squad:clsid() == clsid.online_offline_group_s) then
+    squad:remove_squad()
+  end
+end
+
+function squad_update(squad)
+  if (squad.current_action) then
+    local se_target =
+      squad.current_target_id and simulation_objects.get_sim_obj_registry().objects[squad.current_target_id]
+
+    if (se_target) then
+      if (squad.smart_id ~= squad.current_target_id and se_target:clsid() == clsid.smart_terrain) then
+        squad:assign_smart(se_target, squad.smart_id)
+      end
+
+      if (squad.current_action == 0 and not squad.combat_target_id) then
+        if (se_target:clsid() == clsid.smart_terrain) then
+          local smartOwner = se_target.owning_faction or "none"
+
+          if not (game_relations.is_factions_enemies(smartOwner, squad:get_squad_community())) then
+            if (se_target:am_i_reached(squad)) then
+              se_target:on_after_reach(squad)
+              squad.current_action = 1
+              squad.arrive_time = game.get_game_time()
+              squad.wait_time = math.random(10, 60)
+            end
+          end
+        else
+          if (se_target:am_i_reached(squad)) then
+            se_target:on_after_reach(squad)
+            squad.current_action = 1
+            squad.arrive_time = game.get_game_time()
+            squad.wait_time = math.random(10, 60)
+          end
+        end
+      end
+    else
+      local levelID = game_graph():vertex(squad.m_game_vertex_id):level_id()
+
+      if (sim_levels.level_information[levelID] and sim_levels.level_information[levelID].smarts) then
+        for i, sm in pairs(sim_levels.level_information[levelID].smarts) do
+          local smart = sm and alife_object(sm)
+
+          if (smart) then
+            sim_squad.set_target(squad, smart.id)
+          end
+        end
+      end
+    end
+  end
+end
+
+function sim_squad_scripted.sim_squad_scripted.show(self)
+  if self.show_disabled or hide_sim or is_squad_monster[self.player_id] then
+    self:hide()
+    return
+  end
+
+  if
+    (level.map_has_object_spot(self:commander_id(), "ui_pda2_trader_location") ~= 0) or
+      (level.map_has_object_spot(self:commander_id(), "ui_pda2_mechanic_location") ~= 0) or
+      (level.map_has_object_spot(self:commander_id(), "ui_pda2_scout_location") ~= 0) or
+      (level.map_has_object_spot(self:commander_id(), "ui_pda2_quest_npc_location") ~= 0) or
+      (level.map_has_object_spot(self:commander_id(), "ui_pda2_medic_location") ~= 0)
+   then
+    self.show_disabled = true
+    return
+  end
+
+  if (self.registered_in_simultaion) then
+    local faction = self:get_squad_community()
+    local friend =
+      game_relations.is_factions_friends(sim_brain.actor_faction, faction) or sim_brain.actor_faction == faction
+    local enemy = game_relations.is_factions_enemies(sim_brain.actor_faction, faction)
+    local neutral =
+      not (game_relations.is_factions_enemies(sim_brain.actor_faction, faction) or
+      game_relations.is_factions_friends(sim_brain.actor_faction, faction))
+
+    if not (self.simulation_spot) then
+      local spot = sim_tables.squad_icons[faction]
+
+      if (spot) then
+        if (friend or neutral or (enemy and config_enemyshow.enemy)) then
+          level.map_add_object_spot(self.id, spot, get_simulation_info(self))
+          self.simulation_spot = spot
+        end
+      end
+    else
+      if not (friend or neutral or (enemy and config_enemyshow.enemy)) then
+        level.map_remove_object_spot(self.id, self.simulation_spot)
+        self.simulation_spot = nil
+      else
+        level.map_change_spot_hint(self.id, self.simulation_spot, get_simulation_info(self))
+      end
+    end
+  end
+end
+
+function sim_squad_scripted.sim_squad_scripted.hide(self)
+  if self.show_disabled or hide_sim or (is_squad_monster[self.player_id] and not config_enemyshow.enemy) then
+    return
+  end
+
+  level.map_remove_object_spot(self.id, self.simulation_spot)
+  self.simulation_spot = nil
+end
+
+function get_squad_relation(squad_id)
+  local squad = alife_object(squad_id)
+
+  if not (squad) then
+    return
+  end
+
+  if (is_squad_monster[squad.player_id]) then
+    return "Враждебное"
+  end
+
+  local goodwill = 0
+  local npc_count = 0
+  for k in squad:squad_members() do
+    local object = db.storage[k.id] and db.storage[k.id].object
+    if object and db.actor then
+      goodwill = goodwill + object:general_goodwill(db.actor)
+      npc_count = npc_count + 1
+    end
+  end
+
+  if npc_count ~= 0 then
+    local delta = goodwill / npc_count
+
+    if delta >= 3000 then
+      return "Очень дружественное"
+    elseif delta >= 1000 and delta < 3000 then
+      return "Дружественное"
+    elseif delta >= -500 and delta < 1000 then
+      return "Нейтральное"
+    elseif delta < -500 and delta > -1000 then
+      return "Недружественное"
+    elseif delta < -1000 and delta > -3000 then
+      return "Враждебное"
+    elseif delta > -3000 then
+      return "Очень враждебное"
+    end
+  end
+
+  local relation = 0
+  if db.actor then
+    relation =
+      db.actor:community_goodwill(squad.player_id) +
+      game_relations.get_factions_community(squad.player_id, alife():actor():community())
+  end
+
+  if relation >= 3000 then
+    return "Очень дружественное"
+  elseif relation >= 1000 and relation < 3000 then
+    return "Дружественное"
+  elseif relation >= -500 and relation < 1000 then
+    return "Нейтральное"
+  elseif relation < -500 and relation > -1000 then
+    return "Недружественное"
+  elseif relation < -1000 and relation > -3000 then
+    return "Враждебное"
+  elseif relation > -3000 then
+    return "Очень враждебное"
+  end
+
+  return ""
+end
+
+sim_faction_ideologia = {
+  ["stalker"] = "Свободная",
+  ["bandit"] = "Бандитская",
+  ["csky"] = "Изучающая",
+  ["army"] = "Военнизированная",
+  ["freedom"] = "Анархистическая",
+  ["dolg"] = "Военнизированная",
+  ["ecolog"] = "Изучающая",
+  ["killer"] = "Наемная",
+  ["monolith"] = "Религиозная",
+  ["zombied"] = "Зона",
+  ["isg"] = "Военно-Изучающая",
+  ["darkstalker"] = "Свободно-Религиозная",
+  ["renegate"] = "Ренегатовская",
+  ["mstitel"] = "Свободно-Ренегатовская",
+  ["slizni"] = "Бандито-Ренегатовская",
+  ["velhan"] = "Бандито-Наемная",
+  ["fantom"] = "Проект",
+  ["veter"] = "Свободная",
+  ["osoznanie"] = "Проект",
+  ["alfa"] = "Военно-Наемная",
+  ["ansf"] = "Проект",
+  ["adinkvizicia"] = "Религиозная",
+  ["zakat"] = "Внеземная",
+  ["voenstal"] = "Военнизированная",
+  ["mirotvorec"] = "Военнизированная",
+  ["ryskuspecnaz"] = "Военнизированная",
+  ["sby"] = "Военнизированная",
+  ["terrorust"] = "Террористическая",
+  ["posleduden"] = "Свободная",
+  ["greh"] = "Религиозная"
+}
+
+function get_simulation_info(squad)
+  local squadName = squad:name()
+  local section = squad:section_name()
+  local name = sim_script_to_text.squad_names[squad:section_name()] or squad:section_name()
+  local npc_count = squad:npc_count()
+  local power = sim_offline_control.ocs_power_table[squad.id]
+  local atarget = squad.current_target_id
+  local ase_target = atarget and alife():object(atarget)
+  local relation = get_squad_relation(squad.id)
+  local faction = sim_script_to_text.faction_names_standart[squad:get_squad_community()]
+  local ideologia = sim_faction_ideologia[squad:get_squad_community()]
+  local commanderID = squad:commander_id()
+  local commander = commanderID and alife():object(commanderID)
+  local commanderName = commander and commander.character_name and commander:character_name()
+  local type = "Неизвестно"
+  local npc_count_final = ""
+  local props = ""
+
+  if not (commanderName) then
+    commanderName = "[нет данных]"
+  end
+
+  if string.find(squad:name(), "novice") then
+    type = "Новички"
+  elseif string.find(squad:name(), "rybech") then
+    type = "Последний Рубеж"
+  elseif string.find(squad:name(), "novnachun") then
+    type = "Новички и Опытные"
+  elseif string.find(squad:name(), "nachunaushu") then
+    type = "Опытные"
+  elseif string.find(squad:name(), "novadvan") then
+    type = "Опытные и Профи"
+  elseif string.find(squad:name(), "advanced") then
+    type = "Профи"
+  elseif string.find(squad:name(), "advanvet") then
+    type = "Профи и Ветераны"
+  elseif string.find(squad:name(), "veteran") or string.find(squad:name(), "sniper") then
+    type = "Ветераны"
+  elseif string.find(squad:name(), "vetmas") then
+    type = "Ветераны и Мастера"
+  elseif string.find(squad:name(), "master") then
+    type = "Мастера"
+  end
+
+  if npc_count >= 2 and npc_count < 5 then
+    npc_count_final = "сталкера"
+  elseif npc_count >= 5 then
+    npc_count_final = "сталкеров"
+  end
+
+  if npc_count == 1 then
+    props = props .. "\\nСталкер " .. commanderName .. " из группировки: " .. faction .. " \\n"
+    props = props .. "\\nОтношение: " .. relation .. " \\n"
+    props = props .. "\\nРанг: " .. type .. " \\n"
+
+    if power then
+      props = props .. "\\nСила: " .. power .. " \\n"
+    end
+
+    if (ase_target) and squad.current_action == 0 then
+      local levelID = ase_target.m_game_vertex_id and game_graph():vertex(ase_target.m_game_vertex_id):level_id()
+      local levelName = levelID and alife():level_name(levelID)
+      local finalName = levelName and game.translate_string(levelName)
+      local level =
+        game.translate_string(alife():level_name(game_graph():vertex(ase_target.m_game_vertex_id):level_id()))
+      local script_to_text_name = sim_script_to_text.smart_names[ase_target:name()] or ase_target:name()
+
+      props = props .. "\\nЦель: " .. level .. ", " .. script_to_text_name .. " \\n"
+    end
+
+    props = props .. "\\nСостояние:\\n"
+
+    if (squad.sim_combat_manager and not squad.sim_combat_manager.disbanded) then
+      props = props .. "\\n- В бою\\n"
+    else
+      if (squad.current_action == 1) then
+        props = props .. "\\n- Отдыхает \\n"
+      elseif (squad.current_action == 0) then
+        props = props .. "\\n- Двигается \\n"
+      end
+    end
+  else
+    props = props .. "\\nГруппировка: " .. faction .. " \\n"
+    props = props .. "\\nИдеология: " .. ideologia .. " \\n"
+    props = props .. "\\nОтношение: " .. relation .. " \\n"
+    props = props .. "\\nВ отряде: " .. npc_count .. " " .. npc_count_final .. "\\n"
+    props = props .. "\\nРанг: " .. type .. " \\n"
+
+    if power then
+      props = props .. "\\nСила отряда: " .. power .. " \\n"
+    end
+
+    if (commanderName and IsStalker(commander)) then
+      props = props .. "\\nКоммандир: " .. commanderName .. " \\n"
+    end
+
+    if (ase_target) and squad.current_action == 0 then
+      local levelID = ase_target.m_game_vertex_id and game_graph():vertex(ase_target.m_game_vertex_id):level_id()
+      local levelName = levelID and alife():level_name(levelID)
+      local finalName = levelName and game.translate_string(levelName)
+      local level =
+        game.translate_string(alife():level_name(game_graph():vertex(ase_target.m_game_vertex_id):level_id()))
+      local script_to_text_name = sim_script_to_text.smart_names[ase_target:name()] or ase_target:name()
+
+      props = props .. "\\nЦель: " .. level .. ", " .. script_to_text_name .. " \\n"
+    end
+
+    props = props .. "\\nСостояние:\\n"
+
+    if (squad.sim_combat_manager and not squad.sim_combat_manager.disbanded) then
+      props = props .. "\\n- В бою\\n"
+    else
+      if (squad.current_action == 1) then
+        props = props .. "\\n- Отдыхают \\n"
+      elseif (squad.current_action == 0) then
+        props = props .. "\\n- Двигаются \\n"
+      end
+    end
+  end
+
+  return props
+end
+
+function set_target(squad, target)
+  if not (squad) then
+    return
+  end
+
+  if (sim_tables.ignore[squad:section_name()]) then
+    return
+  end
+
+  local obj = target and alife():object(target)
+
+  if (obj) then
+    squad.current_action = 0
+    squad.scripted_target = ""
+    squad.current_target_id = target
+    squad.assigned_target_id = target
+    squad.registered_in_simultaion = true
+    sim_tables.registered_squads[squad:get_squad_community()][squad.id] = target
+    obj:on_reach_target(squad)
+
+    if not (squad.registered_in_simultaion) then
+      squad.registered_in_simultaion = true
+      sim_tables.registered_squads[squad:get_squad_community()][squad.id] = target
+    end
+
+    local sim = alife()
+    for k in squad:squad_members() do
+      local se_obj = k.object or k.id and sim:object(k.id)
+      if (se_obj) then
+        SIMBOARD:setup_squad_and_group(se_obj)
+      end
+    end
+  end
+end

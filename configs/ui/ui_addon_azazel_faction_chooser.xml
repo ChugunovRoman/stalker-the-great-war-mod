@@ -1,0 +1,411 @@
+<addonAzazelFactionChooser>
+	<background>
+		<auto_static x="0" y="0" width="1024" height="768" stretch="1">
+			<texture>ui\ui_addon_azazel_faction_chooser_backgroundColor</texture>
+		</auto_static>
+	</background>
+
+	<!-- DEBUG FACTION BNT-->
+
+	<!-- END--->
+	
+	
+	<faction_freedom x="70" y="310" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_freedom</texture>
+			</auto_static>
+	</faction_freedom>
+
+	<faction_freedom_inactive x="70" y="310" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_freedom_inactive</texture>
+			</auto_static>
+	</faction_freedom_inactive>
+	
+	<faction_dolg x="70" y="370" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_dolg</texture>
+			</auto_static>
+	</faction_dolg>
+
+	<faction_dolg_inactive x="70" y="370" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_dolg_inactive</texture>
+			</auto_static>
+	</faction_dolg_inactive>
+	
+	<faction_killer x="70" y="432" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_killer</texture>
+			</auto_static>
+	</faction_killer>
+
+	<faction_killer_inactive x="70" y="432" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_killer_inactive</texture>
+			</auto_static>
+	</faction_killer_inactive>
+	
+	<faction_stalker x="70" y="490" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_stalker</texture>
+			</auto_static>
+	</faction_stalker>
+
+	<faction_stalker_inactive x="70" y="490" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_stalker_inactive</texture>
+			</auto_static>
+	</faction_stalker_inactive>
+	
+	<faction_bandit x="70" y="550" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_bandit</texture>
+			</auto_static>
+	</faction_bandit>
+
+	<faction_bandit_inactive x="70" y="550" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_bandit_inactive</texture>
+			</auto_static>
+	</faction_bandit_inactive>
+	
+	<faction_csky x="200" y="310" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_csky</texture>
+			</auto_static>
+	</faction_csky>
+
+	<faction_csky_inactive x="200" y="310" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_csky_inactive</texture>
+			</auto_static>
+	</faction_csky_inactive>
+	
+	<faction_monolith x="200" y="370" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_monolith</texture>
+			</auto_static>
+	</faction_monolith>
+
+	<faction_monolith_inactive x="200" y="370" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_monolith_inactive</texture>
+			</auto_static>
+	</faction_monolith_inactive>
+	
+	<faction_army x="200" y="432" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_army</texture>
+			</auto_static>
+	</faction_army>
+
+	<faction_army_inactive x="200" y="432" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_army_inactive</texture>
+			</auto_static>
+	</faction_army_inactive>
+	
+	<faction_ecolog x="200" y="490" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_ecolog</texture>
+			</auto_static>
+	</faction_ecolog>
+
+	<faction_ecolog_inactive x="200" y="490" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_ecolog_inactive</texture>
+			</auto_static>
+	</faction_ecolog_inactive>
+	
+	<faction_darkstalker x="200" y="550" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_darkstalker</texture>
+			</auto_static>
+	</faction_darkstalker>
+
+	<faction_darkstalker_inactive x="200" y="550" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_darkstalker_inactive</texture>
+			</auto_static>
+	</faction_darkstalker_inactive>
+	
+	<faction_isg x="330" y="310" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_isg</texture>
+			</auto_static>
+	</faction_isg>
+
+	<faction_isg_inactive x="330" y="310" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_isg_inactive</texture>
+			</auto_static>
+	</faction_isg_inactive>
+	
+	<faction_renegate x="330" y="370" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_renegate</texture>
+			</auto_static>
+	</faction_renegate>
+
+	<faction_renegate_inactive x="330" y="370" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_renegate_inactive</texture>
+			</auto_static>
+	</faction_renegate_inactive>
+	
+	<faction_mstitel x="330" y="432" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_mstitel</texture>
+			</auto_static>
+	</faction_mstitel>
+
+	<faction_mstitel_inactive x="330" y="432" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_mstitel_inactive</texture>
+			</auto_static>
+	</faction_mstitel_inactive>
+	
+	<faction_fantom x="330" y="490" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_fantom</texture>
+			</auto_static>
+	</faction_fantom>
+
+	<faction_fantom_inactive x="330" y="490" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_fantom_inactive</texture>
+			</auto_static>
+	</faction_fantom_inactive>
+	
+	<faction_velhan x="330" y="550" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_velhan</texture>
+			</auto_static>
+	</faction_velhan>
+
+	<faction_velhan_inactive x="330" y="550" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_velhan_inactive</texture>
+			</auto_static>
+	</faction_velhan_inactive>
+	
+	<faction_osoznanie x="460" y="310" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_osoznanie</texture>
+			</auto_static>
+	</faction_osoznanie>
+
+	<faction_osoznanie_inactive x="460" y="310" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_osoznanie_inactive</texture>
+			</auto_static>
+	</faction_osoznanie_inactive>
+	
+	<faction_alfa x="460" y="370" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_alfa</texture>
+			</auto_static>
+	</faction_alfa>
+
+	<faction_alfa_inactive x="460" y="370" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_alfa_inactive</texture>
+			</auto_static>
+	</faction_alfa_inactive>
+	
+	<faction_mirotvorec x="460" y="432" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_mirotvorec</texture>
+			</auto_static>
+	</faction_mirotvorec>
+
+	<faction_mirotvorec_inactive x="460" y="432" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_mirotvorec_inactive</texture>
+			</auto_static>
+	</faction_mirotvorec_inactive>
+	
+	<faction_slizni x="460" y="490" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_slizni</texture>
+			</auto_static>
+	</faction_slizni>
+
+	<faction_slizni_inactive x="460" y="490" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_slizni_inactive</texture>
+			</auto_static>
+	</faction_slizni_inactive>
+	
+	<faction_ryskuspecnaz x="460" y="550" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_ryskuspecnaz</texture>
+			</auto_static>
+	</faction_ryskuspecnaz>
+
+	<faction_ryskuspecnaz_inactive x="460" y="550" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_ryskuspecnaz_inactive</texture>
+			</auto_static>
+	</faction_ryskuspecnaz_inactive>
+	
+	<faction_voenstal x="590" y="310" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_voenstal</texture>
+			</auto_static>
+	</faction_voenstal>
+
+	<faction_voenstal_inactive x="590" y="310" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_voenstal_inactive</texture>
+			</auto_static>
+	</faction_voenstal_inactive>
+	
+	<faction_posleduden x="590" y="370" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_posleduden</texture>
+			</auto_static>
+	</faction_posleduden>
+
+	<faction_posleduden_inactive x="590" y="370" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_posleduden_inactive</texture>
+			</auto_static>
+	</faction_posleduden_inactive>
+	
+	<faction_terrorust x="590" y="432" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_terrorust</texture>
+			</auto_static>
+	</faction_terrorust>
+
+	<faction_terrorust_inactive x="590" y="432" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_terrorust_inactive</texture>
+			</auto_static>
+	</faction_terrorust_inactive>
+	
+	<faction_sby x="590" y="490" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_sby</texture>
+			</auto_static>
+	</faction_sby>
+
+	<faction_sby_inactive x="590" y="490" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_sby_inactive</texture>
+			</auto_static>
+	</faction_sby_inactive>
+	
+	<faction_veter x="590" y="550" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_veter</texture>
+			</auto_static>
+	</faction_veter>
+
+	<faction_veter_inactive x="590" y="550" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_veter_inactive</texture>
+			</auto_static>
+	</faction_veter_inactive>
+	
+	<faction_ansf x="720" y="310" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_ansf</texture>
+			</auto_static>
+	</faction_ansf>
+
+	<faction_ansf_inactive x="720" y="310" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_ansf_inactive</texture>
+			</auto_static>
+	</faction_ansf_inactive>
+	
+	<faction_zakat x="720" y="370" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_zakat</texture>
+			</auto_static>
+	</faction_zakat>
+
+	<faction_zakat_inactive x="720" y="370" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_zakat_inactive</texture>
+			</auto_static>
+	</faction_zakat_inactive>
+	
+	<faction_adinkvizicia x="720" y="432" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_adinkvizicia</texture>
+			</auto_static>
+	</faction_adinkvizicia>
+
+	<faction_adinkvizicia_inactive x="720" y="432" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_adinkvizicia_inactive</texture>
+			</auto_static>
+	</faction_adinkvizicia_inactive>
+
+	<faction_greh x="720" y="490" width="124" height="56">
+			<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_greh</texture>
+			</auto_static>
+	</faction_greh>
+
+	<faction_greh_inactive x="720" y="490" width="124" height="56">
+		<auto_static x="0" y="0" width="124" height="56" stretch="1">
+				<texture>ui_azazel_greh_inactive</texture>
+			</auto_static>
+	</faction_greh_inactive>
+	
+	<btn_ok x="10" y="10" width="21" height="15" stretch="1">
+			<auto_static x="0" y="0" width="21" height="15" stretch="1">
+				<texture>btn_ok</texture>
+			</auto_static>
+	</btn_ok>
+		
+	<label_dead x="444" y="150">
+		<text r="190" g="190" b="190" font="graffiti50" align="c" vert_align="c">st_addon_azazel_faction_chooser_label_chooseFaction</text>
+	</label_dead>
+	
+	<label_choseFaction x="512" y="475">
+		<text r="190" g="190" b="190" font="graffiti32" align="c" vert_align="c">st_addon_azazel_faction_chooser_label_dead</text>
+	</label_choseFaction>
+	
+	<label_doNotPlayAnimation x="646" y="550">
+		<text r="190" g="190" b="190" font="graffiti22" align="l" vert_align="c">st_addon_azazel_faction_chooser_label_doNotPlayAnimation</text>
+	</label_doNotPlayAnimation>
+	
+	<checkbox_doNotPlayAnimation_checked x="625" y="543" width="32" height="32">
+		<auto_static width="20" height="20" stretch="1">
+				<texture x="32" y="0" width="32" height="32">ui\ui_addon_azazel_faction_chooser_icons</texture>
+		</auto_static>
+		
+	</checkbox_doNotPlayAnimation_checked>
+	
+	<checkbox_doNotPlayAnimation_unchecked x="625" y="543" width="32" height="32" >
+		<auto_static width="20" height="20" stretch="1">
+				<texture x="0" y="0" width="32" height="32">ui\ui_addon_azazel_faction_chooser_icons</texture>
+				
+		</auto_static>
+	</checkbox_doNotPlayAnimation_unchecked>
+
+	<label_findNearest x="646" y="590">
+		<text r="190" g="190" b="190" font="graffiti22" align="l" vert_align="c">st_addon_azazel_faction_chooser_label_findNearest</text>
+	</label_findNearest>
+	
+	<checkbox_findNearest_checked x="625" y="583" width="32" height="32">
+		<auto_static width="20" height="20" stretch="1">
+				<texture x="32" y="0" width="32" height="32">ui\ui_addon_azazel_faction_chooser_icons</texture>
+		</auto_static>
+		
+	</checkbox_findNearest_checked>
+	
+	<checkbox_findNearest_unchecked x="625" y="583" width="32" height="32" >
+		<auto_static width="20" height="20" stretch="1">
+				<texture x="0" y="0" width="32" height="32">ui\ui_addon_azazel_faction_chooser_icons</texture>
+				
+		</auto_static>
+	</checkbox_findNearest_unchecked>
+	
+</addonAzazelFactionChooser>

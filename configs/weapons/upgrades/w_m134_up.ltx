@@ -1,0 +1,151 @@
+;Надежность(3) 35%
+;---------------
+[up_sect_firste_m134]
+cost		      		= 4500
+value					    = +35
+;увеличение дисперсии в процентах при максимальном износе
+fire_dispersion_condition_factor    = -2 ;15
+;увеличение изношености при выстреле очередью
+condition_queue_shot_dec	= -0.0006 ;0.0013
+;увеличение изношености при одиночном выстреле
+condition_shot_dec      	= -0.0006 ;0.0011
+;шанс осечки при изношености больше чем misfireStartCondition
+misfire_start_prob	     	= -0.01
+;шанс осечки при изношености больше чем misfireEndCondition
+misfire_end_prob	     	= -0.08 ;0.03
+
+
+[up_sect_firstb_m134]
+;Увеличенный обьем магазина
+;------------------
+cost		      		    = 8000
+value					        = +500
+ammo_mag_size        	= +500
+
+;Скорострельность(3)25%
+;----------------------
+[up_sect_fourte_m134]
+cost		      		= 1300
+value					    = +25
+rpm               = +150
+
+;Вес
+;------------------
+[up_sect_fourtg_m134]
+cost		      		= 37800
+value					    = -28.6
+inv_weight        = -28.6
+sprint_allowed    = true
+power_loss				= -0.08
+
+
+
+
+
+
+[up_firsta_m134]
+scheme_index            = 0, 0
+known                   = 1
+effects                 = up_gr_seconab_m134
+section                 = up_sect_firste_m134
+property                = prop_reliability
+
+
+precondition_functor    = inventory_upgrades.precondition_functor_a
+precondition_parameter  = a & b
+
+effect_functor          = inventory_upgrades.effect_functor_a
+effect_parameter        = on_weapon_upgrade_something_here
+
+; ui
+prereq_functor          = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params           = 
+name                    = st_up_zat_b3_name
+description             = st_up_zat_b3_descr
+icon                    = ui_inGame2_upgrade_SGI_5K_3
+
+
+[up_secona_m134]
+scheme_index            = 1, 0
+known                   = 1
+effects                 = up_gr_firstef_m134
+section                 = up_sect_fourte_m134
+property                = prop_rpm
+
+precondition_functor    = inventory_upgrades.precondition_functor_a
+precondition_parameter  = a & b
+
+effect_functor          = inventory_upgrades.effect_functor_a
+effect_parameter        = something_here
+
+; ui
+prereq_functor          = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params           = 
+name                    = st_up_ret_c3_name
+description             = st_up_ret_c3_descr
+icon                    = ui_inGame2_upgrade_TRs_301_12
+
+
+[up_firste_m134]
+scheme_index            = 1, 1
+known                   = 1
+effects                 = up_gr_firstgh_m134
+section                 = up_sect_firstb_m134
+property                = prop_ammo_size
+
+precondition_functor    = inventory_upgrades.precondition_functor_a
+precondition_parameter  = a & b
+
+effect_functor          = inventory_upgrades.effect_functor_a
+effect_parameter        = something_here
+
+prereq_functor          = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params           = 
+name                    = st_up_add_a4_name
+description             = st_up_add_a4_descr
+icon                    = ui_inGame2_upgrade_TRs_301_17
+
+
+[up_firstg_m134]
+scheme_index            = 2, 0
+known                   = 1
+effects                 =
+section                 = up_sect_fourtg_m134
+property                = prop_weight
+
+precondition_functor    = inventory_upgrades.precondition_functor_a
+precondition_parameter  = a & b
+
+effect_functor          = inventory_upgrades.effect_functor_a
+effect_parameter        = something_here
+
+; ui
+prereq_functor          = inventory_upgrades.prereq_functor_a
+prereq_tooltip_functor  = inventory_upgrades.prereq_tooltip_functor_a
+prereq_params           = 
+name                    = st_up_stk_a1_name
+description             = st_up_stk_a1_descr
+icon                    = ui_inGame2_upgrade_TRs_301_13
+
+
+
+
+
+
+
+
+[up_gr_firstab_m134]
+elements                = up_firsta_m134
+
+[up_gr_seconab_m134]
+elements                = up_secona_m134
+
+[up_gr_firstef_m134]
+elements                = up_firste_m134
+
+[up_gr_firstgh_m134]
+elements                = up_firstg_m134
+

@@ -1,0 +1,1099 @@
+<specific_character id="sim_default_zakat_savann" team_default = "1">
+    <name>Саванн</name>
+    <icon>ui_inGame2_neutral_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_savann</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>11000</rank>
+    <reputation>5000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza \n
+        ammo_9x39_ap = 9 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_hosse" team_default = "1">
+    <name>HoSSe</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_hosse</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\killer\</snd_config>
+    <rank>9000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_5</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 9 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_sozdatel" team_default = "1">
+    <name>SOZDATEL</name>
+    <icon>inGame2_sozdatel</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_sozdatel</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>9000</rank>
+    <reputation>5000</reputation>
+    <visual>actors\stalker_monolith\stalker_monolith2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan_pso \n
+        ammo_5.45x39_fmj = 9 \n
+        wpn_tt33 \n
+        ammo_7.62x25_fmj = 9 \n
+        medkit_zakat = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+<actor_dialog>ggggkkh</actor_dialog>
+    </specific_character>
+
+<specific_character id="sim_default_zakat_0_default_0" team_default = "1">
+    <name>Слуга Создателя</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_0</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>3000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral2a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74  \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_0_default_1" team_default = "1">
+    <name>Слуга Создателя</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_0</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>3000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral2b</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74  \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_0_default_2" team_default = "1">
+    <name>Слуга Создателя</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_0</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>3000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral2bmask1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74  \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_0_default_3" team_default = "1">
+    <name>Слуга Создателя</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_0</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>3000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral2amask1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74  \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_0_default_4" team_default = "1">
+    <name>Слуга Создателя</name>
+    <icon>inGame2_zakat_РЕНЕГАТ</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_0</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>3000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\РЕНЕГАТ</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74  \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_1_default_0" team_default = "1">
+    <name>Слуга Создателя</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_1</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>5000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral2a_old</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan  \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_colt1911_sk3 \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_1_default_1" team_default = "1">
+    <name>Слуга Создателя</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_1</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>5000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral_2mask1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan  \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_colt1911_sk3 \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_1_default_2" team_default = "1">
+    <name>Слуга Создателя</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_1</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>5000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral2amask1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan  \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_colt1911_sk3 \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_1_default_3" team_default = "1">
+    <name>Слуга Создателя</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_1</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>5000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral2bmask1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan  \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_colt1911_sk3 \n
+        ammo_11.43x23_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_2_default_0" team_default = "1">
+    <name>Дитя Создателя</name>
+    <icon>ui_inGame2_neutral_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_2</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>7000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_monolith\stalker_monolith_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sig550 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_mp443 \n
+        ammo_9x19_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_2_default_1" team_default = "1">
+    <name>Дитя Создателя</name>
+    <icon>ui_inGame2_neutral_0</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_2</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>7000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_monolith\stalker_monolith_2_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_mp443 \n
+        ammo_9x19_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_2_default_2" team_default = "1">
+    <name>Дитя Создателя</name>
+    <icon>ui_inGame2_neutral_2_old</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_2</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>7000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_monolith\stalker_monolith_2_old</visual>
+    <supplies>
+        [spawn] \n
+        wpn_l85 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_mp443 \n
+        ammo_9x19_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_2_default_3" team_default = "1">
+    <name>Дитя Создателя</name>
+    <icon>ui_inGame2_neutral_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_2</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>7000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_monolith\stalker_monolith1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_fn2000 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_mp443 \n
+        ammo_9x19_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_2_default_4" team_default = "1">
+    <name>Коммандор</name>
+    <icon>inGame2_zakat_bodyguard</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_2</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>7000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\bodyguard_monolith</visual>
+    <supplies>
+        [spawn] \n
+        wpn_fn2000 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_mp443 \n
+        ammo_9x19_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_2_default_5" team_default = "1">
+    <name>Штурмовик</name>
+    <icon>inGame2_zakat_soldier</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_2</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>7000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_2_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_mp443 \n
+        ammo_9x19_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_2_default_6" team_default = "1">
+    <name>Дитя Создателя</name>
+    <icon>inGame2_zakat_soldier</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_2</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>7000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_black</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1 \n
+        ammo_5.56x45_ap = 1 \n
+        wpn_mp443 \n
+        ammo_9x19_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_3_default_0" team_default = "1">
+    <name>Дитя Создателя</name>
+    <icon>ui_inGame2_neutral_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_3</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>9000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral_nauchni4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_3_default_1" team_default = "1">
+    <name>Дитя Создателя</name>
+    <icon>ui_inGame2_neutral_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_3</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>9000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral_nauchni3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_3_default_2" team_default = "1">
+    <name>Дитя Создателя</name>
+    <icon>inGame2_zakat_nano</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_3</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>9000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_nano</visual>
+    <supplies>
+        [spawn] \n
+        wpn_scar-h \n
+        ammo_7.62x51_fmj = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_3_default_3" team_default = "1">
+    <name>Проповедник</name>
+    <icon>ui_inGame2_neutral_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_3</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>9000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_neutral\stalker_neutral3a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_rpk \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_3_default_4" team_default = "1">
+    <name>Проповедник</name>
+    <icon>inGame2_zakat_Волк</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_3</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>9000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\Волк</visual>
+    <supplies>
+        [spawn] \n
+        wpn_rpk \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_3_default_5" team_default = "1">
+    <name>Снайпер</name>
+    <icon>inGame2_zakat_anubis_final</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_3</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>9000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_anubis_final</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svd \n
+        ammo_7.62x54_7h1 = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_3_default_6" team_default = "1">
+    <name>Снайпер</name>
+    <icon>inGame2_zakat_nano</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_3</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>9000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_nano</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svd \n
+        ammo_7.62x54_7h1 = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_3_default_7" team_default = "1">
+    <name>Штурмовик</name>
+    <icon>inGame2_zakat_soldier_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_3</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>9000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_14</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aek973 \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_usp40 \n
+        ammo_10x22_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_3_default_8" team_default = "1">
+    <name>Коммандор</name>
+    <icon>inGame2_zakat_bodyguard</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_3</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>9000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\bodyguard_monolith</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza \n
+        ammo_9x39_ap = 1 \n
+        wpn_mp443 \n
+        ammo_9x19_fmj = 1 \n
+        grenade_rgd5 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_0" team_default = "1">
+    <name>Дитя Создателя</name>
+    <icon>inGame2_zakat_nano_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>11000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_nanos_exo</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m14 \n
+        ammo_7.62x51_fmj = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+        grenade_f1 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_1" team_default = "1">
+    <name>Джаггернаут</name>
+    <icon>inGame2_zakat_nano_exo_dolg</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>15000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_nanos_exo_dolg</visual>
+    <supplies>
+        [spawn] \n
+        wpn_pkm \n
+        ammo_pkm_100 = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_2" team_default = "1">
+    <name>Джаггернаут</name>
+    <icon>inGame2_zakat_nano_exo_free</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>11000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_nanos_exo_free</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m60 \n
+        ammo_7.62x51_fmj = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_3" team_default = "1">
+    <name>Элитный Снайпер</name>
+    <icon>inGame2_zakat_nano_exo_rassvet</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>11000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_nanos_exo_rassvet</visual>
+    <supplies>
+        [spawn] \n
+        wpn_gauss67 \n
+        ammo_gauss = 5 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_4" team_default = "1">
+    <name>Разведчик</name>
+    <icon>inGame2_zakat_nevidim</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>11000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_nevidim</visual>
+    <supplies>
+        [spawn] \n
+        wpn_vsk94 \n
+        ammo_9x39_pab9 = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_5" team_default = "1">
+    <name>Джаггернаут</name>
+    <icon>inGame2_zakat_bob_flame_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>15000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_bob_flame_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_pkm \n
+        ammo_pkm_100 = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_6" team_default = "1">
+    <name>Джаггернаут</name>
+    <icon>inGame2_zakat_bob_hokkey_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>11000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_bob_hokkey_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_pkm \n
+        ammo_pkm_100 = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_7" team_default = "1">
+    <name>Джаггернаут</name>
+    <icon>inGame2_zakat_bob_skill_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>15000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_bob_skill_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_pkm \n
+        ammo_pkm_100 = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_8" team_default = "1">
+    <name>Дитя Создателя</name>
+    <icon>inGame2_zakat_bob_hokkey_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>11000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_bob_hokkey_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m14 \n
+        ammo_7.62x51_fmj = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+        grenade_f1 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_9" team_default = "1">
+    <name>Дитя Создателя</name>
+    <icon>inGame2_zakat_bob_skill_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>15000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_bob_skill_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36 \n
+        ammo_5.56x45_ss190 = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+        grenade_f1 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_10" team_default = "1">
+    <name>Потрошитель</name>
+    <icon>inGame2_zakat_bob_flame_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>15000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_bob_flame_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m134 \n
+        ammo_m134 = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+        grenade_f1 = 5 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_11" team_default = "1">
+    <name>Потрошитель</name>
+    <icon>inGame2_zakat_bob_skill_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>15000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_bob_skill_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_rpg7 \n
+        ammo_og-7b = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+        grenade_f1 = 5 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_12" team_default = "1">
+    <name>Разведчик</name>
+    <icon>inGame2_zakat_nevidim</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>11000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\nevidim</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_pab9 = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_13" team_default = "1">
+    <name>Дитя Создателя</name>
+    <icon>inGame2_zakat_aes_monolith_elit</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>11000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_aes_monolith_elit</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1 \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+        grenade_f1 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_zakat_4_default_14" team_default = "1">
+    <name>Элитный Штурмовик</name>
+    <icon>inGame2_zakat_aes_monolith_elit</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_zakat_4</class>
+    <community>zakat</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ZAKAT\</snd_config>
+    <rank>11000</rank>
+    <reputation>-100000</reputation>
+    <visual>actors\ZAKAT\stalker_nanoskeleton</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m1000 \n
+        ammo_11.43x23_fmj = 1 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+        grenade_f1 = 1 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>

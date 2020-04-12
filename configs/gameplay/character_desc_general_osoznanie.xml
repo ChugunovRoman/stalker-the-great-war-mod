@@ -1,0 +1,124 @@
+<specific_character id="sim_default_osoznanie_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_osoznanie_zp</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_osoznanie_0</class>
+    <community>osoznanie</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\osoznanie\</snd_config>
+    <rank>3000</rank>
+    <reputation>755</reputation>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_gauss \n
+        ammo_gauss = 3 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_osoznanie_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_osoznanie_zp</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_osoznanie_1</class>
+    <community>osoznanie</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\osoznanie\</snd_config>
+    <rank>5000</rank>
+    <reputation>755</reputation>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_gauss67 \n
+        ammo_gauss = 3 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_osoznanie_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_osoznanie_zp</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_osoznanie_2</class>
+    <community>osoznanie</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\osoznanie\</snd_config>
+    <rank>7000</rank>
+    <reputation>755</reputation>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_galleon \n
+        ammo_gauss = 3 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_osoznanie_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_osoznanie_zp</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_osoznanie_3</class>
+    <community>osoznanie</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\osoznanie\</snd_config>
+    <rank>9000</rank>
+    <reputation>755</reputation>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_galleon \n
+        ammo_gauss = 3 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_osoznanie_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_osoznanie_zp</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_osoznanie_4</class>
+    <community>osoznanie</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\osoznanie\</snd_config>
+    <rank>11000</rank>
+    <reputation>755</reputation>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_oso \n
+        ammo_gauss = 3 \n
+#include "gameplay\character_items_monolith.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_4.xml"
+#include "gameplay\character_drugs_sci.xml"
+#include "gameplay\character_drugs_mil.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>

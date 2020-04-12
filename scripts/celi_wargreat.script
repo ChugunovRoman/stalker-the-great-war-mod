@@ -1,0 +1,85 @@
+function find_targets(smart)
+
+	local level = game_graph():vertex(smart.m_game_vertex_id):level_id()
+	local linked = sim_tables.level_links[level]	
+	local currentLevelSmarts = sim_levels.level_information[level].smarts
+	local smartCollection = {}
+	local faction = smart.owning_faction or "none"
+
+	for i=1,#currentLevelSmarts	do
+		smartCollection[#smartCollection+1] = currentLevelSmarts[i]
+	end
+	
+	for lvl,_ in pairs(linked) do
+		local smarts = sim_levels.level_information[lvl].smarts
+		
+		for i=1,#smarts do
+			smartCollection[#smartCollection+1] = smarts[i]
+		end
+	end
+	
+	local targets = {}
+	
+	if (faction == "monster") then
+		return
+	end
+	
+	for i=1,#smartCollection do
+
+		local other = alife_object(smartCollection[i])		
+		
+		if (other and other.props) then
+			if (other.props) then
+				local dist = smart.global_position:distance_to_sqr(other.global_position)
+				local priority = 0
+				local faction2 = other.owning_faction or "none"			
+				local otherLevel = game_graph():vertex(other.m_game_vertex_id):level_id()
+								
+				if (other.props[faction]) then
+					priority = priority + (other.props[faction] * 2)
+				end
+				
+				if (other.props.base > 0) then
+					priority = priority + 15
+					
+                    if other.owning_faction == "none" then
+				       priority = priority + 5
+					end
+				end
+				
+				if (other.props.resource > 0) then
+					priority = priority + 10
+				end			
+				
+				if (other.target_smarts) then
+					if (other.target_smarts[smart.id]) then
+						priority = priority + 7
+					end
+				end
+				
+				if (other.props.territory > 0) then
+					priority = priority + 3
+				end
+				
+				if not(other.props.lair) then
+				    if (otherLevel == level) then
+					    priority = priority + 5
+				    end
+				end
+								               
+				if db.actor and not(db.actor:has_info("bar_deactivate_radar_done")) then
+                   if sim_brain.monolith_level(other) and (faction ~= "monolith" and faction ~= "zombied" and faction ~= "monster") then
+                      priority = priority - 500	
+                   end	
+                end				  
+				
+				if (faction2 == "none" or game_relations.is_factions_enemies(faction, faction2)) then
+					targets[#targets+1] = {math.abs((dist)/priority), other.id}
+				end
+			end
+		end
+	end
+	
+	targets = sim_brain.sort_priority_table(targets)
+	return targets
+end

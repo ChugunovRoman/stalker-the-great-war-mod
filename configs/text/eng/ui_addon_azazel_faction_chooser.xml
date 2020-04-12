@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_addon_azazel_faction_chooser_label_chooseFaction">
+		<text>DEAD</text>
+	</string>
+	<string id="st_addon_azazel_faction_chooser_label_dead">
+		<text>Choose a faction</text>
+	</string>
+</string_table>

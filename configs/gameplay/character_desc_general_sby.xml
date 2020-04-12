@@ -1,0 +1,475 @@
+<specific_character id="sim_default_sby_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_Soldier_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_0</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>3000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_soldier\0_voen_v_krap_berete_2_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ar15 \n
+        ammo_5.56x45_ss190 = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_0_default_1" team_default = "1">
+    <name>јгент</name>
+    <icon>inGame2_zakat_soldier</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_0</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>3000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_2_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_0_default_2" team_default = "1">
+    <name>јгент</name>
+    <icon>inGame2_zakat_soldier_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_0</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>3000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_14</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aks74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_1</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>5000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_soldier\0_voen_v_krap_berete_2_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak12 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_1_default_1" team_default = "1">
+    <name>јгент</name>
+    <icon>inGame2_zakat_soldier</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_1</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>5000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_2_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_1_default_2" team_default = "1">
+    <name>јгент</name>
+    <icon>inGame2_zakat_soldier_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_1</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>5000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_14</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_2</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>7000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_antigaz_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_rpk \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_2_default_1" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_2</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>7000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_antigaz_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_rpk \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_2_default_2" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_2</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>7000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_respirator_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aek971 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_2_default_3" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_2</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>7000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_respirator_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aek971 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_3</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>9000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_antigaz_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aek973 \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_3</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>9000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_antigaz_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aek973 \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_3_default_2" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_3</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>9000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_respirator_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak12_762 \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_3_default_3" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_3</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>9000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_respirator_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak12_762 \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_4</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>11000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_antigaz_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_4_default_1" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_4</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>11000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_antigaz_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_4_default_2" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_4</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>11000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_respirator_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza \n
+        ammo_9x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_4_default_3" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_4</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>11000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_sbu_respirator_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza \n
+        ammo_9x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_sby_4_default_4" team_default = "1">
+    <name>ѕодполковник ƒегт€рев</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_sby_4</class>
+    <community>sby</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>15000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\stalker_sbu\stalker_degtarev_sbu</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza1 \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+<actor_dialog>ggggkkh</actor_dialog>
+    </specific_character>

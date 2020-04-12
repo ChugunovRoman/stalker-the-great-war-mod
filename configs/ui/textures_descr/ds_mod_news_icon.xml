@@ -1,0 +1,35 @@
+<w>
+<file name="ui\ui_news_pda">
+<texture id="ui_icon_vs_news_deth" x="0" y="174" width="125" height="56" />
+<texture id="ui_icon_vs_news_all" x="0" y="174" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_dolg" x="0" y="58" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_svoboda" x="0" y="0" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_naim" x="0" y="118" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_bandos" x="0" y="233" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_voen_stalk" x="0" y="407" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_csky" x="0" y="290" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_ecolog" x="0" y="464" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_monolith" x="0" y="349" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_neutral" x="0" y="174" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_darkstalker" x="0" y="523" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_isg" x="0" y="582" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_renegate" x="0" y="640" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_mstitel" x="0" y="695" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_slizni" x="130" y="58" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_velhan" x="0" y="820" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_fantom" x="5" y="756" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_veter" x="133" y="408" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_osoznanie" x="0" y="877" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_alfa" x="5" y="932" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_zakat" x="128" y="522" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_voenstal" x="133" y="177" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_mirotvorec" x="127" y="0" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_ryskuspecnaz" x="130" y="121" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_sby" x="128" y="352" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_terrorust" x="130" y="294" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_posleduden" x="128" y="234" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_ansf" x="128" y="465" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_adinkvizicia" x="133" y="638" width="125" height="56" />
+<texture id="ui_icon_vs_news_news_greh" x="133" y="700" width="125" height="56" />
+</file>
+</w>

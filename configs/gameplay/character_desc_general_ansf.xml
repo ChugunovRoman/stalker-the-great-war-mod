@@ -1,0 +1,137 @@
+<specific_character id="sim_default_kloniryushi" team_default = "1">
+    <name>Клонирующий</name>
+    <icon>ui_inGame2_stalker_asf</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Испытуемый</bio>
+    <class>sim_default_kloniryushi</class>
+    <community>ansf</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ans-f11\</snd_config>
+    <rank>9000</rank>
+    <reputation>0</reputation>
+    <visual>actors\stalker_asf\stalker_asf_neprozra4niy</visual>
+    <supplies>
+        [spawn] \n
+        wpn_gauss_asf \n
+        ammo_gauss = 5 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ansf_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_stalker_asf</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Клонированный боец Монолита</bio>
+    <class>sim_default_ansf_0</class>
+    <community>ansf</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ans-f11\</snd_config>
+    <rank>3000</rank>
+    <reputation>0</reputation>
+    <visual>actors\stalker_asf\stalker_asf_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_gauss_asf \n
+        ammo_gauss = 5 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ansf_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_stalker_asf</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Клонированный боец Монолита</bio>
+    <class>sim_default_ansf_1</class>
+    <community>ansf</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ans-f11\</snd_config>
+    <rank>5000</rank>
+    <reputation>0</reputation>
+    <visual>actors\stalker_asf\stalker_asf_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_gauss_asf \n
+        ammo_gauss = 5 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ansf_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_stalker_asf</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Клонированный боец Монолита</bio>
+    <class>sim_default_ansf_2</class>
+    <community>ansf</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ans-f11\</snd_config>
+    <rank>7000</rank>
+    <reputation>0</reputation>
+    <visual>actors\stalker_asf\stalker_asf_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_gauss_asf \n
+        ammo_gauss = 5 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ansf_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_stalker_asf</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Клонированный боец Монолита</bio>
+    <class>sim_default_ansf_3</class>
+    <community>ansf</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ans-f11\</snd_config>
+    <rank>9000</rank>
+    <reputation>0</reputation>
+    <visual>actors\stalker_asf\stalker_asf_3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_gauss_asf \n
+        ammo_gauss = 5 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ansf_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_stalker_asf</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Клонированный боец Монолита</bio>
+    <class>sim_default_ansf_4</class>
+    <community>ansf</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\ans-f11\</snd_config>
+    <rank>11000</rank>
+    <reputation>0</reputation>
+    <visual>actors\stalker_asf\stalker_asf_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_gauss_asf \n
+        ammo_gauss = 5 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>

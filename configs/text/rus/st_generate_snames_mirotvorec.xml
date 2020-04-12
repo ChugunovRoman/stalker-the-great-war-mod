@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+        <string id="lname_private_mirotvorec_0">
+		<text>Абрахам</text>
+	</string>
+        <string id="lname_private_mirotvorec_1">
+		<text>Адам</text>
+        </string>
+        <string id="lname_private_mirotvorec_2">
+		<text>Алан</text>
+        </string>
+        <string id="lname_private_mirotvorec_3">
+		<text>Алекс</text>
+        </string>
+        <string id="lname_private_mirotvorec_4">
+		<text>Альберт</text>
+        </string>
+        <string id="lname_private_mirotvorec_5">
+		<text>Альфред</text>
+        </string>
+        <string id="lname_private_mirotvorec_6">
+		<text>Арнольд</text>
+        </string>
+        <string id="lname_private_mirotvorec_7">
+		<text>Артур</text>
+        </string>
+        <string id="lname_private_mirotvorec_8">
+		<text>Арчибальд</text>
+        </string>
+        <string id="lname_private_mirotvorec_9">
+		<text>Барни</text>
+        </string>
+        <string id="lname_private_mirotvorec_10">
+		<text>Барри</text>
+        </string>
+        <string id="lname_private_mirotvorec_11">
+		<text>Барт</text>
+        </string>
+        <string id="lname_private_mirotvorec_12">
+		<text>Бенджамин</text>
+        </string>
+        <string id="lname_private_mirotvorec_13">
+		<text>Беннетт</text>
+        </string>
+        <string id="lname_private_mirotvorec_14">
+		<text>Бенни</text>
+        </string>
+
+</string_table>

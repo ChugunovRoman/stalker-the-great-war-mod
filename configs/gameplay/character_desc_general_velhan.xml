@@ -1,0 +1,450 @@
+<specific_character id="sim_default_velhan_marmok" team_default = "1">
+    <name>Мармок</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_marmok</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>11000</rank>
+    <reputation>-1000</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_5</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza \n
+        ammo_9x39_ap = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_0</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>3000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bondit_zara</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+        ammo_5.45x39_fmj = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_0</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>3000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_9</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+        ammo_5.45x39_fmj = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_1</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>5000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit5c</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+        ammo_5.56x45_ss190 = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_1_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_1</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>5000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit5b</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+        ammo_5.56x45_ss190 = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_1_default_2" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_1</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>5000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_10_proto</visual>
+    <supplies>
+        [spawn] \n
+        wpn_lr300 \n
+        ammo_5.56x45_ss190 = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_2</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>7000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit5a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36 \n
+        ammo_5.56x45_ss190 = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_2_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_2</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>7000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_5</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36c \n
+        ammo_5.56x45_ss190 = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_2_default_2" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_2</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>7000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_5_gasmask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_g36 \n
+        ammo_5.56x45_ss190 = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_6d</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_3</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit6a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_3</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_band_ha</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_3_default_2" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_Soldier_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_3</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>9000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_soldier_b</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_3_default_3" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_3</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>9000</rank>
+    <reputation>-3000</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_radiationsuit</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_3_default_4" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_neutral_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_3</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>9000</rank>
+    <reputation>-3000</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_seva</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_4</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>11000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\my\seva_bandit</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza \n
+        ammo_9x39_ap = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_4_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_4</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>11000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_exo</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svd \n
+        ammo_7.62x54_7h1 = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_4_default_2" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_4</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>15000</rank>
+    <reputation>-2037</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_exo</visual>
+    <supplies>
+        [spawn] \n
+        wpn_pkm \n
+        ammo_pkm_100 = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_velhan_4_default_3" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_velhan_4</class>
+    <community>velhan</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\velhan\</snd_config>
+    <rank>11000</rank>
+    <reputation>-3000</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\my\seva_bandit</visual>
+    <supplies>
+        [spawn] \n
+        wpn_rpg7 \n
+        ammo_og-7b = 5 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 5 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>

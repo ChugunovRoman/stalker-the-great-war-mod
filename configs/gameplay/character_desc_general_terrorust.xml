@@ -1,0 +1,471 @@
+<specific_character id="sim_default_terrorust_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_a</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_0</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>3000</rank>
+    <reputation>-829</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_terrorust_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_a</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_0</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1505</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandita1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_terrorust_0_default_2" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_a2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_0</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>3000</rank>
+    <reputation>1327</reputation>
+    <money min="250" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandita2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm  \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_terrorust_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_1</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>5000</rank>
+    <reputation>-508</reputation>
+    <money min="500" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak47 \n
+        ammo_7.62x39_fmj = 5 \n
+        wpn_hpsa \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_terrorust_1_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_1</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>5000</rank>
+    <reputation>1209</reputation>
+    <money min="500" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak47 \n
+        ammo_7.62x39_fmj = 5 \n
+        wpn_beretta \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_terrorust_1_default_2" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_1</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>5000</rank>
+    <reputation>1893</reputation>
+    <money min="500" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit2a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak47 \n
+        ammo_7.62x39_fmj = 5 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_terrorust_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_2a</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_2</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>7000</rank>
+    <reputation>-25</reputation>
+    <money min="500" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_akm \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_beretta \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_terrorust_2_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_2a</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_2</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>7000</rank>
+    <reputation>-353</reputation>
+    <money min="500" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_2a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_akm \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_hpsa \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_terrorust_2_default_2" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_2</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>7000</rank>
+    <reputation>-524</reputation>
+    <money min="500" max="1750" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit5a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_akm \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_beretta \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_terrorust_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_6d</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_3</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>9000</rank>
+    <reputation>-574</reputation>
+    <money min="3000" max="4000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit6b</visual>
+    <supplies>
+        [spawn] \n
+        wpn_akms \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_beretta \n
+        ammo_9x19_pbp  = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_terrorust_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_6l</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_3</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>9000</rank>
+    <reputation>1385</reputation>
+    <money min="3000" max="4000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit6c</visual>
+    <supplies>
+        [spawn] \n
+        wpn_akms \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_beretta \n
+        ammo_9x19_pbp = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_terrorust_3_default_2" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_6l</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_3</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>9000</rank>
+    <reputation>457</reputation>
+    <money min="3000" max="4000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit6d</visual>
+    <supplies>
+        [spawn] \n
+        wpn_akms \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_colt1911 \n
+        ammo_11.43x23_fmj  = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_terrorust_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_4</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>11000</rank>
+    <reputation>2260</reputation>
+    <money min="4000" max="8000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_exo</visual>
+    <supplies>
+        [spawn] \n
+        wpn_pkm \n
+        ammo_pkm_100 = 1 \n
+        wpn_desert_eagle \n
+        ammo_11.43x23_hydro = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_terrorust_4_default_1" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_band_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_4</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>11000</rank>
+    <reputation>917</reputation>
+    <money min="4000" max="8000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_band2a_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aks47 \n
+        ammo_7.62x39_fmj = 1 \n
+        wpn_desert_eagle \n
+        ammo_11.43x23_hydro = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_terrorust_4_default_2" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_band_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_4</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>11000</rank>
+    <reputation>-996</reputation>
+    <money min="4000" max="8000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_band_2_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svd \n
+        ammo_7.62x54_7h1 = 1 \n
+        wpn_desert_eagle \n
+        ammo_11.43x23_hydro = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_terrorust_4_default_3" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_band_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_4</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>11000</rank>
+    <reputation>-996</reputation>
+    <money min="4000" max="8000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_band_2_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_galil \n
+        ammo_7.62x51_fmj = 9 \n
+        wpn_desert_eagle \n
+        ammo_11.43x23_hydro = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+    <specific_character id="sim_default_terrorust_4_default_4" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_band_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_4</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>11000</rank>
+    <reputation>-996</reputation>
+    <money min="4000" max="8000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_band_2_mask</visual>
+    <supplies>
+        [spawn] \n
+        wpn_stg58 \n
+        ammo_7.62x51_fmj = 9 \n
+        wpn_desert_eagle \n
+        ammo_11.43x23_hydro = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_terrorust_4_default_5" team_default = "1">
+    <name>GENERATE_NAME_bandit</name>
+    <icon>ui_inGame2_bandit_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_terrorust_4</class>
+    <community>terrorust</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\terrorust\</snd_config>
+    <rank>11000</rank>
+    <reputation>2260</reputation>
+    <money min="4000" max="8000" infinitive="0"/>
+    <visual>actors\stalker_bandit\stalker_bandit_exo</visual>
+    <supplies>
+        [spawn] \n
+        wpn_rpg7 \n
+        ammo_og-7b = 9 \n
+        wpn_desert_eagle \n
+        ammo_11.43x23_hydro = 1 \n
+        grenade_f1 = 4 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>

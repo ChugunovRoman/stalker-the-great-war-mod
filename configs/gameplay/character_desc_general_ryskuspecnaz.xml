@@ -1,0 +1,652 @@
+<specific_character id="sim_default_ryskuspecnaz_podpolkovnukbuzanov" team_default = "1">
+    <name>ѕодполковник Ѕузанов</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_podpolkovnukbuzanov</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>11000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\mirotvorec\stalker_strela_1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_sr3m \n
+        ammo_9x39_ap = 1 \n
+        wpn_tt33 \n
+        ammo_7.62x25_fmj = 5 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+<actor_dialog>ggggkkh</actor_dialog>
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_otrad_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_otrad</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>9000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\mirotvorec\stalker_soldier_2a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 1 \n
+        wpn_tt33 \n
+        ammo_7.62x25_fmj = 5 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+<actor_dialog>ggggkkh</actor_dialog>
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_otrad_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_Soldier_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_otrad</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\SBY\</snd_config>
+    <rank>9000</rank>
+    <reputation>3000</reputation>
+    <visual>actors\mirotvorec\stalker_soldier_3a</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 1 \n
+        wpn_tt33 \n
+        ammo_7.62x25_fmj = 5 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+<actor_dialog>ggggkkh</actor_dialog>
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_soldier_1_camo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_0</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>3000</rank>
+    <reputation>-2370</reputation>
+    <visual>actors\stalker_ryskuspecnaz\russian_1_assault</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+   <specific_character id="sim_default_ryskuspecnaz_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_soldier_1_camo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_0</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_ryskuspecnaz\russian_4_support</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+   <specific_character id="sim_default_ryskuspecnaz_0_default_2" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_soldier_1_camo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_0</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_ryskuspecnaz\russian_5_anubis</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+   <specific_character id="sim_default_ryskuspecnaz_0_default_3" team_default = "1">
+    <name>GENERATE_NAME_private</name>
+    <icon>ui_inGame2_soldier_1_camo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_0</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\military\</snd_config>
+    <rank>3000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_ryskuspecnaz\sbu_4_support</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_1</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>5000</rank>
+    <reputation>1499</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_2_3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aks74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_1_default_1" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_1</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>5000</rank>
+    <reputation>1499</reputation>
+    <visual>actors\stalker_ryskuspecnaz\russian_2_engineer</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aks74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_1_default_2" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_1</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>5000</rank>
+    <reputation>1499</reputation>
+    <visual>actors\stalker_ryskuspecnaz\russian_3_sniper</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aks74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_1_default_4" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_1</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>5000</rank>
+    <reputation>1499</reputation>
+    <visual>actors\stalker_ryskuspecnaz\sbu_2_engineer</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aks74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_1_default_5" team_default = "1">
+    <name>GENERATE_NAME_sergeant</name>
+    <icon>ui_inGame2_Soldier_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_1</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>5000</rank>
+    <reputation>1499</reputation>
+    <visual>actors\stalker_ryskuspecnaz\sbu_3_sniper</visual>
+    <supplies>
+        [spawn] \n
+        wpn_aks74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_2</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>7000</rank>
+    <reputation>-483</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_35_respirator</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+        ammo_5.45x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_ryskuspecnaz_2_default_1" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_mercen_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_2</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_36</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+        ammo_5.45x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_2_default_2" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_mercen_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_2</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_36_mask1</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+        ammo_5.45x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_2_default_3" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_mercen_2_mask</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_2</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_36_mask2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+        ammo_5.45x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_2_default_4" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_2</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_36_respirator</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+        ammo_5.45x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_2_default_5" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_2</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_31_respirator</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+        ammo_5.45x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_2_default_6" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_2</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_3_3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_abakan \n
+        ammo_5.45x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_2_default_7" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_merc_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_2</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\military\</snd_config>
+    <rank>7000</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\maskhalati\maskhalat</visual>
+    <supplies>
+        [spawn] \n
+        wpn_svd \n
+        ammo_7.62x54_7h1 = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_neutral_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_3</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_30</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza \n
+        ammo_9x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_soldier_5</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_3</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\stalker_soldier\stalker_military_old</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_3_default_2" team_default = "1">
+    <name>GENERATE_NAME_lieutenant</name>
+    <icon>ui_inGame2_Soldier_4</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_3</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_9_proto</visual>
+    <supplies>
+        [spawn] \n
+        wpn_groza \n
+        ammo_9x39_ap = 1 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_3_default_3" team_default = "1">
+    <name>GENERATE_NAME_senior_sergeant</name>
+    <icon>ui_inGame2_neutral_nauchniy</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќпытный сталкер. ƒетальна€ информаци€ отсутствует.</bio>
+    <class>sim_default_ryskuspecnaz_3</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1355</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_37</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val \n
+        ammo_9x39_ap = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_4</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>11000</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_24</visual>
+    <supplies>
+        [spawn] \n
+        wpn_pkm \n
+        ammo_pkm_100 = 5 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_ryskuspecnaz_4_default_1" team_default = "1">
+    <name>GENERATE_NAME_captain</name>
+    <icon>ui_inGame2_soldier_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>ќБEтный сталБEБE ƒеталБEБE информацБE ъCсутствуеБE</bio>
+    <class>sim_default_ryskuspecnaz_4</class>
+    <community>ryskuspecnaz</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\military\</snd_config>
+    <rank>11000</rank>
+    <reputation>-1534</reputation>
+    <visual>actors\stalker_soldier\stalker_soldier_16</visual>
+    <supplies>
+        [spawn] \n
+        wpn_rpk \n
+        ammo_7.62x39_fmj = 5 \n
+        wpn_fort \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items_nd.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>

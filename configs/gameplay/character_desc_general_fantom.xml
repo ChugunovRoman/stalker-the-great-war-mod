@@ -1,0 +1,76 @@
+<specific_character id="sim_default_fantom_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_osoznanie_zp</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_fantom_0</class>
+    <community>fantom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\fantom\</snd_config>
+    <rank>9000</rank>
+    <reputation>-1000</reputation>
+    <money min="500" max="30000" infinitive="0"/>
+    <visual>actors\fantom\stalker_phantom</visual>
+    <supplies>
+        [spawn] \n
+        wpn_val_pso = 1 \n
+        ammo_9x39_ap = 5 \n
+        wpn_beretta \n
+        #include "gameplay\character_items_nd.xml"
+        #include "gameplay\character_food.xml"
+        #include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+</specific_character>
+
+<specific_character id="sim_default_fantom_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_osoznanie_zp</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_fantom_0</class>
+    <community>fantom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\fantom\</snd_config>
+    <rank>9000</rank>
+    <reputation>1000</reputation>
+    <money min="1500" max="50000" infinitive="0"/>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_vks = 1 \n
+        ammo_12.7x55 = 5 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+        #include "gameplay\character_items_nd.xml"
+        #include "gameplay\character_food.xml"
+        #include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+</specific_character>
+
+<specific_character id="sim_default_fantom_0_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_osoznanie_zp</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_fantom_0</class>
+    <community>fantom</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\fantom\</snd_config>
+    <rank>9000</rank>
+    <reputation>1000</reputation>
+    <money min="1500" max="50000" infinitive="0"/>
+    <visual>actors\stalker_osoznanie\stalker_osoznanie_4</visual>
+    <supplies>
+        [spawn] \n
+        wpn_m4a1_50_acog = 1 \n
+        ammo_50_beowulf_jfp = 5 \n
+        wpn_desert_eagle \n
+        ammo_50ae_fmj = 1 \n
+        #include "gameplay\character_items_nd.xml"
+        #include "gameplay\character_food.xml"
+        #include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+</specific_character>

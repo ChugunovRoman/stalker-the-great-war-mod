@@ -1,0 +1,355 @@
+<specific_character id="sim_default_rassvet_0_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_1_soc1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_0</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\stalker\</snd_config>
+    <rank>1000</rank>
+    <money min="250" max="1750" infinitive="0"/>
+    <reputation>1295</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_r</visual>
+    <supplies>
+        [spawn] \n
+        wpn_toz34  \n
+        ammo_12x70_buck  = 1 \n
+        wpn_pm = 1 \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_rassvet_0_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_1_soc1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_0</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\stalker\</snd_config>
+    <rank>1000</rank>
+    <money min="250" max="1750" infinitive="0"/>
+    <reputation>251</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_r_mas2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_toz34  \n
+        ammo_12x70_buck  = 1 \n
+        wpn_pm = 1 \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_rassvet_0_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_neutral_1_soc1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_0</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\stalker\</snd_config>
+    <rank>1000</rank>
+    <money min="250" max="1750" infinitive="0"/>
+    <reputation>-1687</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_r_mas2</visual>
+    <supplies>
+        [spawn] \n
+        wpn_bm16 \n
+        ammo_12x70_buck  = 1 \n
+        wpn_pm = 1 \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_rassvet_1_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_1</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_1</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>3000</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-2076</reputation>
+    <visual>actors\stalker_rassvet\stalker_rassvet_cn1c</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u  \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+    
+    <specific_character id="sim_default_rassvet_1_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_1_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_1</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_02\csky\</snd_config>
+    <rank>3000</rank>
+    <money min="1000" max="2000" infinitive="0"/>
+    <reputation>-667</reputation>
+    <visual>actors\stalker_rassvet\stalker_rasvet_1_3</visual>
+    <supplies>
+        [spawn] \n
+        wpn_ak74u \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_beretta  \n
+        ammo_9x19_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs_2.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_rassvet_2_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_2</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>5000</rank>
+    <reputation>-1641</reputation>
+    <visual>actors\stalker_rassvet\stalker_rasvet_2</visual>
+    <supplies>
+        [spawn] \n
+        device_torch \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_pm \n
+        ammo_9x18_fmj = 1 \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_rassvet_2_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_2_gaz</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_2</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>5000</rank>
+    <reputation>-153</reputation>
+    <visual>actors\stalker_rassvet\stalker_rasvet_4</visual>
+    <supplies>
+        [spawn] \n
+        device_torch \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_hpsa \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_rassvet_2_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_sun</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_2</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>5000</rank>
+    <reputation>-153</reputation>
+    <visual>actors\stalker_rassvet\stalker_rasvet_4_mask</visual>
+    <supplies>
+        [spawn] \n
+        device_torch \n
+        wpn_ak74 \n
+        ammo_5.45x39_fmj = 1 \n
+        wpn_hpsa \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_rassvet_3_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_5_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_3</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>7000</rank>
+    <reputation>-153</reputation>
+    <visual>actors\stalker_rassvet\stalker_rassvet_cn3b</visual>
+    <supplies>
+        [spawn] \n
+        device_torch \n
+        wpn_l85 \n
+        ammo_5.56x45_ss190 = 1 \n
+        wpn_hpsa \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_rassvet_3_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_3</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>7000</rank>
+    <reputation>-153</reputation>
+    <visual>actors\stalker_rassvet\stalker_rasvet_3</visual>
+    <supplies>
+        [spawn] \n
+        device_torch \n
+        wpn_lr300 \n
+        ammo_5.56x45_ss190 = 1 \n
+        wpn_hpsa \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_rassvet_3_default_2" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_5_2</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_3</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>7000</rank>
+    <reputation>-153</reputation>
+    <visual>actors\stalker_rassvet\stalker_rasvet_3_2</visual>
+    <supplies>
+        [spawn] \n
+        device_torch \n
+        wpn_lr300 \n
+        ammo_5.56x45_ss190 = 1 \n
+        wpn_hpsa \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_rassvet_3_default_3" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_3</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_3</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_01\csky\</snd_config>
+    <rank>7000</rank>
+    <reputation>-153</reputation>
+    <visual>actors\stalker_nebo\stalker_nebo_seva_2</visual>
+    <supplies>
+        [spawn] \n
+        device_torch \n
+        wpn_lr300 \n
+        ammo_5.56x45_ss190 = 1 \n
+        wpn_hpsa \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_rassvet_4_default_0" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_4</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>9000</rank>
+    <reputation>-153</reputation>
+    <visual>actors\stalker_rassvet\stalker_rasvet_exo</visual>
+    <supplies>
+        [spawn] \n
+        device_torch \n
+        wpn_g36 \n
+        ammo_5.56x45_ss190 = 1 \n
+        wpn_hpsa \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
+
+<specific_character id="sim_default_rassvet_4_default_1" team_default = "1">
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_csky_exo</icon>
+    <map_icon x="1" y="0"></map_icon>
+    <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
+    <class>sim_default_rassvet_4</class>
+    <community>rassvet</community> <terrain_sect>stalker_terrain</terrain_sect>
+    <snd_config>characters_voice\human_03\csky\</snd_config>
+    <rank>9000</rank>
+    <reputation>-153</reputation>
+    <visual>actors\stalker_rassvet\stalker_rasvet_exo_2</visual>
+    <supplies>
+        [spawn] \n
+        device_torch \n
+        wpn_sig550_acog \n
+        ammo_5.56x45_ss190 = 1 \n
+        wpn_hpsa \n
+#include "gameplay\character_items.xml"
+#include "gameplay\character_food.xml"
+#include "gameplay\character_drugs.xml"
+    </supplies>
+#include "gameplay\character_criticals_4.xml"
+#include "gameplay\character_dialogs.xml"
+    </specific_character>
