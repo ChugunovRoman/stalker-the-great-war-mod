@@ -234,7 +234,7 @@ function alltext(actor, npc, sele)
     faction2 = "[ГРЕХ]"
   end
 
-	-- Помему-то всегда false даже если строки равны
+	-- TODO: Помему-то всегда false даже если строки равны
   if faction == faction2 then
     tupe2 = "подмога"
   else
