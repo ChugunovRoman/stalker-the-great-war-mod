@@ -104,17 +104,10 @@ end
 function alltext(actor, npc, sele)
   local tupe = ""
   local tupe2 = ""
-
   local npc = dialogs.who_is_npc(actor, npc)
-
-  local smart = xr_gulag.get_npc_smart(npc)
-
   local ssmart = asma[sl + sele]
-
   local script_to_text_smart = sim_script_to_text.smart_names[ssmart:name()] or ssmart:name()
-
-  local faction = smart.owning_faction
-
+  local faction = character_community(npc)
   local faction2 = ssmart.owning_faction
 
   if (faction2 == "none" or faction2 == nil) then
@@ -241,11 +234,14 @@ function alltext(actor, npc, sele)
     faction2 = "[ГРЕХ]"
   end
 
+	-- Помему-то всегда false даже если строки равны
   if faction == faction2 then
     tupe2 = "подмога"
   else
     tupe2 = "атака"
-  end
+	end
+	
+	printf('sim_smart.alltext: faction == faction2: '..faction == faction2.." | '"..faction.."' == '"..faction2.."' | "..tupe2)
 
   if (ssmart and ssmart.props) then
     if (ssmart.props.base > 0) then
@@ -294,7 +290,6 @@ function sl1(a, b)
 
   spawn_attack(a, b, sele)
 end
-
 function sl2(a, b)
   local sele = 2
 
@@ -314,6 +309,32 @@ function sl5(a, b)
   local sele = 5
 
   spawn_attack(a, b, sele)
+end
+
+function slm1(a, b)
+  local sele = 1
+
+  send_squad_on_target(a, b, sele)
+end
+function slm2(a, b)
+  local sele = 2
+
+  send_squad_on_target(a, b, sele)
+end
+function slm3(a, b)
+  local sele = 3
+
+  send_squad_on_target(a, b, sele)
+end
+function slm4(a, b)
+  local sele = 4
+
+  send_squad_on_target(a, b, sele)
+end
+function slm5(a, b)
+  local sele = 5
+
+  send_squad_on_target(a, b, sele)
 end
 
 function ch(actor, npc, sele)
@@ -352,22 +373,22 @@ function ch5(a, b)
 end
 
 function chsect(a, npc)
-  local npc = dialogs.who_is_npc(a, npc)
-  if (npc) then
-    local smart = xr_gulag.get_npc_smart(npc)
-    if (smart) then
-      local level_info = sim_levels.level_information[smart.level_id]
+	local npc = dialogs.who_is_npc(a, npc)
+
+	if (npc) then
+		local level_id = game_graph():vertex(alife():actor().m_game_vertex_id):level_id()
+
+		if (level_id) then
+      local level_info = sim_levels.level_information[level_id]
       local num = 0
 
       asma = {}
       if (level_info) then
         for i, sm in pairs(level_info.smarts) do
           local other = sm and alife():object(sm)
-          if
-            (other and other.props) and
-              (other.props.base > 0 or other.props.resource > 0 or other.props.territory > 0 or
-                other.props.lair > 0)
-           then
+          if (other and other.props) and
+            (other.props.base > 0 or other.props.resource > 0 or other.props.territory > 0 or other.props.lair > 0)
+					then
             num = num + 1
 
             asma[#asma + 1] = other
@@ -481,6 +502,27 @@ function spawn_attack(actor, npc, sele)
       15000
     )
   end
+end
+
+function send_squad_on_target(actor, npc, sele)
+	local npc = dialogs.who_is_npc(actor, npc)
+	local squad = get_object_squad(npc)
+	local target = asma[sl + sele]
+	local script_to_text_smart = sim_script_to_text.smart_names[target:name()] or target:name()
+
+	if (target) then
+		alun_utils.execute_script_on_squad(npc, axr_companions.remove_from_actor_squad)
+
+		sim_squad.set_target(squad, target.id)
+
+		db.actor:give_game_news(
+			("Атакующий отряд"),
+			("Мы выдвигаемся к " .. script_to_text_smart .. "."),
+			sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+			0,
+			15000
+		)
+	end
 end
 
 function textinfo(a, b)
