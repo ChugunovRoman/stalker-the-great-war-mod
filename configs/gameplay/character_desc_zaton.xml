@@ -7,12 +7,12 @@
     </map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>zat_b30_owl_stalker_trader</class>
-    <community>stalker</community>
+    <community>trader</community>
     <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
     <rank>8618</rank>
     <reputation>-549</reputation>
-    <money min="1000000" max="1000000" infinitive="1" />
+    <money min="10000000" max="10000000" infinitive="1" />
     <visual>actors\stalker_bandit\stalker_bandit_3_face_1</visual>
     <supplies>
         [spawn] \n
@@ -709,12 +709,12 @@
     </map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>zat_a2_stalker_barmen</class>
-    <community>stalker</community>
+    <community>trader</community>
     <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
     <rank>10230</rank>
     <reputation>1075</reputation>
-    <money min="1000000" max="1000000" infinitive="1" />
+    <money min="10000000" max="10000000" infinitive="1" />
     <visual>actors\stalker_neutral\stalker_neutral_3_face_1</visual>
     <supplies>
         [spawn] \n
@@ -742,7 +742,7 @@
     </map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>zat_b22_stalker_medic</class>
-    <community>stalker</community>
+    <community>trader</community>
     <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
     <money min="1000000" max="1000000" infinitive="1" />
@@ -771,7 +771,7 @@
     </map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>zat_a2_stalker_mechanic</class>
-    <community>stalker</community>
+    <community>trader</community>
     <mechanic_mode>1</mechanic_mode>
     <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
@@ -1003,11 +1003,11 @@
     </map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>zat_b7_stalker_raider_leader</class>
-    <community>stalker</community>
+    <community>trader</community>
     <terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\bandit\</snd_config>
     <rank>2238</rank>
-    <money min="1500" max="3500" infinitive="0"/>
+    <money min="15000" max="35000" infinitive="0"/>
     <reputation>-2078</reputation>
     <visual>actors\stalker_bandit\stalker_bandit_2</visual>
     <supplies>

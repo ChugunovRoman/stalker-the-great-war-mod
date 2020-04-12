@@ -61,7 +61,7 @@ story_id = zat_a2_stalker_nimble_squad
 spawn_point = zat_stalker_base_smart_nimble_spawn_point
 
 [zat_b30_owl_stalker_trader_squad]:online_offline_group
-faction = stalker
+faction = trader
 ;;relationship = neutral
 npc = zat_b30_owl_stalker_trader, sim_default_stalker_1, sim_default_stalker_2, sim_default_stalker_3
 target_smart = zat_stalker_base_smart
@@ -76,7 +76,7 @@ target_smart = val_smart_terrain_7_5
 story_id = zat_b7_bandit_boss_sultan_squad
 
 [zat_a2_stalker_mechanic_squad]:online_offline_group
-faction = stalker
+faction = trader
 npc = zat_a2_stalker_mechanic
 target_smart = zat_stalker_base_smart, sim_default_stalker_0, sim_default_stalker_1, sim_default_stalker_2
 spawn_point = zat_stalker_base_smart_zat_a2_stalker_mechanic_walk
@@ -84,7 +84,7 @@ story_id = zat_a2_stalker_mechanic_squad
 
 ;-----------------------B 22---------------------------------
 [zat_b22_barmen]:online_offline_group
-faction = stalker
+faction = trader
 ;relationship = neutral
 sympathy = 1
 npc = zat_a2_stalker_barmen, sim_default_stalker_3,  sim_default_stalker_3
@@ -93,7 +93,7 @@ spawn_point = zat_stalker_base_smart_spawn_barmen
 story_id = zat_b22_barmen
 
 [zat_b22_medic]:online_offline_group
-faction = stalker
+faction = trader
 sympathy = 0
 npc = zat_b22_stalker_medic, sim_default_stalker_0, sim_default_stalker_2, sim_default_stalker_2
 target_smart = zat_stalker_base_smart
@@ -110,7 +110,7 @@ story_id = zat_b103_lost_merc_squad1
 
 [zat_b7_stalkers_raiders]:online_offline_group
 sympathy = 0
-faction = stalker
+faction = trader
 npc = zat_b7_stalker_raider_1, zat_b7_stalker_raider_2, zat_b7_stalker_raider_3
 target_smart = {-zat_b7_stalkers_raiders_attack_started +zat_b7_task_fail} zat_stalker_base_smart, {-zat_b7_task_end -zat_b7_actor_help_bandits -zat_b7_stalkers_raiders_attack} zat_stalker_base_smart, {-actor_is_sleeping +zat_b7_stalkers_raiders_attack -zat_b7_task_end -zat_b7_actor_help_bandits} zat_b7_stalker_raider, {+actor_is_sleeping +zat_b7_stalker_teleported} zat_b7_stalker_raider, {+zat_b7_task_end -zat_b7_actor_killed_victims_self =squad_exist(zat_b7_stalkers_victims_1)} zat_b7_stalker_raider, {+zat_b7_task_end -zat_b7_actor_killed_victims_self !squad_exist(zat_b7_stalkers_victims_1)} zat_b7, {+zat_b7_task_end +zat_b7_actor_killed_victims_self} zat_stalker_base_smart, {+zat_b7_actor_help_bandits} zat_b7 
 spawn_point = zat_b7_stalkers_raiders_spawn
