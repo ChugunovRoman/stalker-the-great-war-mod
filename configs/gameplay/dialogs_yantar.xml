@@ -85,7 +85,7 @@
             <phrase id="121">
                 <text>yan_stalker_sakharov_npc_psi_helmet_2_1</text>
 				<next>122</next>
-                <next>13</next>
+                <next>132</next>
             </phrase>
             <phrase id="122">
                 <text>yan_stalker_sakharov_player_psi_helmet_2_2</text>
@@ -100,7 +100,11 @@
 				<next>131</next>
             </phrase>
 			<phrase id="131">
-                <text>yan_stalker_sakharov_npc_psi_helmet_3_1</text>
+                <text>yan_stalker_sakharov_npc_psi_helmet_3_2</text>
+                <next>132</next>
+            </phrase>
+			<phrase id="132">
+                <text>yan_stalker_sakharov_player_psi_helmet_3_3</text>
             </phrase>
 			
 			<phrase id="1010">
