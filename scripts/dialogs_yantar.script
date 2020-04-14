@@ -1,5 +1,5 @@
 function give_player_bad_psi_helmet(a,b)
-	dialogs.relocate_money_from_actor(a,b,50000)
+	dialogs.relocate_money_from_actor(a,b,120000)
 	alife():create("bad_psy_helmet",vector(),0,0,0)
 	news_manager.relocate_item(db.actor, "in", "bad_psy_helmet")
 end
@@ -24,7 +24,7 @@ end
 
 function take_money_good_psi_helmet(a,b)
 	if not (db.actor:has_info("yan_stalker_sakharov_offer_free_upgrade")) then
-		dialogs.relocate_money_from_actor(a,b,175000)
+		dialogs.relocate_money_from_actor(a,b,185000)
 	end
 	task_manager.get_task_manager():give_task("yan_stalker_sakharov_psi_helmet_upgrade")
 	utils.save_ctime(db.actor,"yan_stalker_sakharov_psi_helmet_upgrade",game.get_game_time())
@@ -56,11 +56,11 @@ function actor_has_bad_psi_helmet(a,b)
 end
 
 function actor_can_afford_bad_psi_helmet(a,b)
-	return db.actor:money() >= 50000
+	return db.actor:money() >= 120000
 end
 
 function actor_can_afford_good_psi_helmet(a,b)
-	return db.actor:money() >= 175000
+	return db.actor:money() >= 185000
 end
 
 function actor_can_afford_bad_to_good_psi_helmet(a,b)
