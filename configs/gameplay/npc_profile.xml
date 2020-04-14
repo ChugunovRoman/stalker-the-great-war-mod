@@ -908,7 +908,7 @@
    <character id="yan_merc_03">
 		<class>yan_merc_03</class>
    </character>
-   
+
    <!-- Army warehouses -->
     <character id="mil_smart_terrain_7_10_freedom_trader_stalker">
         <class>freedom</class>

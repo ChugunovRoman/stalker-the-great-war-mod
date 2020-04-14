@@ -707,7 +707,7 @@ function check_npc(smart)
 
   local uniques = {}
   uniques.mar_smart_terrain_base = {1, 1, 1, 1}
-  uniques.esc_smart_terrain_5_7 = {0, 1, 0, 0}
+  uniques.esc_smart_terrain_5_7 = {1, 1, 0, 0}
   uniques.esc_smart_terrain_3_16 = {1, 0, 0, 0}
   uniques.val_smart_terrain_7_3 = {0, 1, 0, 0}
   uniques.val_smart_terrain_7_4 = {1, 0, 0, 0}
@@ -725,7 +725,7 @@ function check_npc(smart)
   uniques.ds2_domik_st = {1, 1, 0, 0}
   uniques.mar_smart_terrain_10_5 = {1, 1, 0, 0}
   uniques.jup_b41 = {1, 1, 0, 0}
-  uniques.yan_smart_terrain_6_4 = {1, 0, 0, 0}
+  uniques.yan_smart_terrain_6_4 = {1, 1, 0, 0}
 
   if (uniques[smart:name()]) then
     local tbl = uniques[smart:name()]
