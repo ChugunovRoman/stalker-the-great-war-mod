@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-<!------------------- yan_ecolog_kruglov   -------------->
+	<!--  yan_ecolog_kruglov -->
 	<string id="yan_ecolog_kruglov_start_dialog_1">
 		<text>Приветствую, сталкер.</text>
 	</string>
-<!------------------- yan_ecolog_semenov   -------------->
+	<!-- yan_ecolog_semenov   -->
 	<string id="yan_ecolog_semenov_start_dialog_1">
 		<text>Да, Вам что-то надо?</text>
 	</string>
 	<string id="yan_ecolog_semenov_start_dialog_yan_ecolog_semenov_task_1">
 		<text>Всё еще недостаточно данных. Нужно найти еще парочку мутантов.</text>
 	</string>
-<!------------------- yan_ecolog_vasilyev   -------------->
+	<!-- yan_ecolog_vasilyev   -->
 	<string id="yan_ecolog_vasilyev_start_dialog_1">
 		<text>Здравствуй, сталкер.</text>
 	</string>
-<!------------------- yan_stalker_sakharov -------------->
+	<!-- yan_stalker_sakharov -->
 	<string id="st_yan_saharov_message_free_upgrade">
 		<text>Спасибо, сталкер, Вы нас спасли! Если бы не Вы, нас всех постигла бы ужаснейшая участь. В благодарность за Вашу помощь, я готов абсолютно бесплатно откалибровать Ваш пси-шлем!</text>
 	</string>
@@ -43,21 +43,21 @@
 	<string id="yan_stalker_sakharov_npc_psi_helmet_1_1">
 		<text>Если Вы настаиваете... Но я всё же считаю, что Вам необходимо перестраховаться. Знаете, мне бы не хотелось брать на себя ответственность в случае неудачи... Если во время использования прототипа Вы почувствуете, что что-то не так, немедленно возвращайтесь к нам, я могу откалибровать его в любой момент... Что ж, прототип обойдется Вам в 120 000 рублей.</text>
 	</string>
-	
+
 	<string id="yan_stalker_sakharov_player_psi_helmet_1_2">
 		<text>Вот деньги. Спасибо, профессор!</text>
 	</string>
 	<string id="yan_stalker_sakharov_npc_psi_helmet_1_2">
 		<text>Хорошо. Но я бы советовал Вам сначала его протестировать. Вы можете помочь нам отключить пси-установку в лаборатории к северу отсюда. Будем надеяться, что он сможет защитить ваше сознание...</text>
 	</string>
-	
+
 	<string id="yan_stalker_sakharov_player_psi_helmet_1_3">
 		<text>Я всё-таки хотел бы, чтобы Вы закончили свою работу. Не могли бы Вы настроить мой шлем?</text>
 	</string>
 	<string id="yan_stalker_sakharov_npc_psi_helmet_1_3">
 		<text>Знали бы Вы, какое облегчение принесли мне и моим коллегам! Калибровка шлема значительно уменьшит риск Вашей смерти, и мы бы не хотели чувствовать себя виновными в том, что продали вам недоделку... Так как Вы уже оплатили прототип, окончательная настройка обойдётся Вам в 8000 рублей и займет примерно два дня.</text>
 	</string>
-	
+
 	<string id="yan_stalker_sakharov_player_psi_helmet_2_1">
 		<text>Надеюсь, оно того стоит.</text>
 	</string>
@@ -67,14 +67,14 @@
 	<string id="yan_stalker_sakharov_npc_psi_helmet_2_1_free">
 		<text>Не сомневайтесь, молодой человек. Калибровка шлема позволит добиться максимальной защиты от пси-излучения. Вы сможете свободно передвигаться по всей Зоне, без какого-либо ущерба рассудку! И поскольку Вы нам очень помогли, денег за устройство я с Вас не возьму.</text>
 	</string>
-	
+
 	<string id="yan_stalker_sakharov_player_psi_helmet_2_2">
 		<text>Ладно, я подожду. Колдуйте.</text>
 	</string>
 	<string id="yan_stalker_sakharov_npc_psi_helmet_2_2">
 		<text>Спасибо Вам, сталкер. Я начну калибровку в ближайшее время. Приходите через пару дней.</text>
 	</string>
-	
+
 	<string id="yan_stalker_sakharov_player_psi_helmet_2_3">
 		<text>Мой шлем уже готов?</text>
 	</string>
@@ -84,7 +84,7 @@
 	<string id="yan_stalker_sakharov_npc_psi_helmet_2_3_1">
 		<text>Еще нет, зайдите позже.</text>
 	</string>
-	
+
 	<string id="yan_stalker_sakharov_player_psi_helmet_3_1">
 		<text>Весьма дорого вы берете за свои услуги.</text>
 	</string>
@@ -97,7 +97,7 @@
 	<string id="yan_stalker_sakharov_npc_psi_helmet_3_1">
 		<text>Отлично. Не волнуйтесь, ваш шлем будет ждать вас здесь.</text>
 	</string>
-<!------------------- yan_merc_guards --------------------->
+	<!-- yan_merc_guards -->
 	<string id="yan_merc_guards_start_2">
 		<text>Братан, ты зашел не в то место! И лучше бы тебе побыстрее свалить, пока мы добрые.</text>
 	</string>
@@ -107,4 +107,48 @@
 	<string id="yan_merc_guards_start_4">
 		<text>Потеряйся, пока я тебе пулю в лоб не всадил!</text>
 	</string>
+
+	<!-- transmutation dialogs start -->
+	<string id="yan_stalker_sakharov_transmutation_actor_0">
+		<text>Я слышал, что вы занимаетесь улучшением свойств артефактов. Расскажите подробнее про этот процесс, профессор.</text>
+	</string>
+	<string id="yan_stalker_sakharov_transmutation_npc_10">
+		<text>Этот процесс называется трансмутация. Трансмутация артефактов - это процесс превращения одного или нескольких артефактов в другой артефакт с другими характеристиками. И новый артефакт не всегда может получиться лучше. Иногда больше увеличиваются негативные свойства артефакта нежели положительные. Но мне известны некоторые рецепты удачных трансмутаций. К моему сожалению, на данный момент рецептов у меня мало, так как образцов для исследований и испытаний было немного. Вот если бы вы, молодой человек, согласились принести больше образцов, то и рецептов скорее всего было бы больше. Что скажите?</text>
+	</string>
+	<string id="yan_stalker_sakharov_transmutation_actor_11">
+		<text>Интересно, я попробую.</text>
+	</string>
+	<!-- transmutation dialogs end -->
+
+	<!-- transmutation recipes dialogs start -->
+	<string id="yan_stalker_sakharov_transmutation_recipes_actor_0">
+		<text>Какие на данный момент доступны рецепты?</text>
+	</string>
+	<string id="yan_stalker_sakharov_transmutation_recipes_npc_10">
+		<text>На данный момент доступны следующие рецепты:\n%c[0,150,150,150] - Батарейка + Медуза = Улуч. Батарейка (восст. сил +3, радиация -1):%c[default] %c[0,245,245,220]15 000 рублей\n%c[default]%c[0,150,150,150] - Камен. Цветок + Лунный свет = Лунный свет 2ого уровня (телепат +14, радиация +5):%c[default] %c[0,245,245,220]19 500 рублей\n%c[default]%c[0,150,150,150] - Кровь камня + Кристалл = Кристальный камень (хим ожог +5, ожог +5, радиация +4):%c[default] %c[0,245,245,220]22 300 рублей%c[default]</text>
+	</string>
+	<string id="yan_stalker_sakharov_transmutation_recipes_actor_11">
+		<text>Я хочу Улуч. Батарейку (15 000 рублей)</text>
+	</string>
+	<string id="yan_stalker_sakharov_transmutation_recipes_actor_12">
+		<text>Давайте Лунный свет 2ого уровня (19 500 рублей)</text>
+	</string>
+	<string id="yan_stalker_sakharov_transmutation_recipes_actor_13">
+		<text>Я выбираю Кристальный камень (22 300 рублей)</text>
+	</string>
+	<string id="yan_stalker_sakharov_transmutation_recipes_actor_14">
+		<text>В другой раз.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_transmutation_recipes_npc_1110">
+		<text>Хорошо. Ждите, молодой человек, я сообщу Вам, когда будет готов результат выбранной трансмутации.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_transmutation_recipes_is_completed_actor_0">
+		<text>Я за результатами трансмутации.</text>
+	</string>
+	<string id="yan_stalker_sakharov_transmutation_recipes_is_completed_npc_10">
+		<text>Все готово, забирайте.</text>
+	</string>
+	<!-- transmutation recipes dialogs end -->
 </string_table>

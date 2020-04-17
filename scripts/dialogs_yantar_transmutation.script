@@ -1,0 +1,292 @@
+function on_game_start()
+	RegisterScriptCallback("save_state", save_state)
+	RegisterScriptCallback("load_state", load_state)
+end
+
+local sl = 0
+local smx = 0
+local offeredArtefact = ""
+local transmutationLevel = 0
+
+local saved_dialog
+function add_dialog(p_id, id, phrase_id, cond, act)
+  if not (saved_dialog) then
+    return
+  end
+
+  local phrase = saved_dialog:AddPhrase(phrase_id, tostring(id), tostring(p_id), -10000)
+  if not (phrase) then
+    return
+  end
+
+  --printf("phrase_id = %s",phrase_id)
+
+  local phrase_script = phrase:GetPhraseScript()
+  if (cond) then
+    if (type(cond) == "table") then
+      for key, value in pairs(cond) do
+        if (alun_utils.findfunction(value, _G)) then
+          --table.insert(cond_list,value)
+          phrase_script:AddPrecondition(value)
+        else
+          printf("dialog_manager:Error: No such function exists '%s'", value)
+        end
+      end
+    else
+      if (alun_utils.findfunction(cond, _G)) then
+        --table.insert(cond_list,value)
+        phrase_script:AddPrecondition(cond)
+      else
+        printf("dialog_manager:Error: No such function exists '%s'", cond)
+      end
+    end
+  end
+
+  if (act) then
+    if (type(act) == "table") then
+      for key, value in pairs(act) do
+        if (alun_utils.findfunction(value, _G)) then
+          phrase_script:AddAction(value)
+        else
+          printf("dialog_manager:Error: No such function exists '%s'", value)
+        end
+      end
+    else
+      if (alun_utils.findfunction(act, _G)) then
+        phrase_script:AddAction(act)
+      else
+        printf("dialog_manager:Error: No such function exists '%s'", act)
+      end
+    end
+  end
+  return phrase_script
+end
+
+function add_script_dialog(p_id, id, phrase_id, cond, act)
+  local d = add_dialog(p_id, id, phrase_id, cond, act)
+  if (d) then
+    d:SetScriptText(phrase_id)
+  end
+end
+
+
+function save_state(m_data)
+	if (not m_data.transmutation) then
+		m_data.transmutation = {}
+	end	
+
+	m_data.transmutation.offeredArtefact = offeredArtefact
+	m_data.transmutation.transmutationLevel = transmutationLevel
+end
+
+function load_state(m_data)
+	if (not m_data.transmutation) then
+		return
+	end
+
+	offeredArtefact = m_data.transmutation.offeredArtefact or "af_dummy_ext_battery"
+	transmutationLevel = m_data.transmutation.transmutationLevel or 0
+
+	m_data.transmutation = nil
+end
+
+
+function player_offer_transmutation(a, b, sele)
+	local index = sl + sele
+	local recipt = yantar_transmutation_recipes.getRecipts(transmutationLevel)[index]
+
+	if not (recipt) then
+		return
+	end
+
+	db.actor:give_game_news(
+		("Трансмутация артефактов"),
+		("Ваш заказ: "..recipt.name..", стоимость: "..recipt.cost.." рублей принят. Ожидайте результата."),
+		news_manager.tips_icons["saharov"],
+		0,
+		15000
+	)
+
+	dialogs.relocate_money_from_actor(a, b, recipt.cost)
+
+	for componentName,componentCount in pairs(recipt.components) do
+		local item = db.actor:object("af_dummy_battery")
+
+		xr_effects.remove_item(nil, nil, { componentName, componentCount })
+
+		local se_item = alife_object(item:id())
+
+		if (se_item) then
+			alife():release(se_item, true)
+		end
+	end
+
+	offeredArtefact = recipt.id
+
+	task_manager.get_task_manager():give_task("yan_stalker_sakharov_take_transmutation_result")
+	utils.save_ctime(db.actor, "yan_stalker_sakharov_take_transmutation_result", game.get_game_time())
+end
+
+function give_player_transmutation_result(a, b)
+	alife():create(offeredArtefact, vector(), 0, 0, 0)
+	news_manager.relocate_item(db.actor, "in", offeredArtefact)
+
+	local tm = task_manager.get_task_manager()
+	local task_info = tm.task_info
+
+	if (task_info and task_info["yan_stalker_sakharov_take_transmutation_result"]) then 
+		tm:set_task_completed("yan_stalker_sakharov_take_transmutation_result")
+	end
+end
+
+
+function actor_has_not_transmutation_result_task(a,b)
+	local tsk = task_manager.get_task_manager().task_info["yan_stalker_sakharov_take_transmutation_result"]
+	return not tsk
+end
+function actor_has_transmutation_result_task_completed(a,b)
+	local tsk = task_manager.get_task_manager().task_info["yan_stalker_sakharov_take_transmutation_result"]
+	return tsk and tsk.stage >= 2
+end
+function actor_dont_has_good_psi_helmet_task_completed(a,b)
+	return not actor_has_transmutation_result_task_completed(a,b)
+end
+
+
+function textinfo(a, b)
+  return sl .. "-" .. (sl + 5) .. " всего " .. smx
+end
+
+function generateDialogText(a, b, sele)
+	if (sele == nil) then
+		return "function generateDialogText, Invalid 'sele' param"
+	end
+	if (type(sele) ~= "number") then
+		return "function generateDialogText, Param 'sele' must be number type"
+	end
+
+	local index = sl + sele
+
+	if (not yantar_transmutation_recipes or not yantar_transmutation_recipes.getRecipts(transmutationLevel)[index]) then
+		return "function generateDialogText, Transmutation recipt doesn't exists under id: '"..index.."'"
+	end
+
+	return yantar_transmutation_recipes.getRecipts(transmutationLevel)[index].name .. " (" .. yantar_transmutation_recipes.getRecipts(transmutationLevel)[index].cost .. " рублей)"
+end
+function txt1(a, b)
+  return generateDialogText(a, b, 1)
+end
+function txt2(a, b)
+  return generateDialogText(a, b, 2)
+end
+function txt3(a, b)
+  return generateDialogText(a, b, 3)
+end
+function txt4(a, b)
+  return generateDialogText(a, b, 4)
+end
+function txt5(a, b)
+  return generateDialogText(a, b, 5)
+end
+
+-- Conditions
+function ch(actor, npc, sele)
+	local recipt = yantar_transmutation_recipes.getRecipts(transmutationLevel)[sl + sele]
+
+  if not (recipt) then
+    return false
+	end
+
+	if (db.actor:money() <= recipt.cost) then
+		return false
+	end
+
+	local actorHaveAllComponents = false
+
+	for componentName,componentCount in pairs(recipt.components) do
+		local componentInActor = db.actor:object(componentName)
+		local componentInActorCount = xr_conditions.actor_has_item_count(db.actor, nil, { componentName, componentCount })
+
+		if (not componentInActor or not componentInActorCount) then
+			return false
+		end
+
+		actorHaveAllComponents = true
+	end
+
+  return actorHaveAllComponents
+end
+function ch1(a, b)
+  return ch(a, b, 1)
+end
+function ch2(a, b)
+  return ch(a, b, 2)
+end
+function ch3(a, b)
+  return ch(a, b, 3)
+end
+function ch4(a, b)
+  return ch(a, b, 4)
+end
+function ch5(a, b)
+  return ch(a, b, 5)
+end
+
+-- Actions
+function sl1(a, b)
+  player_offer_transmutation(a, b, 1)
+end
+function sl2(a, b)
+  player_offer_transmutation(a, b, 2)
+end
+function sl3(a, b)
+  player_offer_transmutation(a, b, 3)
+end
+function sl4(a, b)
+  player_offer_transmutation(a, b, 4)
+end
+function sl5(a, b)
+  player_offer_transmutation(a, b, 5)
+end
+
+
+function prefx(a, npc)
+  sl = sl - 5
+  if (sl < 0) then
+    sl = 0
+	end
+end
+function nextx(a, b)
+  sl = sl + 5
+  if (sl > smx) then
+    sl = sl - 5
+	end
+end
+
+
+function init_dialog(dialog)
+	smx = table.getn(yantar_transmutation_recipes.getRecipts(transmutationLevel))
+	saved_dialog = dialog
+
+	add_dialog("", 0, "yan_stalker_sakharov_transmutation_recipes_actor_0")
+	add_dialog(0, 10, "yan_stalker_sakharov_transmutation_recipes_npc_10")
+
+	add_script_dialog(10, 900, "dialogs_yantar_transmutation.textinfo")
+	add_script_dialog(900, 10, "")
+	
+	add_script_dialog(10, 11, "dialogs_yantar_transmutation.txt1", "dialogs_yantar_transmutation.ch1", "dialogs_yantar_transmutation.sl1")
+	add_script_dialog(10, 12, "dialogs_yantar_transmutation.txt2", "dialogs_yantar_transmutation.ch2", "dialogs_yantar_transmutation.sl2")
+	add_script_dialog(10, 13, "dialogs_yantar_transmutation.txt3", "dialogs_yantar_transmutation.ch3", "dialogs_yantar_transmutation.sl3")
+	add_script_dialog(10, 14, "dialogs_yantar_transmutation.txt4", "dialogs_yantar_transmutation.ch4", "dialogs_yantar_transmutation.sl4")
+	add_script_dialog(10, 15, "dialogs_yantar_transmutation.txt5", "dialogs_yantar_transmutation.ch5", "dialogs_yantar_transmutation.sl5")
+
+	add_dialog(10, 901, "Предыдущие рецепты", nil, "dialogs_yantar_transmutation.prefx")
+	add_dialog(10, 902, "Следующие рецепты", nil, "dialogs_yantar_transmutation.nextx")
+
+	add_dialog(901, 10, "")
+  add_dialog(902, 10, "")
+
+	add_dialog(10, 9999, "yan_stalker_sakharov_transmutation_recipes_actor_14")
+
+	add_dialog(11, 1010, "yan_stalker_sakharov_transmutation_recipes_npc_1110")
+end

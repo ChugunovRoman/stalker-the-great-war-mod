@@ -1,5 +1,5 @@
 ;--------------------------------------------------------------------------------------------------
-; ESCORT ECOGS TASK-
+; escort ecogs task-
 
 [yan_ecolog_semenov_task_1]
 icon = ui_inGame2_PD_Opitniy_stalker
@@ -23,7 +23,7 @@ condlist_1 = {=check_task_stage(yan_ecolog_semenov_task_1:1)} %+yan_ecolog_semen
 
 
 ;--------------------------------------------------------------------------------------------------
-; FIND MUTANT PARTS FOR ECOGS TASK-
+; find mutant parts for ecogs task-
 
 [yan_stalker_sakharov_task_1]
 icon = ui_inGame2_Nochnaya_ohota
@@ -46,7 +46,7 @@ on_complete = %=complete_task_inc_goodwill(50:ecolog) =reward_random_money(3000:
 
 
 ;--------------------------------------------------------------------------------------------------
-; WAIT FOR PSI HELMET CALIBRATION TASK-
+; wait for psi helmet calibration task-
 
 [yan_stalker_sakharov_psi_helmet_upgrade]
 icon = ui_inGame2_PD_Opitniy_stalker
@@ -62,7 +62,23 @@ on_complete = %=erase_pstor_ctime(yan_stalker_sakharov_psi_helmet_upgrade) -yan_
 
 
 ;--------------------------------------------------------------------------------------------------
-; TURN OFF MIRACLE MACHINE TASK-
+; wait for transmutation task
+
+[yan_stalker_sakharov_take_transmutation_result]
+icon = ui_inGame2_PD_Opitniy_stalker
+prior = 20
+storyline = false
+title = yan_stalker_sakharov_take_transmutation_result_name
+descr = yan_stalker_sakharov_take_transmutation_result_description
+status_functor = check_if_enough_time_passed
+status_functor_params = 345600 ;4 days
+target = {=has_task_on_stage(yan_stalker_sakharov_take_transmutation_result:2)} yan_stalker_sakharov
+on_init = %+yan_stalker_sakharov_take_transmutation_result%
+on_complete = %=erase_pstor_ctime(yan_stalker_sakharov_take_transmutation_result) -yan_stalker_sakharov_take_transmutation_result%
+
+
+;--------------------------------------------------------------------------------------------------
+; turn off miracle machine task-
 
 [turn_off_brain_machine]
 icon = ui_iconsTotal_yan_kill_brain_task

@@ -6,14 +6,23 @@
 	<string id="st_af_baloon_name">
 		<text>«Пузырь»</text>
 	</string>
+	<string id="st_af_baloon_2_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_baloon_2_name">
+		<text>«Пузырь 2ого уровня»</text>
+	</string>
+	<string id="st_af_baloon_3_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_baloon_3_name">
+		<text>«Пузырь 3ого уровня»</text>
+	</string>
 	<string id="st_af_blood_descr">
 		<text>Представляет собой красноватое образование из спрессованных и окаменевших остатков растений, почвы и останков животных. Обладает способностью частично нейтрализовать вредные для человека химические вещества. Радиоактивен.</text>
 	</string>
 	<string id="st_af_blood_name">
 		<text>«Кровь камня»</text>
-	</string>
-	<string id="st_af_cristall_descr">
-		<text>Артефакт возникает в аномальных зонах под воздействием высоких температур. Активно поглощает избыточное тепло из пространства вокруг себя, при этом оставаясь прохладным на ощупь. Радиоактивен.</text>
 	</string>
 	<string id="st_af_cristall_flower_descr">
 		<text>Артефакт представляет собой камень, близкий по своим характеристикам к гранитам. Возникает внутри гравитационных полей огромной интенсивности. Способен полностью или частично защищать рассудок владельца от пси-воздействия. Радиоактивен.</text>
@@ -21,14 +30,29 @@
 	<string id="st_af_cristall_flower_name">
 		<text>«Каменный цветок»</text>
 	</string>
+	<string id="st_af_cristall_descr">
+		<text>Артефакт возникает в аномальных зонах под воздействием высоких температур. Активно поглощает избыточное тепло из пространства вокруг себя, при этом оставаясь прохладным на ощупь. Радиоактивен.</text>
+	</string>
 	<string id="st_af_cristall_name">
 		<text>«Кристалл»</text>
+	</string>
+	<string id="st_af_cristall_rock_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_cristall_rock_name">
+		<text>«Кристальный камень»</text>
 	</string>
 	<string id="st_af_dummy_battery_descr">
 		<text>Известно, что в состав этого артефакта входят электростатические элементы, однако в каких именно условиях он формируется, науке пока не известно. Ценится среди жителей и гостей Зоны за способность оказывать на организм человека тонизирующее воздействие. При слишком длительном воздействии истощает организм. Радиоактивен.</text>
 	</string>
 	<string id="st_af_dummy_battery_name">
 		<text>«Батарейка»</text>
+	</string>
+	<string id="st_af_dummy_ext_battery_descr">
+		<text>Улучшенная батарейка была получена в результате трансмутации артефактов «Батарейка» и «Медуза». Артефакт не сильно отличается от классической Батарейки. Отличием является лишь то, что радиоактивное свойство артефакта было подавлено с помощью артефакта «Медуза».</text>
+	</string>
+	<string id="st_af_dummy_ext_battery_name">
+		<text>«Улуч. Батарейка»</text>
 	</string>
 	<string id="st_af_dummy_dummy_descr">
 		<text>Ранее считался хламом, лишённым каких-либо полезных свойств. Однако некоторое время назад выяснилось, что при постоянном контакте с телом человека данный артефакт оказывает позитивное стимулирующее воздействие на нервную систему. Радиоактивен.</text>
@@ -54,6 +78,24 @@
 	<string id="st_af_electra_moonlight_name">
 		<text>«Лунный свет»</text>
 	</string>
+	<string id="st_af_electra_moonlight_2_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_electra_moonlight_2_name">
+		<text>«Лунный свет 2ого уровня»</text>
+	</string>
+	<string id="st_af_electra_moonlight_3_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_electra_moonlight_3_name">
+		<text>«Лунный свет 3ого уровня»</text>
+	</string>
+	<string id="st_af_electra_moonlight_4_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_electra_moonlight_4_name">
+		<text>«Лунный свет 4ого уровня»</text>
+	</string>
 	<string id="st_af_electra_sparkler_descr">
 		<text>Представитель семейства электростатических артефактов, получивший название за свою яркость. Обладает способностью сглаживать перепады напряжённости электрического поля. Радиоактивен.</text>
 	</string>
@@ -78,6 +120,12 @@
 	<string id="st_af_fireball_name">
 		<text>«Огненный шар»</text>
 	</string>
+	<string id="st_af_orb_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_orb_name">
+		<text>«Сфера»</text>
+	</string>
 	<string id="st_af_fuzz_kolobok_descr">
 		<text>Довольно редкий артефакт, образующийся в зонах сильного химического загрязнения. Весьма ценится за способность «подстегнуть» организм так, чтобы тот в считанные минуты восстановился после травм любой степени тяжести. Учёные распространяют информацию о воздействии артефакта на генетический материал владельца; впрочем, подтверждения этому пока нет. Радиоактивен.</text>
 	</string>
@@ -92,6 +140,24 @@
 	</string>
 	<string id="st_af_gold_fish_name">
 		<text>«Золотая рыбка»</text>
+	</string>
+	<string id="st_af_gold_fish_2_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_gold_fish_2_name">
+		<text>«Золотая Рыбка 2ого уровня»</text>
+	</string>
+	<string id="st_af_gold_fish_3_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_gold_fish_3_name">
+		<text>«Золотая Рыбка 3ого уровня»</text>
+	</string>
+	<string id="st_af_gold_fish_4_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_gold_fish_4_name">
+		<text>«Золотая Рыбка 4ого уровня»</text>
 	</string>
 	<string id="st_af_gravi_descr">
 		<text>Артефакт образуется при длительном гравитационном воздействии на металлосодержащие вещества. Способен поддерживать небольшое антигравитационное поле вокруг себя. Многие сталкеры используют его, чтобы значительно уменьшить вес своего рюкзака. Радиоактивен.</text>
@@ -129,11 +195,41 @@
 	<string id="st_af_soul_name">
 		<text>«Душа»</text>
 	</string>
+	<string id="st_af_moon_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_moon_name">
+		<text>«Луна»</text>
+	</string>
+	<string id="st_af_moon_2_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_moon_2_name">
+		<text>«Луна 2ого уровня»</text>
+	</string>
 	<string id="st_af_vyvert_descr">
 		<text>Артефакт причудливой формы, возникающий в местах повышенной гравитационной активности. Представляет собой своего рода губку, которая поглощает радиоактивные элементы. В равной степени успешно защищает своего носителя как от воздействия наведённой радиации, так и от уже попавших в организм радиоактивных частиц.</text>
 	</string>
 	<string id="st_af_vyvert_name">
 		<text>«Выверт»</text>
+	</string>
+	<string id="st_af_sponge_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_sponge_name">
+		<text>«Губка»</text>
+	</string>
+	<string id="st_af_sponge_2_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_sponge_2_name">
+		<text>«Губка 2ого уровня»</text>
+	</string>
+	<string id="st_af_sponge_3_descr">
+		<text>Неизвестный артефакт.</text>
+	</string>
+	<string id="st_af_sponge_3_name">
+		<text>«Губка 3ого уровня»</text>
 	</string>
 	<string id="st_compass">
 		<text>«Компас»</text>
@@ -162,7 +258,7 @@
 	<string id="st_af_glass_descr">
 		<text>«Светляк» работает с недоступными науке полями, ускоряя регенерацию тканей и органов живых существ, а также нормализуя метаболические процессы. Способен буквально на глазах поставить на ноги человека с тяжёлыми ранениями. К сожалению, встречается этот артефакт крайне редко. Радиоактивен.</text>
 	</string>
-<string id="af_drops">
+	<string id="af_drops">
 		<text>«Капля»</text>
 	</string>
 	<string id="st_af-drops_descr">
@@ -210,7 +306,7 @@
 	<string id="st_af_rusty_kristall_descr">
 		<text>Кристаллизируется в аномалии «Ржавые волосы». Выводит радиацию из организма естественным путём. То есть, через уши вместе с некоторым количеством крови. Возможна потеря крови и через другие отверстия. Попадается нечасто и довольно эффективен, чем заслужил себе стабильную цену на рынке артефактов.</text>
 	</string>
-		<string id="af_rusty_sea_urchin">
+	<string id="af_rusty_sea_urchin">
 		<text>«Морской Ёж»</text>
 	</string>
 	<string id="st_af_rusty_sea_urchin_descr">

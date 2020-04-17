@@ -1,0 +1,40 @@
+function getRecipts(level)
+	if (level == nil) then
+		return "function getRecipts, Invalid 'level' param"
+	end
+	if (type(level) ~= "number") then
+		return "function getRecipts, Param 'level' must be number type"
+	end
+
+	local tableRecipes = {
+		{
+			id = "af_dummy_ext_battery",
+			name = "Улуч. Батарейка",
+			cost = 15000,
+			components = {
+				af_dummy_battery = 1,
+				af_medusa = 1,
+			}
+		},
+		{
+			id = "af_electra_moonlight_2",
+			name = "Лунный свет 2ого уровня",
+			cost = 19500,
+			components = {
+				af_cristall_flower = 1,
+				af_electra_moonlight = 1,
+			}
+		},
+		{
+			id = "af_cristall_rock",
+			name = "Кристальный камень",
+			cost = 22300,
+			components = {
+				af_blood = 1,
+				af_cristall = 1,
+			}
+		}
+	}
+
+	return tableRecipes
+end

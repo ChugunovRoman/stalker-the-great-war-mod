@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
-	<!-- ESCORT ECOGS TASK -->
+	<!-- escort ecogs task -->
 	<string id="yan_ecolog_semenov_task_1_name">
 		<text>Помочь профессору Семёнову</text>
 	</string>
@@ -15,7 +15,7 @@
 	</string>
 
 
-	<!-- FIND MUTANT PARTS FOR ECOGS TASK -->
+	<!-- find mutant parts for ecogs task -->
 	<string id="yan_stalker_sakharov_task_1_name">
 		<text>Принести часть тела монстра: %s</text>
 	</string>
@@ -30,7 +30,7 @@
 	</string>
 
 
-	<!-- WAIT FOR PSI HELMET CALIBRATION TASK -->
+	<!-- wait for psi helmet calibration task -->
 	<string id="yan_stalker_sakharov_psi_helmet_upgrade_name">
 		<text>Забрать пси-шлем</text>
 	</string>
@@ -38,8 +38,16 @@
 		<text>Профессор Сахаров согласился настроить пси-шлем. Он попросил вернуться за ним через несколько дней.</text>
 	</string>
 
+	<!-- wait for transmutation task -->
+	<string id="yan_stalker_sakharov_take_transmutation_result_name">
+		<text>Забрать результаты трансмутации.</text>
+	</string>
+	<string id="yan_stalker_sakharov_take_transmutation_result_description">
+		<text>Профессор Сахаров сделал трансмутацию артефактов. Он попросил вернуться за результатом через несколько дней.</text>
+	</string>
 
-	<!-- TURN OFF MIRACLE MACHINE TASK -->
+
+	<!-- turn off miracle machine task -->
 	<string id="brain_machine_deactivate_name">
 		<text>Отключить пси-установку на Янтаре</text>
 	</string>

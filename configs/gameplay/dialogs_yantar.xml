@@ -275,4 +275,43 @@
             </phrase>
         </phrase_list>
     </dialog>
+
+    <dialog id="yan_stalker_sakharov_transmutation">
+        <dont_has_info>yan_stalker_sakharov_actor_asked_transmutation</dont_has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>yan_stalker_sakharov_transmutation_actor_0</text>
+                <next>10</next>
+            </phrase>
+            <phrase id="10">
+                <text>yan_stalker_sakharov_transmutation_npc_10</text>
+                <next>11</next>
+            </phrase>
+            <phrase id="11">
+                <text>yan_stalker_sakharov_transmutation_actor_11</text>
+                <give_info>yan_stalker_sakharov_actor_asked_transmutation</give_info>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <dialog id="yan_stalker_sakharov_transmutation_recipes">
+        <precondition>dialogs_yantar_transmutation.actor_has_not_transmutation_result_task</precondition>
+        <has_info>yan_stalker_sakharov_actor_asked_transmutation</has_info>
+        <init_func>dialogs_yantar_transmutation.init_dialog</init_func>
+    </dialog>
+
+    <dialog id="yan_stalker_sakharov_transmutation_recipes_is_completed">
+        <precondition>dialogs_yantar_transmutation.actor_has_transmutation_result_task_completed</precondition>
+        <has_info>yan_stalker_sakharov_actor_asked_transmutation</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>yan_stalker_sakharov_transmutation_recipes_is_completed_actor_0</text>
+                <next>10</next>
+            </phrase>
+            <phrase id="10">
+                <text>yan_stalker_sakharov_transmutation_recipes_is_completed_npc_10</text>
+                <action>dialogs_yantar_transmutation.give_player_transmutation_result</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
 </game_dialogs>

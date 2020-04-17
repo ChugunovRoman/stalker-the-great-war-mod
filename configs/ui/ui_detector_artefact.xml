@@ -51,7 +51,7 @@
     <palette id="zone_buzz_strong" width="0.004" height="0.004" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_acid_big</texture>
     </palette>
-<!--
+    <!--
     <palette id="zone_mine_acidic_big" width="0.03" height="0.03" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_acid_big</texture>
     </palette>
@@ -95,7 +95,7 @@
     <palette id="zone_mine_gravitational_weak" width="0.006" height="0.006" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_gravity_big</texture>
     </palette>
-<!--
+    <!--
     <palette id="zone_mine_gravitational_big" width="0.032" height="0.032" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_gravity_big</texture>
     </palette>
@@ -134,8 +134,8 @@
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_fire_big</texture>
     </palette>
 
-	
-	<palette id="zone_mosquito_bald" width="0.004" height="0.004" stretch="1" alignment="c">
+
+    <palette id="zone_mosquito_bald" width="0.004" height="0.004" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_fire_big</texture>
     </palette>
     <palette id="zone_mosquito_bald_weak" width="0.004" height="0.004" stretch="1" alignment="c">
@@ -153,7 +153,7 @@
     <palette id="zone_mosquito_bald_strong_noart" width="0.004" height="0.004" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_fire_big</texture>
     </palette>
-<!--
+    <!--
     <palette id="zone_mine_acidic_weak" width="0.0065" height="0.0065" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_temp_ad4_mine_acidic</texture>
     </palette>
@@ -433,34 +433,84 @@
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
 
-	<palette id="af_drops" width="0.003" height="0.003" stretch="1" alignment="c">
+    <palette id="af_drops" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
-	<palette id="af_ameba_slime" width="0.003" height="0.003" stretch="1" alignment="c">
+    <palette id="af_ameba_slime" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
-	<palette id="af_ameba_slug" width="0.003" height="0.003" stretch="1" alignment="c">
+    <palette id="af_ameba_slug" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
-	<palette id="af_ameba_mica" width="0.003" height="0.003" stretch="1" alignment="c">
+    <palette id="af_ameba_mica" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
-	<palette id="af_dummy_spring" width="0.003" height="0.003" stretch="1" alignment="c">
+    <palette id="af_dummy_spring" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
-	<palette id="af_dummy_pellicle" width="0.003" height="0.003" stretch="1" alignment="c">
+    <palette id="af_dummy_pellicle" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
-	<palette id="af_rusty_thorn" width="0.003" height="0.003" stretch="1" alignment="c">
+    <palette id="af_rusty_thorn" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
-	<palette id="af_rusty_kristall" width="0.003" height="0.003" stretch="1" alignment="c">
+    <palette id="af_rusty_kristall" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
-	<palette id="af_rusty_sea" width="0.003" height="0.003" stretch="1" alignment="c">
+    <palette id="af_rusty_sea" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
-	<palette id="af_compass" width="0.003" height="0.003" stretch="1" alignment="c">
+    <palette id="af_compass" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+
+    <!-- transmutation artefact -->
+    <palette id="af_dummy_ext_battery" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_sponge" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_sponge_2" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_sponge_3" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_baloon_2" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_baloon_3" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_gold_fish_2" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_gold_fish_3" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_gold_fish_4" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_cristall_rock" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_orb" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_moon" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_moon_2" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_electra_moonlight_2" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_electra_moonlight_3" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_electra_moonlight_4" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
   </scientific>
