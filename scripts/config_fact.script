@@ -1,1 +1,1 @@
-respawnfactions = true --- респ фракций
+respawnfactions = axr_main.config:r_value("mm_options","enable_respawn_factions",1,false) --- респ фракций

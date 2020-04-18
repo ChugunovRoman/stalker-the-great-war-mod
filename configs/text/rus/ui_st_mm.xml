@@ -62,7 +62,7 @@
 	</string>
 	<string id="renderer_r4">
 		<text>DirectX 11 (Улучшенный)</text>
- 	</string>
+	</string>
 	<string id="st_opt_high">
 		<text>Высоко</text>
 	</string>
@@ -132,9 +132,9 @@
 	<string id="ui_mm_detail_density">
 		<text>Плотность травы</text>
 	</string>
-    	<string id="ui_mm_detail_radius">
-	    <text>Дальность прорисовки травы</text>
-   	</string>
+	<string id="ui_mm_detail_radius">
+		<text>Дальность прорисовки травы</text>
+	</string>
 	<string id="ui_mm_difficulty">
 		<text>Сложность</text>
 	</string>
@@ -270,9 +270,9 @@
 	<string id="ui_mm_r2_sun_details">
 		<text>Тень травы</text>
 	</string>
-    	<string id="ui_mm_r__actor_shadow">
-    		<text>Тень от игрока</text>
-    	</string>
+	<string id="ui_mm_r__actor_shadow">
+		<text>Тень от игрока</text>
+	</string>
 	<string id="ui_mm_r2_sun_quality">
 		<text>Качество солнца</text>
 	</string>
@@ -463,9 +463,9 @@
 	<string id="ui_mm_sleep_deprived">
 		<text>Потребность во сне</text>
 	</string>
-    <string id="ui_mm_excl_dist">
-        <text>Радиус исключения спавна</text>
-    </string>
+	<string id="ui_mm_excl_dist">
+		<text>Радиус исключения спавна</text>
+	</string>
 	<string id="ui_mm_char_portrait">
 		<text>Портрет по-умолчанию</text>
 	</string>
@@ -504,6 +504,9 @@
 	</string>
 	<string id="ui_mm_release_dropped_items">
 		<text>Удалять выброшенные вещи</text>
+	</string>
+	<string id="ui_mm_respawn_factions">
+		<text>Будут ли возраждаться фракции</text>
 	</string>
 	<string id="ui_mm_hardcore_ai_aim">
 		<text>Меткие НПС</text>

@@ -50,6 +50,8 @@ function opt_menu_on_init(menu)
 	}	
 	-- release dropped items 
 	menu.gameplay_options["release_dropped_items"]	= {default=true, 	debug_only=false, 	typ="check"}
+	-- release dropped items 
+	menu.gameplay_options["respawn_factions"]	= {default=true, 	debug_only=false, 	typ="check"}
 	-- radio_mod
 	menu.gameplay_options["radio_mod"]			= {default=true, 	debug_only=false, 	typ="check"}
 	-- mechanic_feature

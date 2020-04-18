@@ -505,6 +505,9 @@
 	<string id="ui_mm_release_dropped_items">
 		<text>Remove dropped items</text>
 	</string>
+	<string id="ui_mm_respawn_factions">
+		<text>Will factions be respawns</text>
+	</string>
 	<string id="ui_mm_hardcore_ai_aim">
 		<text>Hardcore AI aim</text>
 	</string>
