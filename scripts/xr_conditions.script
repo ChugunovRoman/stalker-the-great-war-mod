@@ -2964,3 +2964,45 @@ end
 function get_start_time_elapsed_ge(actor,npc,p)
 	return p[1] and tonumber(game.get_game_time():diffSec(level.get_start_time())) >= tonumber(p[1])
 end
+
+function actor_has_artefacts_for_find_transmutation_artefacts_task(a, b)
+	return
+		actor_has_item_count(db.actor, nil, { "af_cristall_flower", 6 }) and
+		actor_has_item_count(db.actor, nil, { "af_dummy_battery", 5	 }) and
+		actor_has_item_count(db.actor, nil, { "af_fuzz_kolobok", 3	 }) and
+		actor_has_item_count(db.actor, nil, { "af_mincer_meat", 3	 }) and
+		actor_has_item_count(db.actor, nil, { "af_dummy_glassbeads", 2	 }) and
+		actor_has_item_count(db.actor, nil, { "af_ice", 2	 }) and
+		actor_has_item_count(db.actor, nil, { "af_electra_sparkler", 2	 }) and
+		actor_has_item_count(db.actor, nil, { "af_baloon", 2	 }) and
+		actor_has_item_count(db.actor, nil, { "af_gold_fish", 2	 }) and
+		actor_has_item_count(db.actor, nil, { "af_electra_moonlight", 2	 }) and
+		actor_has_item_count(db.actor, nil, { "af_fire", 1	 }) and
+		actor_has_item_count(db.actor, nil, { "af_glass", 1	 })
+end
+function actor_has_artefacts_for_find_transmutation_artefacts_task_2(a, b)
+	return
+		actor_has_item_count(db.actor, nil, { "jup_b1_half_artifact", 2 }) and
+		actor_has_item_count(db.actor, nil, { "af_quest_b14_twisted", 2	 }) and
+		actor_has_item_count(db.actor, nil, { "af_oasis_heart", 1	 }) and
+		actor_has_item_count(db.actor, nil, { "af_compass", 1	 })
+end
+
+function actor_has_all_artefacts_for_find_transmutation_artefacts_task(actor,npc)
+	local tsk = task_manager.get_task_manager().task_info["yan_stalker_sakharov_find_transmutation_artefacts"]
+
+	if (tsk) then 
+		return tsk.stage == 1
+	end
+
+	return false
+end
+function actor_has_all_artefacts_for_find_transmutation_artefacts_task_2(actor,npc)
+	local tsk = task_manager.get_task_manager().task_info["yan_stalker_sakharov_find_transmutation_artefacts_2_2"]
+
+	if (tsk) then 
+		return tsk.stage == 1
+	end
+
+	return false
+end

@@ -147,13 +147,13 @@ description                              = st_af_baloon_2_descr
 inv_name                                 = st_af_baloon_2_name
 inv_name_short                           = st_af_baloon_2_name
 
-cost                                     = 34000
+cost                                     = 46000
 
 af_rank                                  = 3
 
 ;скорости увеличения (уменьшения)
 health_restore_speed                     = 0
-radiation_restore_speed                  = -0.018
+radiation_restore_speed                  = -0.010
 satiety_restore_speed                    = 0
 power_restore_speed                      = 0
 bleeding_restore_speed                   = 0
@@ -182,13 +182,13 @@ description                              = st_af_baloon_3_descr
 inv_name                                 = st_af_baloon_3_name
 inv_name_short                           = st_af_baloon_3_name
 
-cost                                     = 49000
+cost                                     = 79000
 
 af_rank                                  = 3
 
 ;скорости увеличения (уменьшения)
 health_restore_speed                     = 0
-radiation_restore_speed                  = -0.036
+radiation_restore_speed                  = -0.018
 satiety_restore_speed                    = 0
 power_restore_speed                      = 0
 bleeding_restore_speed                   = 0
@@ -199,6 +199,41 @@ additional_inventory_weight2             = 0
 hit_absorbation_sect                     = af_baloon_3_absorbation
 
 [af_baloon_3_absorbation]
+burn_immunity                            = 0	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Пузырь 4ого уровня»
+;--------------------------------------------------------------------------------
+[af_baloon_4]:af_baloon
+description                              = st_af_baloon_4_descr
+inv_name                                 = st_af_baloon_4_name
+inv_name_short                           = st_af_baloon_4_name
+
+cost                                     = 96000
+
+af_rank                                  = 3
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = -0.026
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_baloon_4_absorbation
+
+[af_baloon_4_absorbation]
 burn_immunity                            = 0	                                       ;коэффициенты иммунитета
 strike_immunity                          = 0
 shock_immunity                           = 0
@@ -557,4 +592,109 @@ radiation_immunity                       = 0
 telepatic_immunity                       = 0.134
 chemical_burn_immunity                   = 0
 explosion_immunity                       = 0
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Огненный шар 2ого уровня»
+;--------------------------------------------------------------------------------
+[af_fireball_2]:af_fireball
+description                              = st_af_fireball_2_descr
+inv_name                                 = st_af_fireball_2_name
+inv_name_short                           = st_af_fireball_2_name
+
+cost                                     = 16000
+
+af_rank                                  = 3
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.006
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_fireball_2_absorbation
+
+[af_fireball_2_absorbation]
+burn_immunity                            = 0.09	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0.1
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Огненный шар 3ого уровня»
+;--------------------------------------------------------------------------------
+[af_fireball_3]:af_fireball
+description                              = st_af_fireball_3_descr
+inv_name                                 = st_af_fireball_3_name
+inv_name_short                           = st_af_fireball_3_name
+
+cost                                     = 32000
+
+af_rank                                  = 3
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.012
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0.002
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_fireball_3_absorbation
+
+[af_fireball_3_absorbation]
+burn_immunity                            = 0.146	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0.14
+fire_wound_immunity                      = 0
+
+;--------------------------------------------------------------------------------
+; «Огненный шар 4ого уровня»
+;--------------------------------------------------------------------------------
+[af_fireball_4]:af_fireball
+description                              = st_af_fireball_4_descr
+inv_name                                 = st_af_fireball_4_name
+inv_name_short                           = st_af_fireball_4_name
+
+cost                                     = 56000
+
+af_rank                                  = 3
+
+;скорости увеличения (уменьшения)
+health_restore_speed                     = 0
+radiation_restore_speed                  = 0.014
+satiety_restore_speed                    = 0
+power_restore_speed                      = 0
+bleeding_restore_speed                   = 0.008
+
+additional_inventory_weight              = 0
+additional_inventory_weight2             = 0
+
+hit_absorbation_sect                     = af_fireball_4_absorbation
+
+[af_fireball_4_absorbation]
+burn_immunity                            = 0.32	                                       ;коэффициенты иммунитета
+strike_immunity                          = 0
+shock_immunity                           = 0
+wound_immunity                           = 0
+radiation_immunity                       = 0
+telepatic_immunity                       = 0
+chemical_burn_immunity                   = 0
+explosion_immunity                       = 0.3
 fire_wound_immunity                      = 0

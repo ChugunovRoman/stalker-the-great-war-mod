@@ -46,6 +46,40 @@
 		<text>Профессор Сахаров сделал трансмутацию артефактов. Он попросил вернуться за результатом через несколько дней.</text>
 	</string>
 
+	<!-- first quest on find to artefacts -->
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_name_0">
+		<text>Найти артефакты для проф. Сахарова.</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_name_1">
+		<text>Вернуться к проф. Сахарову.</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_description_0">
+		<text>Профессор Сахаров дал задание на поиск артефактов: Каменный цветок 6шт, Батарейка 5шт, Пустышка 5шт, Медуза 5шт, Колобок 3шт, Ломоть мяса 3шт, Мамины бусы 2шт, Снежинка 2шт, Бенгальский огонь 2шт, Пузырь 2шт, Золотая рыбка 2шт, Лунный свет 2шт, Пламя 1шт, Светляк 1шт.</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_description_1">
+		<text>Все артефакты собраны. Нужно возвращаться в профессору.</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_2_1_name">
+		<text>Вернуться к проф. Сахарову.</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_2_1_description">
+		<text>Еще одно задание - еще одна возможность подзаработать. Возможно, будет еще что-то полезное...</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_2_2_name_1">
+		<text>Вернуться к проф. Сахарову.</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_2_2_name_0">
+		<text>Найти артефакты для проф. Сахарова.</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_2_2_description_1">
+		<text>Все артефакты собраны. Нужно возвращаться в профессору.</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_2_2_description_0">
+		<text>Профессор Сахаров опять дал задание на поиск артефактов: Изменённый штурвал 2шт, Изменённый изолятор 2шт, Сердце Оазиса 1шт и Компас 1шт.</text>
+	</string>
+
 
 	<!-- turn off miracle machine task -->
 	<string id="brain_machine_deactivate_name">

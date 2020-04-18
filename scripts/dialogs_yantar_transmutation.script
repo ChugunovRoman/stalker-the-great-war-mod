@@ -4,9 +4,43 @@ function on_game_start()
 end
 
 local sl = 0
-local smx = 0
+local availableReciptMax = 0
 local offeredArtefact = ""
-local transmutationLevel = 0
+transmutationLevel = 0
+
+local arts = {
+	["af_fuzz_kolobok"] = "Колобок",
+	["af_dummy_battery"] = "Батарейка",
+	["af_medusa"] = "Медуза",
+	["af_cristall_flower"] = "Каменный цветок",
+	["af_electra_moonlight"] = "Лунный свет",
+	["af_blood"] = "Кровь камня",
+	["af_cristall"] = "Кристалл",
+	["af_ice"] = "Снежинка",
+	["af_dummy_dummy"] = "Пустышка",
+	["af_sponge"] = "Губка",
+	["af_baloon"] = "Пузырь",
+	["af_cristall_rock"] = "Кристальный камень",
+	["af_fireball"] = "Огненный шар",
+	["af_gold_fish"] = "Золотая рыбка",
+	["af_gravi"] = "Грави",
+	["af_gold_fish_2"] = "Золотая Рыбка 2ого уровня",
+	["af_vyvert"] = "Выверт",
+	["af_dummy_glassbeads"] = "Мамины бусы",
+	["af_ameba_slime"] = "Слизь",
+	["af_soul"] = "Душа",
+	["af_electra_moonlight_2"] = "Лунный свет 2ого уровня",
+	["af_sponge_2"] = "Губка 2ого уровня",
+	["af_gold_fish_3"] = "Золотая Рыбка 3ого уровня",
+	["jup_b1_half_artifact"] = "Изменённый изолятор",
+	["af_electra_moonlight_3"] = "Лунный свет 3ого уровня",
+	["af_baloon_2"] = "Пузырь 2ого уровня",
+	["af_moon"] = "Луна",
+	["af_fireball_3"] = "Огненный шар 3ого уровня",
+	["af_fireball_2"] = "Огненный шар 2ого уровня",
+	["af_rusty_thorn"] = "Колючка",
+	["af_fire"] = "Пламя",
+}
 
 local saved_dialog
 function add_dialog(p_id, id, phrase_id, cond, act)
@@ -110,7 +144,7 @@ function player_offer_transmutation(a, b, sele)
 	dialogs.relocate_money_from_actor(a, b, recipt.cost)
 
 	for componentName,componentCount in pairs(recipt.components) do
-		local item = db.actor:object("af_dummy_battery")
+		local item = db.actor:object(componentName)
 
 		xr_effects.remove_item(nil, nil, { componentName, componentCount })
 
@@ -148,15 +182,53 @@ function actor_has_transmutation_result_task_completed(a,b)
 	local tsk = task_manager.get_task_manager().task_info["yan_stalker_sakharov_take_transmutation_result"]
 	return tsk and tsk.stage >= 2
 end
-function actor_dont_has_good_psi_helmet_task_completed(a,b)
-	return not actor_has_transmutation_result_task_completed(a,b)
-end
 
 
 function textinfo(a, b)
-  return sl .. "-" .. (sl + 5) .. " всего " .. smx
+  return sl .. "-" .. (sl + 5) .. " всего " .. availableReciptMax
 end
 
+
+function get_available_recipts_text()
+	local reciptList = yantar_transmutation_recipes.getRecipts(transmutationLevel)
+
+  if not (reciptList) then
+    return ""
+	end
+
+	local availableReciptText = "На данный момент доступны следующие рецепты:"
+
+	for reciptIndex,recipt in pairs(reciptList) do
+		local components = ""
+		local componentsNotEnought = false
+
+		for artefactSection,artefactCount in pairs(recipt.components) do
+			components = components..arts[artefactSection]
+			local componentInActorCount = xr_conditions.actor_has_item_count(db.actor, nil, { artefactSection, artefactCount })
+
+			if not (componentInActorCount) then
+				componentsNotEnought = true
+			end
+
+			if artefactCount > 1 then
+				components = components.." "..artefactCount.."шт"
+			end
+
+			components = components.." + "
+		end
+
+		components = string.sub(components, 0, string.len(components) - 3)
+		components = components .. " = " .. recipt.name .. " (" .. recipt.cost .. " рублей)"
+
+		if (componentsNotEnought) then
+			components = components .. " %c[0,245,245,220](Нет нужных артефактов в инвентаре)\\n%c[default]"
+		end
+
+		availableReciptText = availableReciptText .. "\\n" .. components
+	end
+
+	return availableReciptText
+end
 function generateDialogText(a, b, sele)
 	if (sele == nil) then
 		return "function generateDialogText, Invalid 'sele' param"
@@ -258,18 +330,18 @@ function prefx(a, npc)
 end
 function nextx(a, b)
   sl = sl + 5
-  if (sl > smx) then
+  if (sl > availableReciptMax) then
     sl = sl - 5
 	end
 end
 
 
 function init_dialog(dialog)
-	smx = table.getn(yantar_transmutation_recipes.getRecipts(transmutationLevel))
+	availableReciptMax = table.getn(yantar_transmutation_recipes.getRecipts(transmutationLevel))
 	saved_dialog = dialog
 
 	add_dialog("", 0, "yan_stalker_sakharov_transmutation_recipes_actor_0")
-	add_dialog(0, 10, "yan_stalker_sakharov_transmutation_recipes_npc_10")
+	add_script_dialog(0, 10, "dialogs_yantar_transmutation.get_available_recipts_text")
 
 	add_script_dialog(10, 900, "dialogs_yantar_transmutation.textinfo")
 	add_script_dialog(900, 10, "")

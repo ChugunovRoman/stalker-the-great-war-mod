@@ -314,4 +314,98 @@
             </phrase>
         </phrase_list>
     </dialog>
+
+    <dialog id="yan_stalker_sakharov_find_transmutation_artefacts_task">
+        <precondition>dialogs_yantar_transmutation_tasks.actor_has_not_find_transmutation_artefacts_task</precondition>
+        <dont_has_info>yan_stalker_sakharov_find_transmutation_artefacts_quest_complete</dont_has_info>
+        <has_info>yan_stalker_sakharov_actor_asked_transmutation</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_task_actor_0</text>
+                <next>10</next>
+            </phrase>
+            <phrase id="10">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_npc_10</text>
+                <next>11</next>
+                <next>12</next>
+            </phrase>
+            <phrase id="11">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_task_actoc_11</text>
+                <next>1110</next>
+            </phrase>
+            <phrase id="12">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_task_actoc_12</text>
+            </phrase>
+
+            <phrase id="1110">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_npc_1110</text>
+                <action>dialogs_yantar_transmutation_tasks.give_actor_find_transmutation_artefacts_task</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="yan_stalker_sakharov_find_transmutation_artefacts_task_complete">
+        <precondition>dialogs_yantar_transmutation_tasks.actor_has_find_transmutation_artefacts_task_completed</precondition>
+        <dont_has_info>yan_stalker_sakharov_find_transmutation_artefacts_quest_complete</dont_has_info>
+        <has_info>yan_stalker_sakharov_actor_asked_transmutation</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_task_complete_actor_0</text>
+                <next>10</next>
+            </phrase>
+            <phrase id="10">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_task_complete_npc_10</text>
+                <give_info>yan_stalker_sakharov_find_transmutation_artefacts_quest_complete</give_info>
+                <action>dialogs_yantar_transmutation_tasks.give_actor_find_transmutation_artefacts_task_on_complete</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+
+    <dialog id="yan_stalker_sakharov_find_transmutation_artefacts_task_2">
+        <precondition>dialogs_yantar_transmutation_tasks.actor_has_find_transmutation_artefacts_task_2_1_active</precondition>
+        <dont_has_info>yan_stalker_sakharov_find_transmutation_artefacts_task_2_quest_complete</dont_has_info>
+        <has_info>yan_stalker_sakharov_find_transmutation_artefacts_quest_complete</has_info>
+        <has_info>yan_stalker_sakharov_actor_asked_transmutation</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_task_2_actor_0</text>
+                <next>10</next>
+            </phrase>
+            <phrase id="10">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_task_2_npc_10</text>
+                <next>11</next>
+                <next>12</next>
+            </phrase>
+            <phrase id="11">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_task_2_actor_11</text>
+                <give_info>yan_stalker_sakharov_find_transmutation_artefacts_task_2_quest_complete</give_info>
+                <action>dialogs_yantar_transmutation_tasks.give_actor_find_transmutation_artefacts_task_2_1_on_complete</action>
+                <action>dialogs_yantar_transmutation_tasks.give_actor_find_transmutation_artefacts_task_2_2</action>
+                <next>1110</next>
+            </phrase>
+            <phrase id="1110">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_task_2_npc_1110</text>
+            </phrase>
+
+            <phrase id="12">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_task_2_actor_12</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="yan_stalker_sakharov_find_transmutation_artefacts_task_2_complete">
+        <precondition>dialogs_yantar_transmutation_tasks.actor_find_transmutation_artefacts_task_2_2_is_complete</precondition>
+        <dont_has_info>yan_stalker_sakharov_find_transmutation_artefacts_task_2_2_quest_complete</dont_has_info>
+        <has_info>yan_stalker_sakharov_find_transmutation_artefacts_task_2_quest_complete</has_info>
+        <has_info>yan_stalker_sakharov_actor_asked_transmutation</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_task_complete_actor_0</text>
+                <next>10</next>
+            </phrase>
+            <phrase id="10">
+                <text>yan_stalker_sakharov_find_transmutation_artefacts_task_complete_npc_10</text>
+                <give_info>yan_stalker_sakharov_find_transmutation_artefacts_task_2_2_quest_complete</give_info>
+                <action>dialogs_yantar_transmutation_tasks.actor_find_transmutation_artefacts_task_2_2_on_complete</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
 </game_dialogs>

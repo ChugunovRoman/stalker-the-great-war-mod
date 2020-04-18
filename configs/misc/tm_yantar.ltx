@@ -76,6 +76,44 @@ target = {=has_task_on_stage(yan_stalker_sakharov_take_transmutation_result:2)} 
 on_init = %+yan_stalker_sakharov_take_transmutation_result%
 on_complete = %=erase_pstor_ctime(yan_stalker_sakharov_take_transmutation_result) -yan_stalker_sakharov_take_transmutation_result%
 
+;--------------------------------------------------------------------------------------------------
+; first quest on find to artefacts
+
+[yan_stalker_sakharov_find_transmutation_artefacts]
+icon = ui_inGame2_PD_Opitniy_stalker
+prior = 75
+storyline = false
+title = {=actor_has_artefacts_for_find_transmutation_artefacts_task()} yan_stalker_sakharov_find_transmutation_artefacts_name_1, yan_stalker_sakharov_find_transmutation_artefacts_name_0
+descr = {=actor_has_artefacts_for_find_transmutation_artefacts_task()} yan_stalker_sakharov_find_transmutation_artefacts_description_1, yan_stalker_sakharov_find_transmutation_artefacts_description_0
+target = {=actor_has_artefacts_for_find_transmutation_artefacts_task() =actor_has_all_artefacts_for_find_transmutation_artefacts_task()} yan_stalker_sakharov, nil
+precondition = true
+on_complete = %=reward_stash(true) =inc_task_stage(yan_stalker_sakharov_find_transmutation_artefacts)%
+reward_item = ammo_9x39_ap:ammo_9x39_ap:ammo_9x39_ap:ammo_5.56x45_ap:ammo_5.56x45_ap
+
+;--------------------------------------------------------------------------------------------------
+; first quest on find to artefacts
+
+[yan_stalker_sakharov_find_transmutation_artefacts_2_1]
+icon = ui_iconsNpc_ucheniy_2
+prior = 75
+storyline = false
+title =  yan_stalker_sakharov_find_transmutation_artefacts_2_1_name
+descr = yan_stalker_sakharov_find_transmutation_artefacts_2_1_description
+target = yan_stalker_sakharov
+precondition = true
+on_complete = %=inc_task_stage(yan_stalker_sakharov_find_transmutation_artefacts_2_1)%
+
+[yan_stalker_sakharov_find_transmutation_artefacts_2_2]
+icon = ui_inGame2_PD_Opitniy_stalker
+prior = 75
+storyline = false
+title = {=actor_has_artefacts_for_find_transmutation_artefacts_task_2()} yan_stalker_sakharov_find_transmutation_artefacts_2_2_name_1, yan_stalker_sakharov_find_transmutation_artefacts_2_2_name_0
+descr = {=actor_has_artefacts_for_find_transmutation_artefacts_task_2()} yan_stalker_sakharov_find_transmutation_artefacts_2_2_description_1, yan_stalker_sakharov_find_transmutation_artefacts_2_2_description_0
+target = {=actor_has_artefacts_for_find_transmutation_artefacts_task_2() =actor_has_all_artefacts_for_find_transmutation_artefacts_task_2()} yan_stalker_sakharov, nil
+precondition = true
+on_complete = %=reward_stash(true) =inc_task_stage(yan_stalker_sakharov_find_transmutation_artefacts_2_2)%
+reward_item = bandage:bandage:bandage:bandage:bandage:medkit_scientic:medkit_scientic:medkit_scientic:itm_gunsmith_toolkit
+
 
 ;--------------------------------------------------------------------------------------------------
 ; turn off miracle machine task-

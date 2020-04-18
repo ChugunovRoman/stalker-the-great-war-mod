@@ -151,4 +151,45 @@
 		<text>Все готово, забирайте.</text>
 	</string>
 	<!-- transmutation recipes dialogs end -->
+
+	<!-- transmutation find artefacts quest start -->
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_task_actor_0">
+		<text>Какие аномальные образования вас интересуют?</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_npc_10">
+		<text>Для исследований мне необходимо:\nКаменный цветок 6шт, Батарейка 5шт, Пустышка 5шт, Медуза 5шт, Колобок 3шт, Ломоть мяса 3шт, Мамины бусы 2шт, Снежинка 2шт, Бенгальский огонь 2шт, Пузырь 2шт, Золотая рыбка 2шт, Лунный свет 2шт, Плямя 1шт, Светляк 1шт.\nВам не обязательно сразу бежать искать аномальные образования, я могу подождать. Беретесь?</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_task_actoc_11">
+		<text>Берусь.</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_task_actoc_12">
+		<text>Я подумаю.</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_npc_1110">
+		<text>Отлично! Я как обычно будут ждать вас здесь. Удачи!</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_task_complete_actor_0">
+		<text>Я принес все необходимые артефакты, профессор.</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_task_complete_npc_10">
+		<text>Какая замечательная новость. Наконец-то я опять могу приступить к долгожданным исследованиям аномальных образований. Примите мою благодарность и награду за ваш труд!</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_task_2_actor_0">
+		<text>Здравствуйте профессор, что у вас?</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_task_2_npc_10">
+		<text>В процессе недавних исследований я выяснил, что мне не хватало еще некоторых артефактов. Сначала я не стал включать их в список, посчитав что от них не будет толка, но теперь понять что скорее всего ошибся. Молодой человек, Вы не могли бы мне принести следующие артефакты: Изменённый штурвал 2шт, Изменённый изолятор 2шт, Сердце Оазиса и Компас.\nНаградой я Вас не обижу. Беретесь?</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_task_2_actor_11">
+		<text>Да, без проблем!</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_task_2_npc_1110">
+		<text>Как замечательно. Буду ждать результатов. Удачи!</text>
+	</string>
+	<string id="yan_stalker_sakharov_find_transmutation_artefacts_task_2_actor_12">
+		<text>Я подумаю.</text>
+	</string>
+	<!-- transmutation find artefacts quest end -->
 </string_table>

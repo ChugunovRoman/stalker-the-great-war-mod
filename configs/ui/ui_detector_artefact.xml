@@ -483,6 +483,9 @@
     <palette id="af_baloon_3" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
+    <palette id="af_baloon_4" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
     <palette id="af_gold_fish_2" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
@@ -511,6 +514,15 @@
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
     <palette id="af_electra_moonlight_4" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_fireball_2" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_fireball_3" width="0.003" height="0.003" stretch="1" alignment="c">
+      <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
+    </palette>
+    <palette id="af_fireball_4" width="0.003" height="0.003" stretch="1" alignment="c">
       <texture shader="hud\p3d">ui_inGame2_Detector_icon_artefact</texture>
     </palette>
   </scientific>
