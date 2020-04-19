@@ -895,7 +895,18 @@ function actor_has_item_count(actor, npc, p)
 			has_count = has_count + 1
 		end
 	end
-	actor:iterate_inventory(calc, actor)
+
+	local act = actor
+
+	if not (actor) then
+		act = db.actor
+	end
+
+	if not (act) then
+		return false
+	end
+
+	act:iterate_inventory(calc, actor)
 	return has_count >= need_count
 end
 
