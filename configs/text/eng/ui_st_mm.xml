@@ -132,11 +132,14 @@
 	<string id="ui_mm_detail_density">
 		<text>Grass detail density</text>
 	</string>
-    <string id="ui_mm_detail_radius">
-	    <text>Grass rendering distance</text>
-    </string>
+	<string id="ui_mm_detail_radius">
+		<text>Grass rendering distance</text>
+	</string>
 	<string id="ui_mm_difficulty">
 		<text>Difficulty</text>
+	</string>
+	<string id="ui_mm_sectors">
+		<text>Sectors</text>
 	</string>
 	<string id="ui_mm_disconnect">
 		<text>Disconnect</text>
@@ -270,9 +273,9 @@
 	<string id="ui_mm_r2_sun_details">
 		<text>Grass shadow</text>
 	</string>
-    <string id="ui_mm_r__actor_shadow">
-    <text>Actor shadow</text>
-    </string>
+	<string id="ui_mm_r__actor_shadow">
+		<text>Actor shadow</text>
+	</string>
 	<string id="ui_mm_r2_sun_quality">
 		<text>Sun quality</text>
 	</string>
@@ -466,9 +469,9 @@
 	<string id="ui_mm_sleep_deprived">
 		<text>Sleep deprivation</text>
 	</string>
-    <string id="ui_mm_excl_dist">
-        <text>Online exclusion radius</text>
-    </string>
+	<string id="ui_mm_excl_dist">
+		<text>Online exclusion radius</text>
+	</string>
 	<string id="ui_mm_char_portrait">
 		<text>Default portrait</text>
 	</string>
@@ -513,5 +516,99 @@
 	</string>
 	<string id="ui_mm_localization">
 		<text>Localization</text>
+	</string>
+
+	<string id="sector_deffault">
+		<text>Deffault</text>
+	</string>
+	<string id="sector_allahu_akbar">
+		<text>Allahu Akbar</text>
+	</string>
+	<string id="sector_aue">
+		<text>AUE</text>
+	</string>
+	<string id="sector_lawlessness">
+		<text>The Lawlessness</text>
+	</string>
+	<string id="sector_the_great_campaign">
+		<text>The Great Campaign</text>
+	</string>
+	<string id="sector_border">
+		<text>The Border</text>
+	</string>
+	<string id="sector_sin">
+		<text>The Sin</text>
+	</string>
+	<string id="sector_road_to_home">
+		<text>Road to home</text>
+	</string>
+	<string id="sector_empire">
+		<text>The Empire</text>
+	</string>
+	<string id="sector_cloning">
+		<text>The Cloning</text>
+	</string>
+	<string id="sector_new_future">
+		<text>New Future</text>
+	</string>
+	<string id="sector_new_law">
+		<text>New Law</text>
+	</string>
+	<string id="sector_noosphere">
+		<text>Noosphere</text>
+	</string>
+	<string id="sector_boys_law">
+		<text>The Boy's Law</text>
+	</string>
+	<string id="sector_a_last_study">
+		<text>The Last Study</text>
+	</string>
+	<string id="sector_a_last_research">
+		<text>The Last Research</text>
+	</string>
+	<string id="sector_a_last_battle">
+		<text>The Last Battle</text>
+	</string>
+	<string id="sector_a_last_fight">
+		<text>The Last Fight</text>
+	</string>
+	<string id="sector_a_last_choice">
+		<text>The Last Choice</text>
+	</string>
+	<string id="sector_a_last_command">
+		<text>The Last decree</text>
+	</string>
+	<string id="sector_a_last_project">
+		<text>The Last Project</text>
+	</string>
+	<string id="sector_a_last_boundary">
+		<text>The Last Boundary</text>
+	</string>
+	<string id="sector_a_last_experiment">
+		<text>The Last Experiment</text>
+	</string>
+	<string id="sector_a_last_struggle">
+		<text>The Last Struggle</text>
+	</string>
+	<string id="sector_the_last_battle">
+		<text>The Last Battke</text>
+	</string>
+	<string id="sector_a_last_aim">
+		<text>The Last Aim</text>
+	</string>
+	<string id="sector_the_time_has_come">
+		<text>The Time Has Come</text>
+	</string>
+	<string id="sector_russians_are_coming">
+		<text>The Russians Are Coming</text>
+	</string>
+	<string id="sector_save_our_souls">
+		<text>Save Our Souls</text>
+	</string>
+	<string id="sector_fairway">
+		<text>The Farvator</text>
+	</string>
+	<string id="sector_empty">
+		<text>Empty Zone</text>
 	</string>
 </string_table>

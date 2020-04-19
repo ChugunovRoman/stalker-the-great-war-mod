@@ -138,6 +138,9 @@
 	<string id="ui_mm_difficulty">
 		<text>Сложность</text>
 	</string>
+	<string id="ui_mm_sectors">
+		<text>Сектора</text>
+	</string>
 	<string id="ui_mm_disconnect">
 		<text>Отсоединиться</text>
 	</string>
@@ -519,5 +522,99 @@
 	</string>
 	<string id="ui_mm_shot_effects">
 		<text>Эффект выстрела</text>
+	</string>
+
+	<string id="sector_deffault">
+		<text>По умолчанию</text>
+	</string>
+	<string id="sector_allahu_akbar">
+		<text>Аллах Акбар</text>
+	</string>
+	<string id="sector_aue">
+		<text>АУЕ</text>
+	</string>
+	<string id="sector_lawlessness">
+		<text>Беспредел</text>
+	</string>
+	<string id="sector_the_great_campaign">
+		<text>Великий Поход</text>
+	</string>
+	<string id="sector_border">
+		<text>Граница</text>
+	</string>
+	<string id="sector_sin">
+		<text>Грех</text>
+	</string>
+	<string id="sector_road_to_home">
+		<text>Дорога Домой</text>
+	</string>
+	<string id="sector_empire">
+		<text>Империя</text>
+	</string>
+	<string id="sector_cloning">
+		<text>Клонирование</text>
+	</string>
+	<string id="sector_new_future">
+		<text>Новое будущие</text>
+	</string>
+	<string id="sector_new_law">
+		<text>Новый Закон</text>
+	</string>
+	<string id="sector_noosphere">
+		<text>Ноосфера</text>
+	</string>
+	<string id="sector_boys_law">
+		<text>Пацанский Закон</text>
+	</string>
+	<string id="sector_a_last_study">
+		<text>Последние Изучение</text>
+	</string>
+	<string id="sector_a_last_research">
+		<text>Последние Исследование</text>
+	</string>
+	<string id="sector_a_last_battle">
+		<text>Последние Сражение</text>
+	</string>
+	<string id="sector_a_last_fight">
+		<text>Последний Бой</text>
+	</string>
+	<string id="sector_a_last_choice">
+		<text>Последний Выбор</text>
+	</string>
+	<string id="sector_a_last_command">
+		<text>Последний Приказ</text>
+	</string>
+	<string id="sector_a_last_project">
+		<text>Последний Проект</text>
+	</string>
+	<string id="sector_a_last_boundary">
+		<text>Последний Рубеж</text>
+	</string>
+	<string id="sector_a_last_experiment">
+		<text>Последний Эксперемент</text>
+	</string>
+	<string id="sector_a_last_struggle">
+		<text>Последняя Битва</text>
+	</string>
+	<string id="sector_the_last_battle">
+		<text>Последняя Схватка</text>
+	</string>
+	<string id="sector_a_last_aim">
+		<text>Последняя Цель</text>
+	</string>
+	<string id="sector_the_time_has_come">
+		<text>Пришло Время</text>
+	</string>
+	<string id="sector_russians_are_coming">
+		<text>Русские идут</text>
+	</string>
+	<string id="sector_save_our_souls">
+		<text>Спасите Наши Души</text>
+	</string>
+	<string id="sector_fairway">
+		<text>Фарватер</text>
+	</string>
+	<string id="sector_empty">
+		<text>Пустая Зона</text>
 	</string>
 </string_table>

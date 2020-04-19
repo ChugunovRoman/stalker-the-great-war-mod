@@ -234,14 +234,14 @@ function alltext(actor, npc, sele)
     faction2 = "[ГРЕХ]"
   end
 
-	-- TODO: Помему-то всегда false даже если строки равны
+  -- TODO: Помему-то всегда false даже если строки равны
   if faction == faction2 then
     tupe2 = "подмога"
   else
     tupe2 = "атака"
-	end
-	
-	printf('sim_smart.alltext: faction == faction2: '..faction == faction2.." | '"..faction.."' == '"..faction2.."' | "..tupe2)
+  end
+
+  printf("sim_smart.alltext: faction == faction2: "..faction == faction2.." | '"..faction.."' == '"..faction2.."' | "..tupe2)
 
   if (ssmart and ssmart.props) then
     if (ssmart.props.base > 0) then
@@ -373,12 +373,12 @@ function ch5(a, b)
 end
 
 function chsect(a, npc)
-	local npc = dialogs.who_is_npc(a, npc)
+  local npc = dialogs.who_is_npc(a, npc)
 
-	if (npc) then
-		local level_id = game_graph():vertex(alife():actor().m_game_vertex_id):level_id()
+  if (npc) then
+    local level_id = game_graph():vertex(alife():actor().m_game_vertex_id):level_id()
 
-		if (level_id) then
+    if (level_id) then
       local level_info = sim_levels.level_information[level_id]
       local num = 0
 
@@ -387,8 +387,8 @@ function chsect(a, npc)
         for i, sm in pairs(level_info.smarts) do
           local other = sm and alife():object(sm)
           if (other and other.props) and
-            (other.props.base > 0 or other.props.resource > 0 or other.props.territory > 0 or other.props.lair > 0)
-					then
+          (other.props.base > 0 or other.props.resource > 0 or other.props.territory > 0 or other.props.lair > 0)
+          then
             num = num + 1
 
             asma[#asma + 1] = other
@@ -435,19 +435,19 @@ function spawn_defense(actor, npc)
     db.actor:give_money(-5000)
     sim_squad.create_squad(smart, faction, nil, nil, nil, 1)
     db.actor:give_game_news(
-      ("Защитный отряд"),
-      ("Спасибо за 5 000р, мы будем держать позицию " .. script_to_text_smart),
-      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-      0,
-      15000
+    ("Защитный отряд"),
+    ("Спасибо за 5 000р, мы будем держать позицию " .. script_to_text_smart),
+    sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+    0,
+    15000
     )
   else
     db.actor:give_game_news(
-      ("Финансовые операции"),
-      ("Недостаточно денег, нужно 5 000р "),
-      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-      0,
-      15000
+    ("Финансовые операции"),
+    ("Недостаточно денег, нужно 5 000р "),
+    sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+    0,
+    15000
     )
   end
 end
@@ -485,44 +485,44 @@ function spawn_attack(actor, npc, sele)
       db.actor:give_money(-5000)
       sim_squad.create_squad(smart, faction, target, nil, need_spawn, 1)
       db.actor:give_game_news(
-        ("Атакующий отряд"),
-        ("Спасибо за 5 000р, мы выдвигаемся от " ..
-          sname .. " к " .. script_to_text_smart .. " если есть желание пойдем с нами "),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Атакующий отряд"),
+      ("Спасибо за 5 000р, мы выдвигаемся от " ..
+      sname .. " к " .. script_to_text_smart .. " если есть желание пойдем с нами "),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     end
   else
     db.actor:give_game_news(
-      ("Финансовые операции"),
-      ("Недостаточно денег, нужно 5 000р "),
-      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-      0,
-      15000
+    ("Финансовые операции"),
+    ("Недостаточно денег, нужно 5 000р "),
+    sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+    0,
+    15000
     )
   end
 end
 
 function send_squad_on_target(actor, npc, sele)
-	local npc = dialogs.who_is_npc(actor, npc)
-	local squad = get_object_squad(npc)
-	local target = asma[sl + sele]
-	local script_to_text_smart = sim_script_to_text.smart_names[target:name()] or target:name()
+  local npc = dialogs.who_is_npc(actor, npc)
+  local squad = get_object_squad(npc)
+  local target = asma[sl + sele]
+  local script_to_text_smart = sim_script_to_text.smart_names[target:name()] or target:name()
 
-	if (target) then
-		alun_utils.execute_script_on_squad(npc, axr_companions.remove_from_actor_squad)
+  if (target) then
+    alun_utils.execute_script_on_squad(npc, axr_companions.remove_from_actor_squad)
 
-		sim_squad.set_target(squad, target.id)
+    sim_squad.set_target(squad, target.id)
 
-		db.actor:give_game_news(
-			("Атакующий отряд"),
-			("Мы выдвигаемся к " .. script_to_text_smart .. "."),
-			sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-			0,
-			15000
-		)
-	end
+    db.actor:give_game_news(
+    ("Атакующий отряд"),
+    ("Мы выдвигаемся к " .. script_to_text_smart .. "."),
+    sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+    0,
+    15000
+    )
+  end
 end
 
 function textinfo(a, b)
@@ -672,14 +672,14 @@ function try_to_respawn_faction(smart)
   for i, faction in pairs(sim_tables.factions) do
     if faction ~= "monster" then
       if
-        (sim_factions.faction_information[faction].base_count) and
-          sim_factions.faction_information[faction].base_count < 1
-       then
+      (sim_factions.faction_information[faction].base_count) and
+      sim_factions.faction_information[faction].base_count < 1
+      then
         local level_chk = sim_brain.allowed_respawn(smart_level, faction)
 
         if level_chk == true then
           sim_factions.faction_information[faction].base_count =
-            sim_factions.faction_information[faction].base_count + 1
+          sim_factions.faction_information[faction].base_count + 1
           sim_squad.create_squad(smart, faction, nil, nil, nil, 1)
           break
         end
@@ -690,9 +690,13 @@ end
 
 function check_npc(smart)
   if
-    not (unique_check_timers[smart.id]) or
-      (game.get_game_time():diffSec(unique_check_timers[smart.id]) > (unique_check_next_update[smart.id] * 60))
-   then
+  not (unique_check_timers[smart.id]) or
+  (game.get_game_time():diffSec(unique_check_timers[smart.id]) > (unique_check_next_update[smart.id] * 60))
+  then
+    if not (sim_factions.faction_information[smart.owning_faction]) then
+      return
+    end
+
     unique_check_timers[smart.id] = game.get_game_time()
     unique_check_next_update[smart.id] = sim_factions.faction_information[smart.owning_faction].respawn_defend
   else
@@ -807,35 +811,35 @@ function target_manual_capture(smart)
     smart.time_to_capture = nil
     if smart.props.base > 0 then
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Вы прекратили захват базы " .. script_to_text_smart),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Вы прекратили захват базы " .. script_to_text_smart),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     elseif smart.props.resource > 0 then
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Вы прекратили захват точки ресурсов " .. script_to_text_smart),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Вы прекратили захват точки ресурсов " .. script_to_text_smart),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     elseif smart.props.territory > 0 then
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Вы прекратили захват территории " .. script_to_text_smart),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Вы прекратили захват территории " .. script_to_text_smart),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     elseif smart.props.lair > 0 then
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Вы прекратили захват логова " .. script_to_text_smart),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Вы прекратили захват логова " .. script_to_text_smart),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     end
     xr_sound.set_sound_play(db.actor:id(), "pda_tips")
@@ -847,35 +851,35 @@ function target_manual_capture(smart)
     smart.time_to_capture = 0
     if smart.props.base > 0 then
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Вы захватываете базу " .. script_to_text_smart),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Вы захватываете базу " .. script_to_text_smart),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     elseif smart.props.resource > 0 then
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Вы захватываете точку ресурсов " .. script_to_text_smart),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Вы захватываете точку ресурсов " .. script_to_text_smart),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     elseif smart.props.territory > 0 then
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Вы захватываете территорию " .. script_to_text_smart),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Вы захватываете территорию " .. script_to_text_smart),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     elseif smart.props.lair > 0 then
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Вы захватываете логова " .. script_to_text_smart),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Вы захватываете логова " .. script_to_text_smart),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     end
     xr_sound.set_sound_play(db.actor:id(), "pda_tips")
@@ -889,39 +893,39 @@ function target_manual_capture(smart)
   if smart.last_last_owner == faction then
     if smart.props.base > 0 then
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Возвращен контроль над базой " ..
-          script_to_text_smart .. ", скоро на это место прибудут отряды вашей группировки"),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Возвращен контроль над базой " ..
+      script_to_text_smart .. ", скоро на это место прибудут отряды вашей группировки"),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     elseif smart.props.resource > 0 then
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Возвращен контроль над точкой ресурсов " ..
-          script_to_text_smart .. ", скоро на это место прибудут отряды вашей группировки"),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Возвращен контроль над точкой ресурсов " ..
+      script_to_text_smart .. ", скоро на это место прибудут отряды вашей группировки"),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     elseif smart.props.territory > 0 then
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Возвращен контроль над территорией " ..
-          script_to_text_smart .. ", скоро на это место прибудут отряды вашей группировки"),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Возвращен контроль над территорией " ..
+      script_to_text_smart .. ", скоро на это место прибудут отряды вашей группировки"),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     elseif smart.props.lair > 0 then
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Возвращен контроль над логовым " ..
-          script_to_text_smart .. ", скоро на это место прибудут отряды вашей группировки"),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Возвращен контроль над логовым " ..
+      script_to_text_smart .. ", скоро на это место прибудут отряды вашей группировки"),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     end
     xr_sound.set_sound_play(db.actor:id(), "pda_tips")
@@ -932,38 +936,38 @@ function target_manual_capture(smart)
     if smart.props.base > 0 then
       nagrada = 3000 + math.random(0, 0)
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("База " .. script_to_text_smart .. " захвачена, награда за захват - " .. nagrada .. " руб. "),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("База " .. script_to_text_smart .. " захвачена, награда за захват - " .. nagrada .. " руб. "),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     elseif smart.props.resource > 0 then
       nagrada = -1000 + math.random(0, 0)
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Точка ресурсов " .. script_to_text_smart .. " захвачена, награда за захват - " .. nagrada .. " руб. "),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Точка ресурсов " .. script_to_text_smart .. " захвачена, награда за захват - " .. nagrada .. " руб. "),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     elseif smart.props.territory > 0 then
       nagrada = -5000 + math.random(0, 0)
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Территория " .. script_to_text_smart .. " захвачена, награда за захват - " .. nagrada .. " руб. "),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Территория " .. script_to_text_smart .. " захвачена, награда за захват - " .. nagrada .. " руб. "),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     elseif smart.props.lair > 0 then
       nagrada = -10000 + math.random(0, 0)
       db.actor:give_game_news(
-        ("Захват цели"),
-        ("Логово " .. script_to_text_smart .. " захвачена, награда за захват - " .. nagrada .. " руб. "),
-        sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
-        0,
-        15000
+      ("Захват цели"),
+      ("Логово " .. script_to_text_smart .. " захвачена, награда за захват - " .. nagrada .. " руб. "),
+      sim_offline_to_online.getSenderIcon(sim_brain.actor_faction),
+      0,
+      15000
       )
     end
     xr_sound.set_sound_play(db.actor:id(), "pda_tips")
@@ -990,9 +994,9 @@ function smart_control(smart)
       local npc_count = npc_count_passive(smart, faction)
 
       if
-        (faction ~= smart.owning_faction and
-          not game_relations.is_factions_enemies(faction, smart.owning_faction))
-       then
+      (faction ~= smart.owning_faction and
+      not game_relations.is_factions_enemies(faction, smart.owning_faction))
+      then
         if (smart.owning_faction ~= "none" and faction ~= "monster") then
           sim_squad.remove_squad(squad)
           printf("### EOC: -- smart_control 1 -- " .. squad:name() .. " - " .. smart:name() .. " ###")
@@ -1000,17 +1004,17 @@ function smart_control(smart)
       end
 
       if
-        (npc_count > smart.max_population) and
-          (string.find(squad:name(), "veteran") or string.find(squad:name(), "master") or
-            string.find(squad:name(), "advanced") or
-            string.find(squad:name(), "nachunaushu") or
-            string.find(squad:name(), "novnachun") or
-            string.find(squad:name(), "novadvan") or
-            string.find(squad:name(), "advanvet") or
-            string.find(squad:name(), "vetmas") or
-            string.find(squad:name(), "rybech") or
-            string.find(squad:name(), "novice"))
-       then
+      (npc_count > smart.max_population) and
+      (string.find(squad:name(), "veteran") or string.find(squad:name(), "master") or
+      string.find(squad:name(), "advanced") or
+      string.find(squad:name(), "nachunaushu") or
+      string.find(squad:name(), "novnachun") or
+      string.find(squad:name(), "novadvan") or
+      string.find(squad:name(), "advanvet") or
+      string.find(squad:name(), "vetmas") or
+      string.find(squad:name(), "rybech") or
+      string.find(squad:name(), "novice"))
+      then
         local squad_npcs = {}
 
         if squad.current_action == 1 then
@@ -1046,9 +1050,9 @@ function set_targets(smart)
 
     if (other and other.owning_faction) then
       if
-        (other.owning_faction ~= "none" and
-          not game_relations.is_factions_enemies(smart.owning_faction, other.owning_faction))
-       then
+      (other.owning_faction ~= "none" and
+      not game_relations.is_factions_enemies(smart.owning_faction, other.owning_faction))
+      then
         smart.target_smarts[other.id] = nil
       else
         target_smart_count = target_smart_count + 1
@@ -1072,9 +1076,13 @@ end
 
 function spawn_defense_squad(smart)
   if
-    not (defense_timers[smart.id]) or
-      (game.get_game_time():diffSec(defense_timers[smart.id]) > (defense_next_update[smart.id] * 60))
-   then
+  not (defense_timers[smart.id]) or
+  (game.get_game_time():diffSec(defense_timers[smart.id]) > (defense_next_update[smart.id] * 60))
+  then
+    if not (sim_factions.faction_information[smart.owning_faction]) then
+      return
+    end
+
     defense_timers[smart.id] = game.get_game_time()
     defense_next_update[smart.id] = sim_factions.faction_information[smart.owning_faction].respawn_defend
   else
@@ -1097,9 +1105,12 @@ end
 
 function spawn_attack_squad(smart)
   if
-    not (attack_timers[smart.id]) or
-      (game.get_game_time():diffSec(attack_timers[smart.id]) > (attack_next_update[smart.id] * 60))
-   then
+  not (attack_timers[smart.id]) or
+  (game.get_game_time():diffSec(attack_timers[smart.id]) > (attack_next_update[smart.id] * 60))
+  then
+    if not (sim_factions.faction_information[smart.owning_faction]) then
+      return
+    end
     attack_timers[smart.id] = game.get_game_time()
     attack_next_update[smart.id] = sim_factions.faction_information[smart.owning_faction].respawn_attack
   else
@@ -1153,9 +1164,9 @@ end
 
 function spawn_mutants(smart)
   if
-    not (mutant_timers[smart.id]) or
-      (game.get_game_time():diffSec(mutant_timers[smart.id]) > (mutant_next_update[smart.id] * 60))
-   then
+  not (mutant_timers[smart.id]) or
+  (game.get_game_time():diffSec(mutant_timers[smart.id]) > (mutant_next_update[smart.id] * 60))
+  then
     mutant_timers[smart.id] = game.get_game_time()
     mutant_next_update[smart.id] = 70
   else
@@ -1300,8 +1311,8 @@ function get_simulation_info(smart)
     props = props .. "\\n" .. type .. "\\n"
   else
     props =
-      props ..
-      "\\n" .. type .. ", под контролем группировки " .. game.translate_string(smart.owning_faction) .. "\\n"
+    props ..
+    "\\n" .. type .. ", под контролем группировки " .. game.translate_string(smart.owning_faction) .. "\\n"
 
     if npc_in_smart <= 3 then
       props = props .. "\\nНизкая укрепленность \\n"
@@ -1333,23 +1344,23 @@ function get_simulation_info(smart)
 
   if smart.props.base > 0 and attack_next_update[smart.id] ~= nil and attack_timers[smart.id] ~= nil then
     props =
-      props ..
-      "\\n\\nАтакующий отряд будет готов через: " ..
-        ((attack_next_update[smart.id] * 60) - (game.get_game_time():diffSec(attack_timers[smart.id]))) / 60
+    props ..
+    "\\n\\nАтакующий отряд будет готов через: " ..
+    ((attack_next_update[smart.id] * 60) - (game.get_game_time():diffSec(attack_timers[smart.id]))) / 60
   end
 
   if smart.props.base > 0 and defense_next_update[smart.id] ~= nil and defense_timers[smart.id] ~= nil then
     props =
-      props ..
-      "\\n\\nЗащитный отряд будет готов через: " ..
-        ((defense_next_update[smart.id] * 60) - (game.get_game_time():diffSec(defense_timers[smart.id]))) / 60
+    props ..
+    "\\n\\nЗащитный отряд будет готов через: " ..
+    ((defense_next_update[smart.id] * 60) - (game.get_game_time():diffSec(defense_timers[smart.id]))) / 60
   end
 
   if smart.props.lair > 0 and mutant_next_update[smart.id] ~= nil and mutant_timers[smart.id] ~= nil then
     props =
-      props ..
-      "\\n\\nМутанты прийдут через: " ..
-        ((mutant_next_update[smart.id] * 60) - (game.get_game_time():diffSec(mutant_timers[smart.id]))) / 60
+    props ..
+    "\\n\\nМутанты прийдут через: " ..
+    ((mutant_next_update[smart.id] * 60) - (game.get_game_time():diffSec(mutant_timers[smart.id]))) / 60
   end
 
   return props
