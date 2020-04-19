@@ -487,6 +487,9 @@
 	<string id="st_cap_check_story">
 		<text>Сюжетный режим</text>
 	</string>
+	<string id="st_cap_actor_outfit">
+		<text>"По одежке встречают"</text>
+	</string>
 	<string id="ui_mm_alife_mutant_pop">
 		<text>Коэф. популяции (мутанты)</text>
 	</string>

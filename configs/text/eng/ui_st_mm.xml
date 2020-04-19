@@ -430,6 +430,9 @@
 	<string id="st_cap_check_story">
 		<text>Story mode</text>
 	</string>
+	<string id="st_cap_actor_outfit">
+		<text>"On clothes meet"</text>
+	</string>
 	<string id="st_cap_check_survival">
 		<text>Survival mode</text>
 	</string>

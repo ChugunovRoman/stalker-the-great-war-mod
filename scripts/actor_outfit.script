@@ -1,7 +1,13 @@
 -- UMPERATOR
 
 function on_game_start()
-  -- RegisterScriptCallback("actor_on_update", actor_on_update)
+  local actorOutfit = axr_main.config:r_value("character_creation", "new_game_actor_outfit", false)
+
+  if (actorOutfit) then
+    RegisterScriptCallback("actor_on_update", actor_on_update)
+  end
+
+  return
 end
 
 function actor_on_update(b, d)

@@ -526,12 +526,7 @@ function send_squad_on_target(actor, npc, sele)
 end
 
 function textinfo(a, b)
-  local npc = dialogs.who_is_npc(a, b)
-
-  local smart = xr_gulag.get_npc_smart(npc)
-  local text = sl .. "-" .. (sl + 5) .. " всего " .. smx
-
-  return text
+  return sl .. "-" .. (sl + 5) .. " всего " .. smx
 end
 
 function dlgspwg(dialog)
